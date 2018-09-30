@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import urllib.parse
 import io
 import re

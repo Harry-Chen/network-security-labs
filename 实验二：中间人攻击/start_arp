@@ -1,1 +1,2 @@
+#!/bin/bash
 sudo scapy -c arp.py
