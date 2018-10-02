@@ -10,6 +10,7 @@ PASSWORD_REGEXS = [
   ('zhjwxk', re.compile('j_username=(?P<username>.+)&j_password=(?P<password>.+)&captchaflag')),
   ('mail', re.compile('uid=(?P<username>.+)&password=(?P<password>.+)&domain'))
 ]
+
 URL_TRANSFORMS = [
   (b'https://learn.tsinghua.edu.cn/MultiLanguage/lesson/teacher/loginteacher.jsp', b'http://learn.tsinghua.edu.cn/MultiLanguage/lesson/teacher/loginteacher.jsp'),
   (b'https://zhjwxk.cic.tsinghua.edu.cn:443/j_acegi_formlogin_xsxk.do', b'http://zhjwxk.cic.tsinghua.edu.cn/j_acegi_formlogin_xsxk.do'),
@@ -60,4 +61,3 @@ class Trans:
 addons = [
   Trans()
 ]
-
