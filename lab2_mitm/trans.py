@@ -54,7 +54,7 @@ class Trans:
       stream = io.BytesIO()
       img.save(stream, format='PNG')
       flow.response.content = stream.getvalue()
-      print('Image converted: {}'.format(flow.request.path.slit('/')[-1]))
+      print('Image converted: {}'.format(flow.request.path))
     except Exception as e:
       repr(e)
 

