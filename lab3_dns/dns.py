@@ -50,13 +50,13 @@ def test_list(cat):
   for name in names:
     test1(name)
     test2(name)
-  with open('{}_pollute_report.ip.csv'.format(cat), 'w') as f:
+  with open('data/{}_pollute_report.ip.csv'.format(cat), 'w') as f:
     for ip, count in fake_ips.items():
       f.write('{},{}\n'.format(ip, count))
-  with open('{}_pollute_report.ttl.csv'.format(cat), 'w') as f:
+  with open('data/{}_pollute_report.ttl.csv'.format(cat), 'w') as f:
     for ttl, count in ttls.items():
       f.write('{},{}\n'.format(ttl, count))
-  with open('{}_pollute_report.txt'.format(cat), 'w') as f:
+  with open('data/{}_pollute_report.txt'.format(cat), 'w') as f:
       f.write('\n'.join(polluted_names) + '\n')
 
 def main():
