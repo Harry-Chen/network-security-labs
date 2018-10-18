@@ -11,8 +11,8 @@ def remove_subnet(l):
             result.append(ipn)
     return result
 
-henet = remove_subnet(readfile('data/as4538_prefix4_henet.txt'))
-cidrreport = remove_subnet(readfile('data/as4538_prefix4_cidrreport.txt'))
+henet = remove_subnet(readfile('as4538_prefix4_henet.txt'))
+cidrreport = remove_subnet(readfile('as4538_prefix4_cidrreport.txt'))
 
 with open('data/as4538_prefix4.txt', 'w') as f:
     for ipn in henet:

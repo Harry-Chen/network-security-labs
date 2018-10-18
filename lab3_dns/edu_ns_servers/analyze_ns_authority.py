@@ -8,7 +8,7 @@ def read_zonefile(filename):
             yield name, ttl, type, value
 
 name_servers = {}
-for name, ttl, type, value in read_zonefile('data/edu_domain_ns.txt'):
+for name, ttl, type, value in read_zonefile('edu_domain_ns.txt'):
     if type != 'NS':
         continue
     if name not in name_servers:

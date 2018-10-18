@@ -46,18 +46,18 @@ def test_list(cat):
   ttls = collections.defaultdict(int)
   polluted_names = set()
 
-  names = load_names('data/alexa/{}.txt'.format(cat))
+  names = load_names('alexa/{}.txt'.format(cat))
   for i in range(100):
     for name in names:
       test1(name)
       test2(name)
-  with open('data/{}_pollute_report.ip.csv'.format(cat), 'w') as f:
+  with open('{}_pollute_report.ip.csv'.format(cat), 'w') as f:
     for ip, count in fake_ips.items():
       f.write('{},{}\n'.format(ip, count))
-  with open('data/{}_pollute_report.ttl.csv'.format(cat), 'w') as f:
+  with open('{}_pollute_report.ttl.csv'.format(cat), 'w') as f:
     for ttl, count in ttls.items():
       f.write('{},{}\n'.format(ttl, count))
-  with open('data/{}_pollute_report.txt'.format(cat), 'w') as f:
+  with open('{}_pollute_report.txt'.format(cat), 'w') as f:
       f.write('\n'.join(polluted_names) + '\n')
 
 def main():

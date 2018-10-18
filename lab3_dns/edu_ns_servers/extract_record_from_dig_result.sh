@@ -1,3 +1,3 @@
 #!/bin/bash
 
-grep -E -v ";|^$" data/edu_domain_ns_dig.txt
+grep -E -v ";|^$" edu_domain_ns_dig.txt
