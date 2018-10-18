@@ -1,0 +1,95 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @222.206.176.61 AXFR hezeu.edu.cn
+; (1 server found)
+;; global options: +cmd
+hezeu.edu.cn.		86400	IN	SOA	dns1.hezeu.edu.cn. sjq.mail.hezeu.edu.cn. 2009030812 3600 1800 432000 86400
+hezeu.edu.cn.		86400	IN	A	222.206.176.56
+hezeu.edu.cn.		86400	IN	NS	dns1.hezeu.edu.cn.
+hezeu.edu.cn.		86400	IN	TXT	" HeZe university NIC "
+hezeu.edu.cn.		86400	IN	TXT	" FAX: 86-0530-5525007 "
+hezeu.edu.cn.		86400	IN	TXT	" TEL: 86-0530-5525007 "
+hezeu.edu.cn.		86400	IN	TXT	"-------------------------"
+abc.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+bgs.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+cdjy.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+cwc.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+cxcyxy.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+dag.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+dns1.hezeu.edu.cn.	86400	IN	A	222.206.176.61
+dns2.hezeu.edu.cn.	86400	IN	A	222.206.176.62
+dwjl.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+dxq3to4.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+english.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+flx.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+fwh.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+gh.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+ghc.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+gjjlxy.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+gjs.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+hqc.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+hxhg.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+hzfz.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+jdgcxy.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+jjc.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+jjx.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+jsj.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+jw.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+jwc.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+jxjyxy.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+jxzlpgc.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+jykx.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+kwglk.hezeu.edu.cn.	86400	IN	A	192.168.8.94
+www.kwglk.hezeu.edu.cn.	86400	IN	A	192.168.8.94
+kyc.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+ltx.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+lxyz.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+mail.hezeu.edu.cn.	86400	IN	A	222.206.176.30
+msx.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+oa.hezeu.edu.cn.	86400	IN	A	222.206.176.140
+pinggu.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+rsc.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+sdhztvu.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+shjd.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+shkx.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+shwhyjy.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+sizheng.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+sjc.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+skx.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+smkx.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+sxfx.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+sxx.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+sycszx.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+syss.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+szb.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+tsg.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+tw.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+tyx.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+tzb.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+whq.hezeu.edu.cn.	86400	IN	A	222.206.176.180
+wlx.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+www.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+wxcb.hezeu.edu.cn.	86400	IN	A	222.206.176.53
+wxcb.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+wyx.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+xb.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+xcb.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+xdjyjszx.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+xqjy.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+xsc.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+xxgk.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+ycfx.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+ycjy.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+ydtsg.hezeu.edu.cn.	86400	IN	A	222.206.187.254
+ylgc.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+yxx.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+yyx.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+zcc.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+zsjy.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+zyhj.hezeu.edu.cn.	86400	IN	A	222.206.176.57
+zzb.hezeu.edu.cn.	86400	IN	A	222.206.176.56
+hezeu.edu.cn.		86400	IN	SOA	dns1.hezeu.edu.cn. sjq.mail.hezeu.edu.cn. 2009030812 3600 1800 432000 86400
+;; Query time: 13 msec
+;; SERVER: 222.206.176.61#53(222.206.176.61)
+;; WHEN: Thu Oct 18 10:23:07 CST 2018
+;; XFR size: 86 records (messages 1, bytes 1902)
+

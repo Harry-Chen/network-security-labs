@@ -1,0 +1,48 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @42.247.9.230 AXFR hrbcm.edu.cn
+; (1 server found)
+;; global options: +cmd
+hrbcm.edu.cn.		38400	IN	SOA	ns1.hrbcm.edu.cn. tianhao.hrbcm.edu.cn. 1439421037 10800 3600 604800 38400
+hrbcm.edu.cn.		38400	IN	TXT	"v=spf1 include:spf.mail.qq.com ~all"
+hrbcm.edu.cn.		38400	IN	MX	5 mxbiz1.qq.com.
+hrbcm.edu.cn.		38400	IN	MX	10 mxbiz2.qq.com.
+hrbcm.edu.cn.		38400	IN	NS	ns1.hrbcm.edu.cn.
+hrbcm.edu.cn.		38400	IN	NS	ns2.hrbcm.edu.cn.
+_gc._tcp.dc._msdcs.hrbcm.edu.cn. 38400 IN SRV	0 100 3286 dc.hrbcm.edu.cn.
+_gc._tcp.dc._msdcs.hrbcm.edu.cn. 38400 IN SRV	0 100 3286 rdc.hrbcm.edu.cn.
+_kerberos._tcp.dc._msdcs.hrbcm.edu.cn. 38400 IN	SRV 0 100 88 dc.hrbcm.edu.cn.
+_kerberos._tcp.dc._msdcs.hrbcm.edu.cn. 38400 IN	SRV 0 100 88 rdc.hrbcm.edu.cn.
+_ldap._tcp.dc._msdcs.hrbcm.edu.cn. 38400 IN SRV	0 100 389 dc.hrbcm.edu.cn.
+_ldap._tcp.dc._msdcs.hrbcm.edu.cn. 38400 IN SRV	0 100 389 rdc.hrbcm.edu.cn.
+_kerberos._tcp.hrbcm.edu.cn. 38400 IN	SRV	0 100 88 dc.hrbcm.edu.cn.
+_kerberos._tcp.hrbcm.edu.cn. 38400 IN	SRV	0 100 88 rdc.hrbcm.edu.cn.
+_ldap._tcp.hrbcm.edu.cn. 38400	IN	SRV	0 100 389 dc.hrbcm.edu.cn.
+cs.hrbcm.edu.cn.	38400	IN	A	192.168.7.248
+cwc.hrbcm.edu.cn.	38400	IN	A	42.247.9.234
+dc.hrbcm.edu.cn.	38400	IN	A	192.168.8.253
+ftp.hrbcm.edu.cn.	38400	IN	A	192.168.7.254
+hr.hrbcm.edu.cn.	38400	IN	A	192.168.8.20
+imap.hrbcm.edu.cn.	38400	IN	CNAME	imap.exmail.qq.com.
+ims.hrbcm.edu.cn.	38400	IN	A	192.168.8.20
+lib.hrbcm.edu.cn.	38400	IN	A	192.168.8.229
+m.hrbcm.edu.cn.		38400	IN	A	42.247.9.237
+mail.hrbcm.edu.cn.	38400	IN	CNAME	exmail.qq.com.
+my.hrbcm.edu.cn.	38400	IN	A	192.168.8.20
+ns1.hrbcm.edu.cn.	38400	IN	A	42.247.9.230
+ns2.hrbcm.edu.cn.	38400	IN	A	42.247.9.231
+oa.hrbcm.edu.cn.	38400	IN	A	192.168.8.20
+pop.hrbcm.edu.cn.	38400	IN	CNAME	pop.exmail.qq.com.
+rdc.hrbcm.edu.cn.	38400	IN	A	192.168.8.252
+smtp.hrbcm.edu.cn.	38400	IN	CNAME	smtp.exmail.qq.com.
+sso.hrbcm.edu.cn.	38400	IN	A	192.168.8.20
+www.hrbcm.edu.cn.	38400	IN	A	42.247.9.232
+xg.hrbcm.edu.cn.	38400	IN	A	192.168.8.20
+yx.hrbcm.edu.cn.	38400	IN	A	192.168.8.20
+zcgl.hrbcm.edu.cn.	38400	IN	A	42.247.9.228
+zs.hrbcm.edu.cn.	38400	IN	A	42.247.9.235
+hrbcm.edu.cn.		38400	IN	SOA	ns1.hrbcm.edu.cn. tianhao.hrbcm.edu.cn. 1439421037 10800 3600 604800 38400
+;; Query time: 22 msec
+;; SERVER: 42.247.9.230#53(42.247.9.230)
+;; WHEN: Thu Oct 18 10:22:47 CST 2018
+;; XFR size: 39 records (messages 1, bytes 1073)
+

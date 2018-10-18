@@ -1,0 +1,46 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @42.247.11.173 AXFR yapt.edu.cn
+; (1 server found)
+;; global options: +cmd
+yapt.edu.cn.		300	IN	SOA	dns1.yapt.edu.cn. root.yapt.edu.cn. 2018092901 3400 900 1209600 3400
+yapt.edu.cn.		300	IN	NS	dns1.yapt.edu.cn.
+yapt.edu.cn.		300	IN	NS	dns.yapt.edu.cn.
+apis.yapt.edu.cn.	300	IN	A	113.200.33.246
+authserver.yapt.edu.cn.	300	IN	A	113.200.33.246
+bwc.yapt.edu.cn.	300	IN	A	219.144.51.118
+dns.yapt.edu.cn.	300	IN	A	42.247.11.174
+dns1.yapt.edu.cn.	300	IN	A	42.247.11.173
+dzb.yapt.edu.cn.	300	IN	A	219.144.51.118
+ehall.yapt.edu.cn.	300	IN	A	113.200.33.246
+ehallapp.yapt.edu.cn.	300	IN	A	113.200.33.246
+esop.yapt.edu.cn.	300	IN	A	113.200.33.246
+ggjxb.yapt.edu.cn.	300	IN	A	219.144.51.118
+gh.yapt.edu.cn.		300	IN	A	219.144.51.118
+hghxx.yapt.edu.cn.	300	IN	A	219.144.51.118
+hqc.yapt.edu.cn.	300	IN	A	219.144.51.118
+hyx.yapt.edu.cn.	300	IN	A	219.144.51.118
+imp.yapt.edu.cn.	300	IN	A	113.200.33.246
+jdx.yapt.edu.cn.	300	IN	A	219.144.51.118
+jgdzz.yapt.edu.cn.	300	IN	A	219.144.51.118
+jgx.yapt.edu.cn.	300	IN	A	219.144.51.118
+jjw.yapt.edu.cn.	300	IN	A	219.144.51.118
+jwc.yapt.edu.cn.	300	IN	A	219.144.51.118
+jxjy.yapt.edu.cn.	300	IN	A	219.144.51.118
+kyc.yapt.edu.cn.	300	IN	A	219.144.51.118
+mdm.yapt.edu.cn.	300	IN	A	113.200.33.246
+nlx.yapt.edu.cn.	300	IN	A	219.144.51.118
+res.yapt.edu.cn.	300	IN	A	113.200.33.246
+sfx.yapt.edu.cn.	300	IN	A	219.144.51.118
+smp.yapt.edu.cn.	300	IN	A	113.200.33.246
+sygcx.yapt.edu.cn.	300	IN	A	219.144.51.118
+www.yapt.edu.cn.	300	IN	A	219.144.51.118
+xsc.yapt.edu.cn.	300	IN	A	219.144.51.118
+yhx.yapt.edu.cn.	300	IN	A	219.144.51.118
+ysx.yapt.edu.cn.	300	IN	A	219.144.51.118
+zsjyc.yapt.edu.cn.	300	IN	A	219.144.51.118
+yapt.edu.cn.		300	IN	SOA	dns1.yapt.edu.cn. root.yapt.edu.cn. 2018092901 3400 900 1209600 3400
+;; Query time: 42 msec
+;; SERVER: 42.247.11.173#53(42.247.11.173)
+;; WHEN: Thu Oct 18 10:25:22 CST 2018
+;; XFR size: 37 records (messages 1, bytes 821)
+
