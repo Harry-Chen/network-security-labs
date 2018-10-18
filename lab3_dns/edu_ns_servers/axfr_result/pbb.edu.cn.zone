@@ -103,6 +103,6 @@ zb.pbb.edu.cn.		3600	IN	A	58.207.252.11
 pbb.edu.cn.		3600	IN	SOA	dns2.col.edu.cn. pbb.edu.cn. 2015112800 3600 900 3600 3600
 ;; Query time: 1 msec
 ;; SERVER: 211.71.128.30#53(211.71.128.30)
-;; WHEN: Thu Oct 18 10:23:36 CST 2018
+;; WHEN: Thu Oct 18 11:02:40 CST 2018
 ;; XFR size: 99 records (messages 1, bytes 2281)
 

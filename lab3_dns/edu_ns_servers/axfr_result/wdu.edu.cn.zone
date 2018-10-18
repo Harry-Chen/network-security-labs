@@ -69,6 +69,6 @@ zs.wdu.edu.cn.		10800	IN	A	221.232.159.12
 wdu.edu.cn.		10800	IN	SOA	wdu.edu.cn. lxy.wdu.edu.cn. 2018093011 10800 10800 604800 86400
 ;; Query time: 40 msec
 ;; SERVER: 221.232.159.21#53(221.232.159.21)
-;; WHEN: Thu Oct 18 10:23:53 CST 2018
+;; WHEN: Thu Oct 18 11:03:01 CST 2018
 ;; XFR size: 65 records (messages 1, bytes 1576)
 

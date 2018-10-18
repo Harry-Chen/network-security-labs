@@ -46,6 +46,6 @@ zsjy.qdc.edu.cn.	3600	IN	A	47.89.9.84
 qdc.edu.cn.		3600	IN	SOA	ns1.qdc.edu.cn. dnsadmin.qdc.edu.cn. 190057 3600 1800 1209600 3600
 ;; Query time: 19 msec
 ;; SERVER: 42.247.3.49#53(42.247.3.49)
-;; WHEN: Thu Oct 18 10:23:40 CST 2018
+;; WHEN: Thu Oct 18 11:02:45 CST 2018
 ;; XFR size: 42 records (messages 1, bytes 1016)
 

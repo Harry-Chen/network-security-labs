@@ -48,8 +48,8 @@ xwgf.sgsw.edu.cn.	38400	IN	A	101.230.10.13
 zs.sgsw.edu.cn.		38400	IN	A	101.230.10.4
 zyk.sgsw.edu.cn.	38400	IN	A	101.230.10.6
 sgsw.edu.cn.		38400	IN	SOA	dns. lee_qi.foxmail.com. 1267620116 10800 3600 604800 38400
-;; Query time: 29 msec
+;; Query time: 31 msec
 ;; SERVER: 211.80.8.1#53(211.80.8.1)
-;; WHEN: Thu Oct 18 10:23:40 CST 2018
+;; WHEN: Thu Oct 18 11:02:44 CST 2018
 ;; XFR size: 46 records (messages 1, bytes 1051)
 

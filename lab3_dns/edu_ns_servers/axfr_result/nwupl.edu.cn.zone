@@ -1,5 +1,5 @@
 
-; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @202.200.168.100 AXFR nwupl.edu.cn
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @221.11.16.90 AXFR nwupl.edu.cn
 ; (1 server found)
 ;; global options: +cmd
 nwupl.edu.cn.		3600	IN	SOA	dns.nwupl.edu.cn. admin.nwupl.edu.cn. 2017110101 3600 3600 604800 300
@@ -136,8 +136,8 @@ m.zjxy.nwupl.edu.cn.	3600	IN	A	211.144.149.77
 manager.zjxy.nwupl.edu.cn. 3600	IN	A	211.144.149.102
 zzb.nwupl.edu.cn.	3600	IN	A	202.200.168.101
 nwupl.edu.cn.		3600	IN	SOA	dns.nwupl.edu.cn. admin.nwupl.edu.cn. 2017110101 3600 3600 604800 300
-;; Query time: 18 msec
-;; SERVER: 202.200.168.100#53(202.200.168.100)
-;; WHEN: Thu Oct 18 10:24:00 CST 2018
+;; Query time: 19 msec
+;; SERVER: 221.11.16.90#53(221.11.16.90)
+;; WHEN: Thu Oct 18 11:03:09 CST 2018
 ;; XFR size: 134 records (messages 1, bytes 3132)
 

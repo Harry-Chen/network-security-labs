@@ -41,8 +41,8 @@ yx.hrbcm.edu.cn.	38400	IN	A	192.168.8.20
 zcgl.hrbcm.edu.cn.	38400	IN	A	42.247.9.228
 zs.hrbcm.edu.cn.	38400	IN	A	42.247.9.235
 hrbcm.edu.cn.		38400	IN	SOA	ns1.hrbcm.edu.cn. tianhao.hrbcm.edu.cn. 1439421037 10800 3600 604800 38400
-;; Query time: 22 msec
+;; Query time: 21 msec
 ;; SERVER: 42.247.9.230#53(42.247.9.230)
-;; WHEN: Thu Oct 18 10:22:47 CST 2018
+;; WHEN: Thu Oct 18 11:01:53 CST 2018
 ;; XFR size: 39 records (messages 1, bytes 1073)
 

@@ -80,6 +80,6 @@ zyk2.zcu.edu.cn.	7200	IN	A	115.158.112.99
 zcu.edu.cn.		7200	IN	SOA	dns.zcu.edu.cn. root.dns.zcu.edu.cn. 211 10800 900 604800 86400
 ;; Query time: 14 msec
 ;; SERVER: 115.158.112.18#53(115.158.112.18)
-;; WHEN: Thu Oct 18 10:24:22 CST 2018
+;; WHEN: Thu Oct 18 11:04:24 CST 2018
 ;; XFR size: 76 records (messages 1, bytes 1696)
 

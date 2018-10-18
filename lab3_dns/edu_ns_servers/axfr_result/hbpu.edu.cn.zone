@@ -100,8 +100,8 @@ ZbvSTbnhhh.hbpu.edu.cn.	86400	IN	CNAME	zz.baidu.com.
 zlb.hbpu.edu.cn.	86400	IN	A	59.68.84.147
 zsxx.hbpu.edu.cn.	86400	IN	A	58.51.197.195
 hbpu.edu.cn.		86400	IN	SOA	ns.hbpu.edu.cn. root.hbpu.edu.cn. 20181016 10800 900 604800 86400
-;; Query time: 22 msec
+;; Query time: 21 msec
 ;; SERVER: 59.68.84.8#53(59.68.84.8)
-;; WHEN: Thu Oct 18 10:23:06 CST 2018
+;; WHEN: Thu Oct 18 11:02:11 CST 2018
 ;; XFR size: 98 records (messages 1, bytes 2160)
 

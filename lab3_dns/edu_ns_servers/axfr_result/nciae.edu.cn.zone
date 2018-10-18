@@ -4,8 +4,8 @@
 ;; global options: +cmd
 nciae.edu.cn.		3600	IN	SOA	dns1.nciae.edu.cn. hostmaster. 578 900 600 86400 3600
 nciae.edu.cn.		3600	IN	A	222.222.97.3
-nciae.edu.cn.		3600	IN	NS	dns2.nciae.edu.cn.
 nciae.edu.cn.		3600	IN	NS	dns1.nciae.edu.cn.
+nciae.edu.cn.		3600	IN	NS	dns2.nciae.edu.cn.
 nciae.edu.cn.		3600	IN	MX	10 mail.nciae.edu.cn.
 3w.nciae.edu.cn.	3600	IN	A	60.10.130.166
 40.nciae.edu.cn.	3600	IN	CNAME	nciae.edu.cn.
@@ -274,8 +274,8 @@ zsjyc.zsjyc.nciae.edu.cn. 3600	IN	CNAME	zsjyc.nciae.edu.cn.
 zxfz.nciae.edu.cn.	3600	IN	CNAME	nciae.edu.cn.
 zzb.nciae.edu.cn.	3600	IN	CNAME	nciae.edu.cn.
 nciae.edu.cn.		3600	IN	SOA	dns1.nciae.edu.cn. hostmaster. 578 900 600 86400 3600
-;; Query time: 23 msec
+;; Query time: 33 msec
 ;; SERVER: 222.222.78.225#53(222.222.78.225)
-;; WHEN: Thu Oct 18 10:24:01 CST 2018
+;; WHEN: Thu Oct 18 11:03:07 CST 2018
 ;; XFR size: 272 records (messages 1, bytes 6319)
 

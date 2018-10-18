@@ -23,6 +23,6 @@ wwww.wzmc.edu.cn.	86400	IN	A	61.153.27.176
 wzmc.edu.cn.		86400	IN	SOA	dns1.wzmc.edu.cn. root.wzmc.edu.cn. 2017093001 3600 900 604800 86400
 ;; Query time: 38 msec
 ;; SERVER: 122.228.158.110#53(122.228.158.110)
-;; WHEN: Thu Oct 18 10:24:40 CST 2018
+;; WHEN: Thu Oct 18 11:03:49 CST 2018
 ;; XFR size: 19 records (messages 1, bytes 480)
 

@@ -18,8 +18,8 @@ wyzyk.sxjzsf.edu.cn.	86400	IN	A	222.199.52.96
 xg.sxjzsf.edu.cn.	86400	IN	A	222.199.52.8
 yx.sxjzsf.edu.cn.	86400	IN	A	222.199.52.6
 sxjzsf.edu.cn.		86400	IN	SOA	dns.sxjzsf.edu.cn. dns.www.sxjzsf.edu.cn. 20171224 86400 3600 604800 10800
-;; Query time: 11 msec
+;; Query time: 12 msec
 ;; SERVER: 222.199.52.2#53(222.199.52.2)
-;; WHEN: Thu Oct 18 10:24:15 CST 2018
+;; WHEN: Thu Oct 18 11:03:21 CST 2018
 ;; XFR size: 16 records (messages 1, bytes 389)
 

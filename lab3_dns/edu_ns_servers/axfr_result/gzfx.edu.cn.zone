@@ -14,8 +14,8 @@ www.gzfx.edu.cn.	3600	IN	A	222.16.82.177
 zb.gzfx.edu.cn.		3600	IN	CNAME	gzfx.lanyuan.net.
 zssf.gzfx.edu.cn.	3600	IN	A	211.66.209.29
 gzfx.edu.cn.		90000	IN	SOA	dns1. hostmaster. 15 900 600 86400 3600
-;; Query time: 43 msec
+;; Query time: 64 msec
 ;; SERVER: 222.16.82.177#53(222.16.82.177)
-;; WHEN: Thu Oct 18 10:22:35 CST 2018
+;; WHEN: Thu Oct 18 11:01:46 CST 2018
 ;; XFR size: 12 records (messages 1, bytes 410)
 

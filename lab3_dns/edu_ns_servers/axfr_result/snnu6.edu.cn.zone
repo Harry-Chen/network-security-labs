@@ -11,8 +11,8 @@ dns2.snnu6.edu.cn.	604800	IN	A	202.112.11.139
 www.snnu6.edu.cn.	604800	IN	AAAA	2001:da8:4001:1::2
 www.snnu6.edu.cn.	604800	IN	A	219.244.191.224
 snnu6.edu.cn.		604800	IN	SOA	dns1.snnu6.edu.cn. liw.dns1.snnu6.edu.cn. 7050901 10800 1800 259200 604800
-;; Query time: 22 msec
+;; Query time: 21 msec
 ;; SERVER: 202.112.11.130#53(202.112.11.130)
-;; WHEN: Thu Oct 18 10:23:36 CST 2018
+;; WHEN: Thu Oct 18 11:02:43 CST 2018
 ;; XFR size: 9 records (messages 1, bytes 252)
 

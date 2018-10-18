@@ -111,8 +111,8 @@ zzpt.e21.edu.cn.	60	IN	CNAME	idccty.e21.edu.cn.
 zzzs.e21.edu.cn.	60	IN	CNAME	idccty2.e21.edu.cn.
 zzzz.e21.edu.cn.	60	IN	CNAME	idccty2.e21.edu.cn.
 e21.edu.cn.		60	IN	SOA	dns.e21.edu.cn. webmaster.e21.edu.cn. 601 10800 3600 60 60
-;; Query time: 89 msec
+;; Query time: 129 msec
 ;; SERVER: 211.67.64.10#53(211.67.64.10)
-;; WHEN: Thu Oct 18 10:22:19 CST 2018
+;; WHEN: Thu Oct 18 11:01:29 CST 2018
 ;; XFR size: 109 records (messages 1, bytes 2403)
 

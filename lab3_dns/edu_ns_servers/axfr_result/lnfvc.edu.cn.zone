@@ -15,6 +15,6 @@ xxjsx.lnfvc.edu.cn.	86400	IN	A	211.137.20.38
 lnfvc.edu.cn.		86400	IN	SOA	localhost.lnfvc.edu.cn. root. 42 10800 900 604800 86400
 ;; Query time: 14 msec
 ;; SERVER: 59.79.112.6#53(59.79.112.6)
-;; WHEN: Thu Oct 18 10:23:36 CST 2018
+;; WHEN: Thu Oct 18 11:02:41 CST 2018
 ;; XFR size: 11 records (messages 1, bytes 335)
 

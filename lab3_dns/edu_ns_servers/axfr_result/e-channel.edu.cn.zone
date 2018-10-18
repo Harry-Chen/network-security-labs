@@ -6,8 +6,8 @@ e-channel.edu.cn.	120	IN	SOA	dns1.e-channel.edu.cn. root.dns1.e-channel.edu.cn. 
 e-channel.edu.cn.	120	IN	NS	dns1.e-channel.edu.cn.
 www.e-channel.edu.cn.	120	IN	A	121.8.98.71
 e-channel.edu.cn.	120	IN	SOA	dns1.e-channel.edu.cn. root.dns1.e-channel.edu.cn. 2006042701 10800 3600 604800 1800
-;; Query time: 35 msec
+;; Query time: 62 msec
 ;; SERVER: 222.16.80.34#53(222.16.80.34)
-;; WHEN: Thu Oct 18 10:22:19 CST 2018
+;; WHEN: Thu Oct 18 11:01:28 CST 2018
 ;; XFR size: 4 records (messages 1, bytes 150)
 

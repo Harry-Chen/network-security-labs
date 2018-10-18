@@ -295,8 +295,8 @@ zyyyjy.wmu.edu.cn.	6400	IN	A	122.228.158.104
 zzb.wmu.edu.cn.		6400	IN	A	122.228.158.104
 zzzz.wmu.edu.cn.	6400	IN	A	122.228.158.104
 wmu.edu.cn.		6400	IN	SOA	dns1.wmu.edu.cn. hujc.wmu.edu.cn. 2018101402 3600 900 2419200 604800
-;; Query time: 80 msec
+;; Query time: 82 msec
 ;; SERVER: 122.228.158.110#53(122.228.158.110)
-;; WHEN: Thu Oct 18 10:24:06 CST 2018
+;; WHEN: Thu Oct 18 11:03:16 CST 2018
 ;; XFR size: 293 records (messages 1, bytes 6486)
 

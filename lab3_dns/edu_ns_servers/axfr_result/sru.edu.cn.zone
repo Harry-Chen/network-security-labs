@@ -99,6 +99,6 @@ zzyjs.sru.edu.cn.	86400	IN	A	202.109.189.52
 sru.edu.cn.		86400	IN	SOA	ultra.sru.edu.cn.sru.edu.cn. root.sru.edu.cn. 50 28800 14400 3600000 86400
 ;; Query time: 74 msec
 ;; SERVER: 218.193.200.4#53(218.193.200.4)
-;; WHEN: Thu Oct 18 10:24:00 CST 2018
+;; WHEN: Thu Oct 18 11:03:07 CST 2018
 ;; XFR size: 95 records (messages 1, bytes 2049)
 

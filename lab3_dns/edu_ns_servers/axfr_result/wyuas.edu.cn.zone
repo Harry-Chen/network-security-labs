@@ -14,8 +14,8 @@ www.wyuas.edu.cn.	86400	IN	A	42.247.17.241
 wx.wyuas.edu.cn.	86400	IN	A	42.247.17.241
 zbxy.wyuas.edu.cn.	86400	IN	A	182.241.92.240
 wyuas.edu.cn.		86400	IN	SOA	dns.wyuas.edu.cn. root.wyuas.edu.cn. 2011091200 10800 3600 604800 0
-;; Query time: 42 msec
+;; Query time: 41 msec
 ;; SERVER: 42.247.17.241#53(42.247.17.241)
-;; WHEN: Thu Oct 18 10:24:40 CST 2018
+;; WHEN: Thu Oct 18 11:03:49 CST 2018
 ;; XFR size: 12 records (messages 1, bytes 299)
 

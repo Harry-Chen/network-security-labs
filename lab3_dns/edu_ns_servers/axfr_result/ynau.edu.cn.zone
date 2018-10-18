@@ -207,6 +207,6 @@ zztz.ynau.edu.cn.	86400	IN	A	202.203.187.121
 ynau.edu.cn.		86400	IN	SOA	ynau.edu.cn. ynau.edu.cn. 2014101901 36000 3600 3600000 2592000
 ;; Query time: 42 msec
 ;; SERVER: 202.203.176.33#53(202.203.176.33)
-;; WHEN: Thu Oct 18 10:24:39 CST 2018
+;; WHEN: Thu Oct 18 11:03:35 CST 2018
 ;; XFR size: 203 records (messages 1, bytes 4184)
 

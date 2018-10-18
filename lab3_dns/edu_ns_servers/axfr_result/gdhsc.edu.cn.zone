@@ -67,6 +67,6 @@ zs.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
 gdhsc.edu.cn.		604800	IN	SOA	gdhsc.edu.cn. root.gdhsc.edu.cn. 2 604800 86400 2419200 604800
 ;; Query time: 39 msec
 ;; SERVER: 125.216.100.2#53(125.216.100.2)
-;; WHEN: Thu Oct 18 10:22:19 CST 2018
+;; WHEN: Thu Oct 18 11:01:29 CST 2018
 ;; XFR size: 63 records (messages 1, bytes 1263)
 

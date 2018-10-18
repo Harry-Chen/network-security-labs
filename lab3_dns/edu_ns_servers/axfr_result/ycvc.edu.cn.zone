@@ -20,6 +20,6 @@ zhs.ycvc.edu.cn.	180	IN	A	222.89.243.122
 ycvc.edu.cn.		180	IN	SOA	dns.ycvc.edu.cn. master.ycvc.edu.cn. 2013091312 604800 604800 3600000 180
 ;; Query time: 19 msec
 ;; SERVER: 125.219.132.18#53(125.219.132.18)
-;; WHEN: Thu Oct 18 10:24:18 CST 2018
+;; WHEN: Thu Oct 18 11:04:30 CST 2018
 ;; XFR size: 16 records (messages 1, bytes 378)
 

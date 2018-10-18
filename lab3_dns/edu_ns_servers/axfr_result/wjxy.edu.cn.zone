@@ -24,6 +24,6 @@ zkxx.wjxy.edu.cn.	86400	IN	A	202.206.176.153
 wjxy.edu.cn.		86400	IN	SOA	dns.wjxy.edu.cn. root.dns.wjxy.edu.cn. 20091113 10800 900 604800 86400
 ;; Query time: 2 msec
 ;; SERVER: 202.206.176.53#53(202.206.176.53)
-;; WHEN: Thu Oct 18 10:24:04 CST 2018
+;; WHEN: Thu Oct 18 11:03:14 CST 2018
 ;; XFR size: 20 records (messages 1, bytes 478)
 

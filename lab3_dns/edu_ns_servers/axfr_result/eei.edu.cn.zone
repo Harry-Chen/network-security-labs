@@ -32,6 +32,6 @@ www.eei.edu.cn.		604800	IN	A	172.16.6.3
 eei.edu.cn.		604800	IN	SOA	pri.eei.edu.cn. root.eei.edu.cn. 932481740 10800 3600 604800 86400
 ;; Query time: 27 msec
 ;; SERVER: 210.45.80.2#53(210.45.80.2)
-;; WHEN: Thu Oct 18 10:22:44 CST 2018
+;; WHEN: Thu Oct 18 11:01:54 CST 2018
 ;; XFR size: 28 records (messages 1, bytes 639)
 

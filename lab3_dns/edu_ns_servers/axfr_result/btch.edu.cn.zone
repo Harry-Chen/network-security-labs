@@ -29,8 +29,8 @@ yypt.btch.edu.cn.	600	IN	A	124.207.182.18
 zp.btch.edu.cn.		600	IN	A	124.207.182.15
 zpzp.btch.edu.cn.	600	IN	A	124.207.182.15
 btch.edu.cn.		600	IN	SOA	dns.btch.edu.cn. root.btch.edu.cn. 2018040901 10800 3600 86400 86400
-;; Query time: 8 msec
+;; Query time: 5 msec
 ;; SERVER: 124.207.182.5#53(124.207.182.5)
-;; WHEN: Thu Oct 18 10:22:55 CST 2018
+;; WHEN: Thu Oct 18 11:02:01 CST 2018
 ;; XFR size: 27 records (messages 1, bytes 693)
 

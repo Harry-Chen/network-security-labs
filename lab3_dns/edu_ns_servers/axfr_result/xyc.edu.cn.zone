@@ -89,6 +89,6 @@ zzbrsc.xyc.edu.cn.	3600	IN	A	218.64.252.140
 xyc.edu.cn.		3600	IN	SOA	win-lo665c86qgp. hostmaster. 129 900 600 86400 3600
 ;; Query time: 84 msec
 ;; SERVER: 222.204.96.3#53(222.204.96.3)
-;; WHEN: Thu Oct 18 10:24:54 CST 2018
+;; WHEN: Thu Oct 18 11:03:47 CST 2018
 ;; XFR size: 85 records (messages 85, bytes 4552)
 

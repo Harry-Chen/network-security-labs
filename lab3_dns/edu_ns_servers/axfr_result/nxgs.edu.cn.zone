@@ -72,6 +72,6 @@ zzb.nxgs.edu.cn.	86400	IN	CNAME	zzb-nxgs-edu-cn.cname.saaswaf.com.
 nxgs.edu.cn.		86400	IN	SOA	nxgs.edu.cn. nxgs.edu.cn. 0 86400 3600 604800 10800
 ;; Query time: 35 msec
 ;; SERVER: 119.60.11.214#53(119.60.11.214)
-;; WHEN: Thu Oct 18 10:23:15 CST 2018
+;; WHEN: Thu Oct 18 11:03:10 CST 2018
 ;; XFR size: 68 records (messages 1, bytes 2068)
 

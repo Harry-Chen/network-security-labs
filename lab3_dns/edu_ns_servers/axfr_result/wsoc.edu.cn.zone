@@ -70,6 +70,6 @@ zs.wsoc.edu.cn.		86400	IN	A	58.193.126.130
 wsoc.edu.cn.		86400	IN	SOA	dns1.wsoc.edu.cn. root.wsoc.edu.cn.wsoc.edu.cn. 199802151 28899 14400 3600000 86400
 ;; Query time: 34 msec
 ;; SERVER: 58.193.120.1#53(58.193.120.1)
-;; WHEN: Thu Oct 18 10:24:14 CST 2018
+;; WHEN: Thu Oct 18 11:03:23 CST 2018
 ;; XFR size: 66 records (messages 1, bytes 1590)
 

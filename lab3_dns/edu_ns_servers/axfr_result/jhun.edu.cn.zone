@@ -1,5 +1,5 @@
 
-; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @219.140.188.226 AXFR jhun.edu.cn
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @210.42.72.140 AXFR jhun.edu.cn
 ; (1 server found)
 ;; global options: +cmd
 jhun.edu.cn.		86400	IN	SOA	dns.jhun.edu.cn. root.jhun.edu.cn. 2 3600 300 604800 86400
@@ -226,8 +226,8 @@ zscqjd.jhun.edu.cn.	86400	IN	A	210.42.72.167
 zsw.jhun.edu.cn.	86400	IN	A	210.42.74.172
 zzb.jhun.edu.cn.	86400	IN	A	210.42.72.167
 jhun.edu.cn.		86400	IN	SOA	dns.jhun.edu.cn. root.jhun.edu.cn. 2 3600 300 604800 86400
-;; Query time: 74 msec
-;; SERVER: 219.140.188.226#53(219.140.188.226)
-;; WHEN: Thu Oct 18 10:22:54 CST 2018
+;; Query time: 42 msec
+;; SERVER: 210.42.72.140#53(210.42.72.140)
+;; WHEN: Thu Oct 18 11:02:02 CST 2018
 ;; XFR size: 224 records (messages 1, bytes 4918)
 

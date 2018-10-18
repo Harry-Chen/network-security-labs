@@ -45,8 +45,8 @@ xgk2.hainan.edu.cn.	86400	IN	A	36.101.208.125
 xq-cas.hainan.edu.cn.	86400	IN	A	210.37.26.161
 xqjy.hainan.edu.cn.	86400	IN	A	210.37.26.162
 hainan.edu.cn.		86400	IN	SOA	localhost.hainan.edu.cn. root.localhost. 20171016 86400 3600 604800 10800
-;; Query time: 102 msec
+;; Query time: 108 msec
 ;; SERVER: 210.37.24.99#53(210.37.24.99)
-;; WHEN: Thu Oct 18 10:22:21 CST 2018
+;; WHEN: Thu Oct 18 11:01:29 CST 2018
 ;; XFR size: 43 records (messages 1, bytes 960)
 

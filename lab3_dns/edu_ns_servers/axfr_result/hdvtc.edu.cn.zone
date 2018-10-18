@@ -4,8 +4,8 @@
 ;; global options: +cmd
 hdvtc.edu.cn.		3600	IN	SOA	hdvtc.edu.cn. hostmaster. 127 900 600 86400 3600
 hdvtc.edu.cn.		3600	IN	A	211.81.120.70
-hdvtc.edu.cn.		3600	IN	NS	hddxym.
 hdvtc.edu.cn.		3600	IN	NS	dns.hdvtc.edu.cn.
+hdvtc.edu.cn.		3600	IN	NS	hddxym.
 hdvtc.edu.cn.		3600	IN	MX	1 mail.hdvtc.edu.cn.
 bbs.hdvtc.edu.cn.	3600	IN	A	211.81.120.84
 ca.hdvtc.edu.cn.	3600	IN	A	172.16.99.212
@@ -35,6 +35,6 @@ zzb.hdvtc.edu.cn.	3600	IN	A	211.81.120.66
 hdvtc.edu.cn.		3600	IN	SOA	hdvtc.edu.cn. hostmaster. 127 900 600 86400 3600
 ;; Query time: 11 msec
 ;; SERVER: 211.81.120.70#53(211.81.120.70)
-;; WHEN: Thu Oct 18 10:22:26 CST 2018
+;; WHEN: Thu Oct 18 11:01:33 CST 2018
 ;; XFR size: 31 records (messages 31, bytes 1635)
 

@@ -191,6 +191,6 @@ zzyw.bjeea.edu.cn.	3600	IN	A	211.153.84.177
 bjeea.edu.cn.		3600	IN	SOA	ns1.myedu.edu.cn. administrator.myedu.edu.cn. 20180623 3600 600 604800 3600
 ;; Query time: 2 msec
 ;; SERVER: 211.71.253.1#53(211.71.253.1)
-;; WHEN: Thu Oct 18 10:22:23 CST 2018
+;; WHEN: Thu Oct 18 11:01:29 CST 2018
 ;; XFR size: 187 records (messages 1, bytes 4072)
 

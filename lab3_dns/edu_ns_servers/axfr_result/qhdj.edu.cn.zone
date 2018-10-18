@@ -36,6 +36,6 @@ zyk.qhdj.edu.cn.	3600	IN	A	219.247.223.53
 qhdj.edu.cn.		3600	IN	SOA	dns.qhdj.edu.cn. root.ximo.com.cn. 2017011012 30 30 360 3600
 ;; Query time: 29 msec
 ;; SERVER: 219.247.223.2#53(219.247.223.2)
-;; WHEN: Thu Oct 18 10:24:01 CST 2018
+;; WHEN: Thu Oct 18 11:03:05 CST 2018
 ;; XFR size: 32 records (messages 1, bytes 720)
 

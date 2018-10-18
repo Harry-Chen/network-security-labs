@@ -195,8 +195,8 @@ zzxyjx.sicau.edu.cn.	86400	IN	A	113.54.15.50
 zzxyyz.sicau.edu.cn.	86400	IN	A	113.54.15.50
 zzzs.sicau.edu.cn.	86400	IN	A	113.54.11.212
 sicau.edu.cn.		86400	IN	SOA	pridns.sicau.edu.cn. root.pridns.sicau.edu.cn. 2018092815 7200 1800 604800 86400
-;; Query time: 71 msec
+;; Query time: 130 msec
 ;; SERVER: 218.6.135.185#53(218.6.135.185)
-;; WHEN: Thu Oct 18 10:23:54 CST 2018
+;; WHEN: Thu Oct 18 11:02:56 CST 2018
 ;; XFR size: 193 records (messages 1, bytes 4185)
 

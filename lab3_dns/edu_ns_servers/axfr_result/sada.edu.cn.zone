@@ -73,8 +73,8 @@ yrs.sada.edu.cn.	86400	IN	A	42.247.23.100
 zc.sada.edu.cn.		86400	IN	A	42.247.23.100
 zsb.sada.edu.cn.	86400	IN	CNAME	9ffc8bfb7cfce18f791595a2c24c6631.sangfordns.com.
 sada.edu.cn.		86400	IN	SOA	sada.edu.cn. root.sada.edu.cn. 2016102101 21600 3600 604800 86400
-;; Query time: 31 msec
+;; Query time: 33 msec
 ;; SERVER: 42.247.23.98#53(42.247.23.98)
-;; WHEN: Thu Oct 18 10:23:43 CST 2018
+;; WHEN: Thu Oct 18 11:02:48 CST 2018
 ;; XFR size: 71 records (messages 1, bytes 1992)
 

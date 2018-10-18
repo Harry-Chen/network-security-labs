@@ -90,6 +90,6 @@ zzb.hezeu.edu.cn.	86400	IN	A	222.206.176.56
 hezeu.edu.cn.		86400	IN	SOA	dns1.hezeu.edu.cn. sjq.mail.hezeu.edu.cn. 2009030812 3600 1800 432000 86400
 ;; Query time: 13 msec
 ;; SERVER: 222.206.176.61#53(222.206.176.61)
-;; WHEN: Thu Oct 18 10:23:07 CST 2018
+;; WHEN: Thu Oct 18 11:02:15 CST 2018
 ;; XFR size: 86 records (messages 1, bytes 1902)
 

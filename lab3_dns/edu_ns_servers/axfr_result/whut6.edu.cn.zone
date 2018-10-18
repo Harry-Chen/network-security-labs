@@ -42,6 +42,6 @@ zzbwlcp1.whut6.edu.cn.	86400	IN	A	218.197.101.17
 whut6.edu.cn.		86400	IN	SOA	dns.whut6.edu.cn. dnsmaster.whut6.edu.cn. 2018022601 14400 1800 604800 86400
 ;; Query time: 20 msec
 ;; SERVER: 202.114.49.12#53(202.114.49.12)
-;; WHEN: Thu Oct 18 10:23:55 CST 2018
+;; WHEN: Thu Oct 18 11:03:05 CST 2018
 ;; XFR size: 38 records (messages 1, bytes 1169)
 

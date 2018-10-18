@@ -78,6 +78,6 @@ zzsfy.lzcu.edu.cn.	10	IN	CNAME	www.lzcu.edu.cn.
 lzcu.edu.cn.		10	IN	SOA	lzcu.edu.cn. root.lzcu.edu.cn. 49 900 600 86400 3600
 ;; Query time: 27 msec
 ;; SERVER: 219.246.16.61#53(219.246.16.61)
-;; WHEN: Thu Oct 18 10:23:19 CST 2018
+;; WHEN: Thu Oct 18 11:02:25 CST 2018
 ;; XFR size: 74 records (messages 1, bytes 1478)
 

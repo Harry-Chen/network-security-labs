@@ -184,8 +184,8 @@ zsb.kmu.edu.cn.		43200	IN	A	220.163.113.14
 zsbm.kmu.edu.cn.	43200	IN	A	220.163.113.17
 zzb.kmu.edu.cn.		43200	IN	A	220.163.113.13
 kmu.edu.cn.		43200	IN	SOA	dns.kmu.edu.cn. support.kmu.edu.cn. 2018041801 3600 1800 604800 43200
-;; Query time: 97 msec
+;; Query time: 90 msec
 ;; SERVER: 202.203.0.202#53(202.203.0.202)
-;; WHEN: Thu Oct 18 10:24:05 CST 2018
+;; WHEN: Thu Oct 18 11:03:11 CST 2018
 ;; XFR size: 182 records (messages 1, bytes 3845)
 

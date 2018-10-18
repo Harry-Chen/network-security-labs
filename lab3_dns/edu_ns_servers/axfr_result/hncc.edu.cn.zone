@@ -85,6 +85,6 @@ zzb.hncc.edu.cn.	600	IN	A	125.219.124.36
 hncc.edu.cn.		600	IN	SOA	dns.hncc.edu.cn. root.hncc.edu.cn. 2018082800 28800 14400 3600000 7200
 ;; Query time: 14 msec
 ;; SERVER: 125.219.124.18#53(125.219.124.18)
-;; WHEN: Thu Oct 18 10:22:50 CST 2018
+;; WHEN: Thu Oct 18 11:01:58 CST 2018
 ;; XFR size: 81 records (messages 1, bytes 1734)
 

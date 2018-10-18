@@ -31,6 +31,6 @@ www.zwc.hzmc.edu.cn.	86400	IN	A	211.86.2.200
 hzmc.edu.cn.		86400	IN	SOA	ns.hzmc.edu.cn. root.ns.hzmc.edu.cn. 2000120104 28800 14400 3600000 86400
 ;; Query time: 12 msec
 ;; SERVER: 211.86.0.2#53(211.86.0.2)
-;; WHEN: Thu Oct 18 10:22:58 CST 2018
+;; WHEN: Thu Oct 18 11:02:03 CST 2018
 ;; XFR size: 27 records (messages 1, bytes 630)
 

@@ -48,8 +48,8 @@ yx.whmc.edu.cn.		38400	IN	A	58.53.199.40
 zc.whmc.edu.cn.		38400	IN	A	59.175.200.6
 zs.whmc.edu.cn.		38400	IN	A	59.175.200.7
 whmc.edu.cn.		38400	IN	SOA	dns.whmc.edu.cn. net.whmc.edu.cn. 2005090503 10800 3600 604800 38400
-;; Query time: 21 msec
+;; Query time: 20 msec
 ;; SERVER: 125.220.184.8#53(125.220.184.8)
-;; WHEN: Thu Oct 18 10:24:20 CST 2018
+;; WHEN: Thu Oct 18 11:03:30 CST 2018
 ;; XFR size: 46 records (messages 1, bytes 959)
 

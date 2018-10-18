@@ -16,8 +16,8 @@ pop3.sistm.edu.cn.	60	IN	CNAME	pop.exmail.qq.com.
 smtp.sistm.edu.cn.	60	IN	CNAME	smtp.exmail.qq.com.
 www.sistm.edu.cn.	10800	IN	A	211.144.107.18
 sistm.edu.cn.		10800	IN	SOA	dns1.sistm.edu.cn. root.dns1.sistm.edu.cn. 42 10800 900 604800 86400
-;; Query time: 26 msec
+;; Query time: 27 msec
 ;; SERVER: 49.52.48.2#53(49.52.48.2)
-;; WHEN: Thu Oct 18 10:24:10 CST 2018
+;; WHEN: Thu Oct 18 11:03:12 CST 2018
 ;; XFR size: 14 records (messages 1, bytes 398)
 

@@ -139,8 +139,8 @@ zouef.zjou.edu.cn.	604800	IN	A	61.153.216.100
 zs.zjou.edu.cn.		604800	IN	A	61.153.216.100
 zzb.zjou.edu.cn.	604800	IN	A	61.153.216.100
 zjou.edu.cn.		604800	IN	SOA	dns1.zjou.edu.cn. root.localhost. 196 604800 86400 2419200 604800
-;; Query time: 37 msec
+;; Query time: 73 msec
 ;; SERVER: 59.79.140.22#53(59.79.140.22)
-;; WHEN: Thu Oct 18 10:25:02 CST 2018
+;; WHEN: Thu Oct 18 11:03:51 CST 2018
 ;; XFR size: 137 records (messages 1, bytes 3036)
 

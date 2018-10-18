@@ -132,8 +132,8 @@ zhang.nacta.edu.cn.	38400	IN	CNAME	static.nacta.edu.cn.
 zhaopin.nacta.edu.cn.	38400	IN	CNAME	hen.nacta.edu.cn.
 zs.nacta.edu.cn.	38400	IN	CNAME	dog.nacta.edu.cn.
 nacta.edu.cn.		38400	IN	SOA	ns.nacta.edu.cn. admin.nacta.edu.cn. 1436616545 10800 3600 604800 38400
-;; Query time: 3 msec
+;; Query time: 25 msec
 ;; SERVER: 202.106.151.10#53(202.106.151.10)
-;; WHEN: Thu Oct 18 10:23:28 CST 2018
+;; WHEN: Thu Oct 18 11:02:34 CST 2018
 ;; XFR size: 130 records (messages 1, bytes 2755)
 

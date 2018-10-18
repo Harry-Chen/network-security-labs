@@ -8,8 +8,8 @@ oucqdc.edu.cn.		86400	IN	NS	oucqdc.edu.cn.
 ns.oucqdc.edu.cn.	86400	IN	A	121.251.136.1
 www.oucqdc.edu.cn.	86400	IN	A	121.251.136.3
 oucqdc.edu.cn.		86400	IN	SOA	oucqdc.edu.cn. root.oucqdc.edu.cn. 2007071701 36000 7200 3600000 86400
-;; Query time: 16 msec
+;; Query time: 17 msec
 ;; SERVER: 121.251.136.1#53(121.251.136.1)
-;; WHEN: Thu Oct 18 10:23:30 CST 2018
+;; WHEN: Thu Oct 18 11:02:37 CST 2018
 ;; XFR size: 6 records (messages 1, bytes 179)
 

@@ -140,8 +140,8 @@ ztb.ksu.edu.cn.		86400	IN	CNAME	www3.ksu.edu.cn.
 zyy.ksu.edu.cn.		86400	IN	CNAME	www4.ksu.edu.cn.
 zzb.ksu.edu.cn.		86400	IN	CNAME	www3.ksu.edu.cn.
 ksu.edu.cn.		86400	IN	SOA	dns.ksu.edu.cn. root.ksu.edu.cn. 7 28800 7200 604800 86400
-;; Query time: 72 msec
+;; Query time: 73 msec
 ;; SERVER: 218.195.192.73#53(218.195.192.73)
-;; WHEN: Thu Oct 18 10:24:09 CST 2018
+;; WHEN: Thu Oct 18 11:03:16 CST 2018
 ;; XFR size: 138 records (messages 1, bytes 2861)
 
