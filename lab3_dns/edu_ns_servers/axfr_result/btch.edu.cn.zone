@@ -1,0 +1,36 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @124.207.182.5 AXFR btch.edu.cn
+; (1 server found)
+;; global options: +cmd
+btch.edu.cn.		600	IN	SOA	dns.btch.edu.cn. root.btch.edu.cn. 2018040901 10800 3600 86400 86400
+.			600	IN	TXT	"v=spf1 include:spf.mail.qq.com ~all"
+#.			600	IN	MX	5 mxbiz1.qq.com.
+#.			600	IN	MX	10 smtp.btch.edu.cn.
+#.			600	IN	MX	10 mxbiz2.qq.com.
+#\@.			600	IN	TXT	"v=spf ip4:124.207.182.6 ~all"
+btch.edu.cn.		600	IN	NS	dns.qq.com.
+btch.edu.cn.		600	IN	NS	dns.btch.edu.cn.
+btch.edu.cn.		600	IN	NS	dns1.btch.edu.cn.
+btch.edu.cn.		600	IN	MX	5 mxbiz1.qq.com.
+btch.edu.cn.		600	IN	MX	10 mxbiz2.qq.com.
+#testdept.btch.edu.cn.	600	IN	A	124.207.182.10
+dns.btch.edu.cn.	600	IN	A	124.207.182.5
+dns1.btch.edu.cn.	600	IN	A	124.207.242.238
+ghost.btch.edu.cn.	600	IN	A	124.207.182.20
+kejiao.btch.edu.cn.	600	IN	A	124.207.182.12
+mail.btch.edu.cn.	600	IN	CNAME	ssl.exmail.qq.com.
+mailinf.btch.edu.cn.	600	IN	A	124.207.182.6
+reg.btch.edu.cn.	600	IN	A	124.207.182.9
+research.btch.edu.cn.	600	IN	A	124.207.182.11
+telediabetes.btch.edu.cn. 600	IN	A	124.207.182.28
+telemed.btch.edu.cn.	600	IN	A	124.207.242.234
+www.btch.edu.cn.	600	IN	A	124.207.182.10
+yypt.btch.edu.cn.	600	IN	A	124.207.182.18
+zp.btch.edu.cn.		600	IN	A	124.207.182.15
+zpzp.btch.edu.cn.	600	IN	A	124.207.182.15
+btch.edu.cn.		600	IN	SOA	dns.btch.edu.cn. root.btch.edu.cn. 2018040901 10800 3600 86400 86400
+;; Query time: 8 msec
+;; SERVER: 124.207.182.5#53(124.207.182.5)
+;; WHEN: Thu Oct 18 10:22:55 CST 2018
+;; XFR size: 27 records (messages 1, bytes 693)
+

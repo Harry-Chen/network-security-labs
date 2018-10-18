@@ -1,0 +1,41 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @219.247.223.2 AXFR qhdj.edu.cn
+; (1 server found)
+;; global options: +cmd
+qhdj.edu.cn.		3600	IN	SOA	dns.qhdj.edu.cn. root.ximo.com.cn. 2017011012 30 30 360 3600
+qhdj.edu.cn.		3600	IN	MX	0 mail.qhdj.edu.cn.
+qhdj.edu.cn.		3600	IN	NS	dns.qhdj.edu.cn.
+qhdj.edu.cn.		3600	IN	NS	dns1.qhdj.edu.cn.
+bbs.qhdj.edu.cn.	3600	IN	A	219.247.223.19
+db1.qhdj.edu.cn.	3600	IN	A	219.247.223.51
+db2.qhdj.edu.cn.	3600	IN	A	219.247.223.52
+dns.qhdj.edu.cn.	3600	IN	A	219.247.223.2
+dns1.qhdj.edu.cn.	3600	IN	A	125.72.41.134
+download.qhdj.edu.cn.	3600	IN	A	219.247.223.19
+ftp.qhdj.edu.cn.	3600	IN	A	219.247.223.6
+gp.qhdj.edu.cn.		3600	IN	A	219.247.223.19
+gzzy.qhdj.edu.cn.	3600	IN	A	219.247.223.21
+homework.qhdj.edu.cn.	3600	IN	A	219.247.223.19
+lms.qhdj.edu.cn.	3600	IN	A	219.247.223.19
+mail.qhdj.edu.cn.	3600	IN	A	219.247.223.5
+noc.qhdj.edu.cn.	3600	IN	A	219.247.223.14
+np.qhdj.edu.cn.		3600	IN	A	219.247.223.77
+npz.qhdj.edu.cn.	3600	IN	A	219.247.223.8
+px.qhdj.edu.cn.		3600	IN	A	219.247.223.19
+sco.qhdj.edu.cn.	3600	IN	A	219.247.223.19
+sphy.qhdj.edu.cn.	3600	IN	A	219.247.223.13
+sso.qhdj.edu.cn.	3600	IN	A	219.247.223.19
+survey.qhdj.edu.cn.	3600	IN	A	219.247.223.19
+szhpt.qhdj.edu.cn.	3600	IN	A	219.247.223.15
+upload.qhdj.edu.cn.	3600	IN	A	219.247.223.19
+vod.qhdj.edu.cn.	3600	IN	A	219.247.223.7
+wlyy.qhdj.edu.cn.	3600	IN	A	219.247.223.16
+www.qhdj.edu.cn.	3600	IN	A	219.247.223.3
+zntk.qhdj.edu.cn.	3600	IN	A	219.247.223.11
+zyk.qhdj.edu.cn.	3600	IN	A	219.247.223.53
+qhdj.edu.cn.		3600	IN	SOA	dns.qhdj.edu.cn. root.ximo.com.cn. 2017011012 30 30 360 3600
+;; Query time: 29 msec
+;; SERVER: 219.247.223.2#53(219.247.223.2)
+;; WHEN: Thu Oct 18 10:24:01 CST 2018
+;; XFR size: 32 records (messages 1, bytes 720)
+

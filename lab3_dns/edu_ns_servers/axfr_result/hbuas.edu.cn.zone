@@ -1,0 +1,109 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @111.177.117.102 AXFR hbuas.edu.cn
+; (1 server found)
+;; global options: +cmd
+hbuas.edu.cn.		86400	IN	SOA	dns.hbuas.edu.cn. root.dns.hbuas.edu.cn. 201809201 300 60 38400 43200
+hbuas.edu.cn.		86400	IN	NS	dns.hbuas.edu.cn.
+hbuas.edu.cn.		86400	IN	MX	5 mail.hbuas.edu.cn.
+admission.hbuas.edu.cn.	86400	IN	A	111.177.117.121
+bids.hbuas.edu.cn.	86400	IN	A	111.177.117.78
+bwc.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+calis.hbuas.edu.cn.	86400	IN	A	111.177.117.80
+chinese.hbuas.edu.cn.	86400	IN	A	111.177.117.118
+ctc.hbuas.edu.cn.	86400	IN	A	111.177.117.113
+cxxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+dangan.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+dgdz.hbuas.edu.cn.	86400	IN	A	111.177.117.121
+dns.hbuas.edu.cn.	86400	IN	A	111.177.117.102
+fgc.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+gh.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+gjc.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+hanjiang.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+hanriver.hbuas.edu.cn.	86400	IN	A	111.177.117.101
+hbb.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+hsxy.hbuas.edu.cn.	86400	IN	A	111.177.117.90
+info-show.hbuas.edu.cn.	86400	IN	A	111.177.117.121
+jgxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+jjy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+jpkc.hbuas.edu.cn.	86400	IN	A	111.177.117.115
+jpzy.hbuas.edu.cn.	86400	IN	A	111.177.117.93
+jsjxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+jspj.hbuas.edu.cn.	86400	IN	A	111.177.117.124
+jw.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+jwc.hbuas.edu.cn.	86400	IN	A	111.177.117.84
+jwxt.hbuas.edu.cn.	86400	IN	A	111.177.117.79
+jxxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+jyxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+jyzy.hbuas.edu.cn.	86400	IN	A	111.177.117.83
+jzxy.hbuas.edu.cn.	86400	IN	A	111.177.117.98
+kjc.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+kyc.hbuas.edu.cn.	86400	IN	A	111.177.117.74
+lgc.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+lib.hbuas.edu.cn.	86400	IN	A	111.177.117.111
+mail.hbuas.edu.cn.	86400	IN	A	111.177.117.72
+mcs.hbuas.edu.cn.	86400	IN	A	111.177.117.89
+menghaoran.hbuas.edu.cn. 86400	IN	CNAME	www1.hbuas.edu.cn.
+mksxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+mndz.hbuas.edu.cn.	86400	IN	A	111.177.117.125
+msxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+nic.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+nlplab.hbuas.edu.cn.	86400	IN	A	111.177.117.117
+oa.hbuas.edu.cn.	86400	IN	A	111.177.117.120
+pay.hbuas.edu.cn.	86400	IN	A	111.177.117.96
+pe.hbuas.edu.cn.	86400	IN	A	111.177.117.91
+portal.hbuas.edu.cn.	86400	IN	A	111.177.117.105
+qcxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+qyjy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+rsc.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+shxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+sjc.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+songyu.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+sslvpn.hbuas.edu.cn.	86400	IN	A	111.177.117.119
+stxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+tjxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+tsg.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+tyxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+tzb.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+vpn.hbuas.edu.cn.	86400	IN	A	111.177.117.122
+wdxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+web.hbuas.edu.cn.	86400	IN	A	111.177.117.82
+www.hbuas.edu.cn.	86400	IN	A	111.177.117.121
+www1.hbuas.edu.cn.	86400	IN	A	111.177.117.88
+www2.hbuas.edu.cn.	86400	IN	A	111.177.117.118
+wxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+wyxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+xcb.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+xdhelp.hbuas.edu.cn.	86400	IN	A	111.177.117.99
+xgc.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+xybtys.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+xydam.hbuas.edu.cn.	86400	IN	A	111.177.117.99
+xyh.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+xymhr.hbuas.edu.cn.	86400	IN	A	111.177.117.118
+xysy.hbuas.edu.cn.	86400	IN	A	111.177.117.118
+xyszys.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+yb.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+yjsc.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+yxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+yyxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+zc.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+zfxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+zhxy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+zpc.hbuas.edu.cn.	86400	IN	CNAME	jwc.hbuas.edu.cn.
+zpzx.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+zs.hbuas.edu.cn.	86400	IN	A	111.177.117.121
+zt-ebqy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+zt-hjlm.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+zt-info.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+zt-lzjz.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+zt-sjd.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+zt-tsgdq.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+zt-xlfz.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+zt-zhsx.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+zt-zxqy.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+zzb.hbuas.edu.cn.	86400	IN	CNAME	www1.hbuas.edu.cn.
+hbuas.edu.cn.		86400	IN	SOA	dns.hbuas.edu.cn. root.dns.hbuas.edu.cn. 201809201 300 60 38400 43200
+;; Query time: 28 msec
+;; SERVER: 111.177.117.102#53(111.177.117.102)
+;; WHEN: Thu Oct 18 10:23:11 CST 2018
+;; XFR size: 100 records (messages 1, bytes 2069)
+

@@ -1,0 +1,119 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @210.31.103.254 AXFR tit.edu.cn
+; (1 server found)
+;; global options: +cmd
+tit.edu.cn.		3600	IN	SOA	dns.tit.edu.cn. hostmaster.tit.edu.cn. 2018101101 3600 900 604800 10800
+tit.edu.cn.		3600	IN	MX	10 mail.tit.edu.cn.
+tit.edu.cn.		3600	IN	A	210.31.101.1
+tit.edu.cn.		3600	IN	NS	dns3.tit.edu.cn.
+tit.edu.cn.		3600	IN	NS	dns2.tit.edu.cn.
+60xq.tit.edu.cn.	3600	IN	CNAME	websvr3.tit.edu.cn.
+cacenter.tit.edu.cn.	3600	IN	CNAME	cernet.tit.edu.cn.
+ceptp.tit.edu.cn.	3600	IN	A	45.40.241.187
+chemlab.tit.edu.cn.	3600	IN	A	210.31.103.20
+cisco.tit.edu.cn.	3600	IN	NS	dns3.tit.edu.cn.
+cisco.tit.edu.cn.	3600	IN	NS	dns2.tit.edu.cn.
+clgcx.tit.edu.cn.	3600	IN	A	210.31.101.5
+clx.tit.edu.cn.		3600	IN	CNAME	websvr1.tit.edu.cn.
+clxlab.tit.edu.cn.	3600	IN	A	210.31.101.12
+cypx.tit.edu.cn.	3600	IN	CNAME	cypx-tit-edu-cn.cname.saaswaf.com.
+dag.tit.edu.cn.		3600	IN	CNAME	websvr1.tit.edu.cn.
+ddh2.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+disk.tit.edu.cn.	3600	IN	A	210.31.101.3
+dns1.tit.edu.cn.	3600	IN	A	210.31.100.4
+dns2.tit.edu.cn.	3600	IN	A	210.31.103.254
+dns3.tit.edu.cn.	3600	IN	A	210.31.103.253
+dqwrkz.tit.edu.cn.	3600	IN	CNAME	jpksvr1.tit.edu.cn.
+dwgk.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+dwjsgzb.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+dwxcb.tit.edu.cn.	3600	IN	CNAME	dwxcb-tit-edu-cn.cname.saaswaf.com.
+dxsx.tit.edu.cn.	3600	IN	CNAME	jpksvr1.tit.edu.cn.
+dxwl.tit.edu.cn.	3600	IN	CNAME	websvr3.tit.edu.cn.
+dzbgs.tit.edu.cn.	3600	IN	CNAME	dzbgs-tit-edu-cn.cname.saaswaf.com.
+fxx.tit.edu.cn.		3600	IN	CNAME	websvr1.tit.edu.cn.
+fzfg.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+gcxlzx.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+gh.tit.edu.cn.		3600	IN	CNAME	websvr1.tit.edu.cn.
+ghjsc.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+gjc.tit.edu.cn.		3600	IN	CNAME	websvr1.tit.edu.cn.
+glis.tit.edu.cn.	3600	IN	A	210.31.101.16
+hgx.tit.edu.cn.		3600	IN	CNAME	websvr2.tit.edu.cn.
+hgylgxk.tit.edu.cn.	3600	IN	CNAME	jpksvr1.tit.edu.cn.
+hqc.tit.edu.cn.		3600	IN	CNAME	websvr1.tit.edu.cn.
+hxyhg.tit.edu.cn.	3600	IN	CNAME	websvr2.tit.edu.cn.
+hxyhgx.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+jdsjpkc.tit.edu.cn.	3600	IN	A	210.31.103.20
+jgx.tit.edu.cn.		3600	IN	CNAME	websvr2.tit.edu.cn.
+jjyglx.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+jpkc.tit.edu.cn.	3600	IN	A	210.31.103.20
+jpksvr1.tit.edu.cn.	3600	IN	A	210.31.103.20
+jsjcpp.tit.edu.cn.	3600	IN	CNAME	jpksvr1.tit.edu.cn.
+jsjx.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+jw.tit.edu.cn.		3600	IN	CNAME	websvr1.tit.edu.cn.
+jwc.tit.edu.cn.		3600	IN	CNAME	jwc-tit-edu-cn.cname.saaswaf.com.
+jwcwx.tit.edu.cn.	3600	IN	A	210.31.101.18
+jwsy.tit.edu.cn.	3600	IN	A	210.31.101.2
+jwxt.tit.edu.cn.	3600	IN	A	210.31.101.3
+jxms.tit.edu.cn.	3600	IN	A	210.31.0.10
+jxx.tit.edu.cn.		3600	IN	CNAME	websvr1.tit.edu.cn.
+jysxdtl.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+jyw.tit.edu.cn.		3600	IN	CNAME	jyw-tit-edu-cn.cname.saaswaf.com.
+lib.tit.edu.cn.		3600	IN	CNAME	websvr1.tit.edu.cn.
+ltc.tit.edu.cn.		3600	IN	CNAME	websvr1.tit.edu.cn.
+lxx.tit.edu.cn.		3600	IN	CNAME	websvr1.tit.edu.cn.
+mail.tit.edu.cn.	3600	IN	A	210.31.101.4
+marxgxk.tit.edu.cn.	3600	IN	CNAME	jpksvr1.tit.edu.cn.
+mx.tit.edu.cn.		3600	IN	A	210.31.103.252
+pjc.tit.edu.cn.		3600	IN	CNAME	websvr1.tit.edu.cn.
+pthxgxk.tit.edu.cn.	3600	IN	CNAME	websvr2.tit.edu.cn.
+qj.tit.edu.cn.		3600	IN	CNAME	t-zw.expoon.com.
+rsc.tit.edu.cn.		3600	IN	CNAME	rsc-tit-edu-cn.cname.saaswaf.com.
+sjysx.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+sslvpn.tit.edu.cn.	3600	IN	A	218.26.97.250
+sxzzjyztw.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+szjxyjb.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+test1.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+test2.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+testweb.tit.edu.cn.	3600	IN	CNAME	websvr2.tit.edu.cn.
+tgsjc.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+tgtyx.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+tgxlzx.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+tsg.tit.edu.cn.		3600	IN	A	210.31.103.25
+tsgzw.tit.edu.cn.	3600	IN	A	210.31.101.16
+twks.tit.edu.cn.	3600	IN	A	39.106.115.10
+tyb.tit.edu.cn.		3600	IN	CNAME	websvr2.tit.edu.cn.
+tygyxsc.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+websvr1.tit.edu.cn.	3600	IN	A	210.31.101.1
+websvr2.tit.edu.cn.	3600	IN	A	210.31.101.5
+websvr3.tit.edu.cn.	3600	IN	A	210.31.101.7
+wlyxxzx.tit.edu.cn.	3600	IN	CNAME	websvr2.tit.edu.cn.
+wlzx.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+www.tit.edu.cn.		3600	IN	CNAME	tit-edu-cn.cname.saaswaf.com.
+WWW1.tit.edu.cn.	3600	IN	A	210.31.100.21
+WWW2.tit.edu.cn.	3600	IN	A	210.31.100.41
+www3.tit.edu.cn.	3600	IN	A	210.31.101.1
+www4.tit.edu.cn.	3600	IN	A	210.31.101.1
+wyx.tit.edu.cn.		3600	IN	CNAME	websvr1.tit.edu.cn.
+xjjc.tit.edu.cn.	3600	IN	CNAME	websvr2.tit.edu.cn.
+xlgl.tit.edu.cn.	3600	IN	A	210.31.101.15
+xlzx.tit.edu.cn.	3600	IN	A	210.31.103.21
+XSC.tit.edu.cn.		3600	IN	A	210.31.103.22
+xwgk.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+xxtlzt.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+xxzx.tit.edu.cn.	3600	IN	A	59.49.33.179
+xyh.tit.edu.cn.		3600	IN	A	210.31.103.20
+yjy.tit.edu.cn.		3600	IN	CNAME	u.bysjy.com.cn.
+ykt.tit.edu.cn.		3600	IN	CNAME	websvr2.tit.edu.cn.
+ymd.tit.edu.cn.		3600	IN	CNAME	websvr1.tit.edu.cn.
+ytw.tit.edu.cn.		3600	IN	CNAME	websvr1.tit.edu.cn.
+zcc.tit.edu.cn.		3600	IN	CNAME	websvr1.tit.edu.cn.
+zdhx.tit.edu.cn.	3600	IN	CNAME	websvr1.tit.edu.cn.
+zsxx.tit.edu.cn.	3600	IN	CNAME	zsxx-tit-edu-cn.cname.saaswaf.com.
+zwxt.tit.edu.cn.	3600	IN	A	210.31.101.16
+zzb.tit.edu.cn.		3600	IN	CNAME	websvr1.tit.edu.cn.
+tit.edu.cn.		3600	IN	SOA	dns.tit.edu.cn. hostmaster.tit.edu.cn. 2018101101 3600 900 604800 10800
+;; Query time: 22 msec
+;; SERVER: 210.31.103.254#53(210.31.103.254)
+;; WHEN: Thu Oct 18 10:23:48 CST 2018
+;; XFR size: 110 records (messages 1, bytes 2437)
+

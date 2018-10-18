@@ -1,0 +1,52 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @210.37.24.99 AXFR hainan.edu.cn
+; (1 server found)
+;; global options: +cmd
+hainan.edu.cn.		86400	IN	SOA	localhost.hainan.edu.cn. root.localhost. 20171016 86400 3600 604800 10800
+hainan.edu.cn.		86400	IN	NS	ns0.hainan.edu.cn.
+hainan.edu.cn.		86400	IN	A	210.37.24.4
+baoting.hainan.edu.cn.	86400	IN	A	202.100.252.147
+www.baoting.hainan.edu.cn. 86400 IN	A	202.100.252.147
+bs.hainan.edu.cn.	86400	IN	A	221.182.232.218
+www.bs.hainan.edu.cn.	86400	IN	A	221.182.232.218
+cj.hainan.edu.cn.	86400	IN	A	202.100.252.163
+www.cj.hainan.edu.cn.	86400	IN	A	202.100.252.163
+djg.hainan.edu.cn.	86400	IN	A	202.100.252.138
+www.djg.hainan.edu.cn.	86400	IN	A	202.100.252.138
+dn1.hainan.edu.cn.	86400	IN	A	210.37.24.99
+dz.hainan.edu.cn.	86400	IN	A	218.93.250.18
+www.dz.hainan.edu.cn.	86400	IN	A	218.93.250.18
+gb.hainan.edu.cn.	86400	IN	A	202.100.252.179
+www.gb.hainan.edu.cn.	86400	IN	A	202.100.252.179
+ggw.hainan.edu.cn.	86400	IN	A	202.100.252.147
+www.ggw.hainan.edu.cn.	86400	IN	A	202.100.252.147
+gis.hainan.edu.cn.	86400	IN	A	210.37.26.174
+hnxj.hainan.edu.cn.	86400	IN	A	210.37.24.34
+jiaoshi.hainan.edu.cn.	86400	IN	A	210.37.26.171
+jycy.hainan.edu.cn.	86400	IN	A	202.100.252.170
+jzfp.hainan.edu.cn.	86400	IN	A	202.100.252.171
+ld.hainan.edu.cn.	86400	IN	A	202.100.252.174
+www.ld.hainan.edu.cn.	86400	IN	A	202.100.252.174
+lg.hainan.edu.cn.	86400	IN	A	202.100.252.139
+www.lg.hainan.edu.cn.	86400	IN	A	202.100.252.139
+lsjkoa.hainan.edu.cn.	86400	IN	A	59.49.185.249
+media.hainan.edu.cn.	86400	IN	A	210.37.26.173
+ns0.hainan.edu.cn.	86400	IN	A	210.37.24.99
+qz.hainan.edu.cn.	86400	IN	A	202.100.252.141
+www.qz.hainan.edu.cn.	86400	IN	A	202.100.252.141
+schoolhouse.hainan.edu.cn. 86400 IN	A	210.37.26.172
+tyrz.hainan.edu.cn.	86400	IN	A	210.37.26.168
+tyyh.hainan.edu.cn.	86400	IN	A	210.37.26.167
+wn.hainan.edu.cn.	86400	IN	A	218.77.129.214
+www.wn.hainan.edu.cn.	86400	IN	A	218.77.129.214
+www.hainan.edu.cn.	86400	IN	A	210.37.24.4
+xgk.hainan.edu.cn.	86400	IN	A	36.101.208.125
+xgk2.hainan.edu.cn.	86400	IN	A	36.101.208.125
+xq-cas.hainan.edu.cn.	86400	IN	A	210.37.26.161
+xqjy.hainan.edu.cn.	86400	IN	A	210.37.26.162
+hainan.edu.cn.		86400	IN	SOA	localhost.hainan.edu.cn. root.localhost. 20171016 86400 3600 604800 10800
+;; Query time: 102 msec
+;; SERVER: 210.37.24.99#53(210.37.24.99)
+;; WHEN: Thu Oct 18 10:22:21 CST 2018
+;; XFR size: 43 records (messages 1, bytes 960)
+

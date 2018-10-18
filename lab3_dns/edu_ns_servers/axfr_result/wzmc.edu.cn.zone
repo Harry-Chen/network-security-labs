@@ -1,0 +1,28 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @122.228.158.110 AXFR wzmc.edu.cn
+; (1 server found)
+;; global options: +cmd
+wzmc.edu.cn.		86400	IN	SOA	dns1.wzmc.edu.cn. root.wzmc.edu.cn. 2017093001 3600 900 604800 86400
+wzmc.edu.cn.		86400	IN	NS	dns1.wzmc.edu.cn.
+wzmc.edu.cn.		86400	IN	NS	dns4.wzmc.edu.cn.
+wzmc.edu.cn.		86400	IN	MX	5 mx-wzmc-edu-cn.icoremail.net.
+wzmc.edu.cn.		86400	IN	MX	10 mx.wzmc.edu.cn.
+wzmc.edu.cn.		86400	IN	TXT	"v=spf1 ip4:122.228.158.101 -all"
+dns1.wzmc.edu.cn.	86400	IN	A	59.79.168.100
+dns4.wzmc.edu.cn.	86400	IN	A	122.228.158.110
+hr.wzmc.edu.cn.		86400	IN	A	172.18.8.6
+mail.wzmc.edu.cn.	86400	IN	A	122.228.158.101
+mx.wzmc.edu.cn.		86400	IN	A	122.228.158.101
+my.wzmc.edu.cn.		86400	IN	A	172.18.8.6
+oa.wzmc.edu.cn.		86400	IN	A	172.18.8.5
+pop3.wzmc.edu.cn.	86400	IN	A	122.228.158.101
+smtp.wzmc.edu.cn.	86400	IN	A	122.228.158.101
+vpn.wzmc.edu.cn.	86400	IN	A	61.153.27.177
+www.wzmc.edu.cn.	86400	IN	A	122.228.158.104
+wwww.wzmc.edu.cn.	86400	IN	A	61.153.27.176
+wzmc.edu.cn.		86400	IN	SOA	dns1.wzmc.edu.cn. root.wzmc.edu.cn. 2017093001 3600 900 604800 86400
+;; Query time: 38 msec
+;; SERVER: 122.228.158.110#53(122.228.158.110)
+;; WHEN: Thu Oct 18 10:24:40 CST 2018
+;; XFR size: 19 records (messages 1, bytes 480)
+

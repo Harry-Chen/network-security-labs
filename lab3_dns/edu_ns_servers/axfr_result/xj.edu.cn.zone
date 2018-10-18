@@ -1,0 +1,27 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @210.26.230.1 AXFR xj.edu.cn
+; (1 server found)
+;; global options: +cmd
+xj.edu.cn.		86400	IN	SOA	ns.xj.edu.cn. root.xj.edu.cn. 2015091001 3600 600 86400 3600
+xj.edu.cn.		86400	IN	NS	ns.xj.edu.cn.
+bi.xj.edu.cn.		86400	IN	A	210.26.230.200
+deploy.xj.edu.cn.	86400	IN	A	210.26.230.200
+eis.xj.edu.cn.		86400	IN	A	210.26.230.200
+ess.xj.edu.cn.		86400	IN	A	210.26.230.200
+file.xj.edu.cn.		86400	IN	A	210.26.230.200
+fwpt.xj.edu.cn.		86400	IN	A	210.26.230.200
+gis.xj.edu.cn.		86400	IN	A	210.26.230.4
+media.xj.edu.cn.	86400	IN	A	210.26.230.5
+member.xj.edu.cn.	86400	IN	A	210.26.230.200
+ns.xj.edu.cn.		86400	IN	A	210.26.230.1
+oa.xj.edu.cn.		86400	IN	A	210.26.230.200
+passport.xj.edu.cn.	86400	IN	A	210.26.230.200
+schoolhouse.xj.edu.cn.	86400	IN	A	210.26.230.6
+www.xj.edu.cn.		86400	IN	A	210.26.230.72
+xyaq.xj.edu.cn.		86400	IN	A	210.26.230.11
+xj.edu.cn.		86400	IN	SOA	ns.xj.edu.cn. root.xj.edu.cn. 2015091001 3600 600 86400 3600
+;; Query time: 51 msec
+;; SERVER: 210.26.230.1#53(210.26.230.1)
+;; WHEN: Thu Oct 18 10:23:59 CST 2018
+;; XFR size: 18 records (messages 1, bytes 439)
+

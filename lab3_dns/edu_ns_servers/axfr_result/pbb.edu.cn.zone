@@ -1,0 +1,108 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @211.71.128.30 AXFR pbb.edu.cn
+; (1 server found)
+;; global options: +cmd
+pbb.edu.cn.		3600	IN	SOA	dns2.col.edu.cn. pbb.edu.cn. 2015112800 3600 900 3600 3600
+pbb.edu.cn.		86400	IN	TXT	"v=spf1 include:spf.163.com ~all"
+pbb.edu.cn.		3600	IN	MX	10 mx.ym.163.com.
+pbb.edu.cn.		3600	IN	NS	dns.col.edu.cn.
+pbb.edu.cn.		3600	IN	NS	dns2.col.edu.cn.
+#anteng.pbb.edu.cn.	3600	IN	A	211.68.120.245
+#bfsu.pbb.edu.cn.	3600	IN	A	222.28.255.248
+#bict.pbb.edu.cn.	3600	IN	A	211.71.97.27
+#blcu.pbb.edu.cn.	3600	IN	A	222.28.80.11
+#blog.pbb.edu.cn.	3600	IN	A	58.207.63.17
+#bstu.pbb.edu.cn.	3600	IN	A	219.242.93.18
+#buaa.pbb.edu.cn.	3600	IN	A	58.195.15.130
+#buct.pbb.edu.cn.	3600	IN	A	202.4.130.77
+#card.pbb.edu.cn.	3600	IN	A	125.46.31.173
+#card.pbb.edu.cn.	3600	IN	A	218.28.242.141
+#carriers.pbb.edu.cn.	3600	IN	A	218.28.242.141
+#cdxy.pbb.edu.cn.	3600	IN	A	58.194.32.20
+#cdxy.pbb.edu.cn.	3600	IN	A	222.19.63.244
+#cug.pbb.edu.cn.	3600	IN	A	219.242.176.2
+#dev.pbb.edu.cn.	3600	IN	A	219.224.97.155
+#dev2.pbb.edu.cn.	3600	IN	A	219.224.97.119
+#dj.pbb.edu.cn.		3600	IN	A	101.4.63.166
+#eflowtest.pbb.edu.cn.	3600	IN	A	58.207.0.133
+#eos.pbb.edu.cn.	3600	IN	A	58.207.0.244
+#fjmobile.pbb.edu.cn.	3600	IN	A	58.207.252.7
+#fjt.pbb.edu.cn.	3600	IN	A	59.56.172.196
+#hd.pbb.edu.cn.		3600	IN	A	101.4.63.166
+#hebmu.pbb.edu.cn.	3600	IN	A	202.206.48.81
+#hebtu.pbb.edu.cn.	3600	IN	A	219.226.239.241
+#hlju.pbb.edu.cn.	3600	IN	A	58.194.0.5
+#hrbmu.pbb.edu.cn.	3600	IN	A	58.194.120.3
+#hue.pbb.edu.cn.	3600	IN	A	58.195.4.1
+#isatap.pbb.edu.cn.	3600	IN	A	58.207.1.6
+#jybxq.pbb.edu.cn.	3600	IN	A	58.207.2.254
+#lns.pbb.edu.cn.	3600	IN	A	58.207.255.125
+#lnscnc.pbb.edu.cn.	3600	IN	A	58.207.127.25
+#lnsctc.pbb.edu.cn.	3600	IN	A	58.207.63.41
+#nhic.pbb.edu.cn.	3600	IN	A	58.194.8.104
+#nxu.pbb.edu.cn.	3600	IN	A	202.201.128.84
+#office.pbb.edu.cn.	3600	IN	A	211.68.120.3
+#ouc.pbb.edu.cn.	3600	IN	A	211.87.128.188
+#ouc2.pbb.edu.cn.	3600	IN	A	211.87.141.251
+#ovirt.pbb.edu.cn.	3600	IN	A	58.207.255.125
+#qau.pbb.edu.cn.	3600	IN	A	58.195.136.3
+#rad2.pbb.edu.cn.	3600	IN	A	219.242.176.2
+#rad3.pbb.edu.cn.	3600	IN	A	192.168.1.5
+#ruijie.pbb.edu.cn.	3600	IN	A	211.68.120.225
+#sbs.pbb.edu.cn.	3600	IN	A	219.220.247.102
+#sbs2.pbb.edu.cn.	3600	IN	A	219.220.247.102
+#sdfi2.pbb.edu.cn.	3600	IN	A	123.232.100.111
+#sdju.pbb.edu.cn.	3600	IN	A	58.194.73.121
+#sdufe2.pbb.edu.cn.	3600	IN	A	123.232.100.111
+#seds.pbb.edu.cn.	3600	IN	A	211.68.120.3
+#selfsrv.pbb.edu.cn.	3600	IN	A	58.207.252.44
+#shcemt.pbb.edu.cn.	3600	IN	A	58.194.73.126
+#shisu.pbb.edu.cn.	3600	IN	A	202.121.97.254
+#shsj.pbb.edu.cn.	3600	IN	A	211.80.111.197
+#sicnu.pbb.edu.cn.	3600	IN	A	222.19.63.241
+#solarwinds.pbb.edu.cn.	3600	IN	A	211.71.128.3
+#speedtest.pbb.edu.cn.	3600	IN	A	125.46.31.133
+#staff.pbb.edu.cn.	3600	IN	A	58.207.63.49
+#sxnu.pbb.edu.cn.	3600	IN	A	202.207.160.31
+#syau.pbb.edu.cn.	3600	IN	A	58.194.32.20
+#teredo.pbb.edu.cn.	3600	IN	A	58.207.2.6
+#test.pbb.edu.cn.	3600	IN	A	219.224.97.120
+#tjtc.pbb.edu.cn.	3600	IN	A	58.194.96.41
+#tjtc2.pbb.edu.cn.	3600	IN	A	58.194.96.42
+#tjutcm.pbb.edu.cn.	3600	IN	A	202.113.168.253
+#tyut.pbb.edu.cn.	3600	IN	A	219.226.78.8
+#whut.pbb.edu.cn.	3600	IN	A	218.197.120.6
+#xmu.pbb.edu.cn.	3600	IN	A	121.192.178.186
+#zzuli.pbb.edu.cn.	3600	IN	A	58.207.255.38
+cb.pbb.edu.cn.		3600	IN	A	58.207.252.2
+cbtest.pbb.edu.cn.	3600	IN	A	58.207.252.8
+cbtry.pbb.edu.cn.	3600	IN	A	58.207.252.2
+fjnu.pbb.edu.cn.	3600	IN	A	210.34.32.9
+hust.pbb.edu.cn.	3600	IN	CNAME	wuhan.pbb.edu.cn.
+movie.hust.pbb.edu.cn.	3600	IN	A	218.199.101.246
+hust2.pbb.edu.cn.	3600	IN	A	218.199.111.87
+#p.jybxq.pbb.edu.cn.	3600	IN	A	58.207.2.254
+#sbs.lns.pbb.edu.cn.	3600	IN	A	58.207.30.33
+mail.pbb.edu.cn.	3600	IN	CNAME	ym.163.com.
+manager.pbb.edu.cn.	3600	IN	A	58.207.252.6
+nic.pbb.edu.cn.		3600	IN	A	219.242.176.2
+nic-idn.pbb.edu.cn.	3600	IN	A	219.242.176.2
+ns.pbb.edu.cn.		3600	IN	A	211.71.128.6
+partner.pbb.edu.cn.	3600	IN	A	58.207.252.3
+sdfi.pbb.edu.cn.	3600	IN	A	58.195.31.254
+sdufe.pbb.edu.cn.	3600	IN	A	58.195.31.254
+wuhan.pbb.edu.cn.	3600	IN	A	218.199.111.26
+www.pbb.edu.cn.		3600	IN	A	58.207.252.11
+ytnc.pbb.edu.cn.	3600	IN	A	58.194.210.8
+portal.ytnc.pbb.edu.cn.	3600	IN	A	10.0.2.5
+ytu.pbb.edu.cn.		3600	IN	A	219.218.154.252
+portal.ytu.pbb.edu.cn.	3600	IN	A	219.218.154.250
+zb.pbb.edu.cn.		3600	IN	A	58.207.252.11
+#lns.zzuli.pbb.edu.cn.	3600	IN	A	58.207.127.17
+#lns.zzuli.pbb.edu.cn.	3600	IN	A	58.207.127.25
+pbb.edu.cn.		3600	IN	SOA	dns2.col.edu.cn. pbb.edu.cn. 2015112800 3600 900 3600 3600
+;; Query time: 1 msec
+;; SERVER: 211.71.128.30#53(211.71.128.30)
+;; WHEN: Thu Oct 18 10:23:36 CST 2018
+;; XFR size: 99 records (messages 1, bytes 2281)
+

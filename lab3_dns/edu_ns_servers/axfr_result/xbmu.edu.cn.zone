@@ -1,0 +1,67 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @210.26.0.10 AXFR xbmu.edu.cn
+; (1 server found)
+;; global options: +cmd
+xbmu.edu.cn.		86400	IN	SOA	ns1.xbmu.edu.cn. root.xbmu.edu.cn. 2017122301 86400 3600 604800 10800
+xbmu.edu.cn.		86400	IN	NS	ns1.xbmu.edu.cn.
+xbmu.edu.cn.		86400	IN	NS	ns2.xbmu.edu.cn.
+xbmu.edu.cn.		86400	IN	NS	ns3.xbmu.edu.cn.
+xbmu.edu.cn.		86400	IN	A	127.0.0.1
+xbmu.edu.cn.		86400	IN	AAAA	::1
+xbmu.edu.cn.		86400	IN	MX	10 mail.xbmu.edu.cn.
+3600.xbmu.edu.cn.	86400	IN	TXT	"v=spf1 ip4:210.26.0.50 -all"
+_dmarc.xbmu.edu.cn.	3600	IN	TXT	"v=DMARC1; p=none; fo=1; ruf=mailto:dmarc@qiye.163.com; rua=mailto:dmarc_report@qiye.163.com"
+bb.xbmu.edu.cn.		86400	IN	A	210.26.0.28
+cms.xbmu.edu.cn.	86400	IN	A	210.26.0.20
+cmsx.xbmu.edu.cn.	86400	IN	A	210.26.0.20
+dc.xbmu.edu.cn.		86400	IN	A	210.26.0.5
+disk.xbmu.edu.cn.	86400	IN	A	210.26.0.88
+dwzy.xbmu.edu.cn.	86400	IN	A	210.26.0.20
+jjxy.xbmu.edu.cn.	86400	IN	A	210.26.15.80
+jwc.xbmu.edu.cn.	86400	IN	A	210.26.0.17
+jxjy.xbmu.edu.cn.	86400	IN	A	211.144.149.101
+jxjyars.xbmu.edu.cn.	86400	IN	A	211.144.149.157
+jxjyfile.xbmu.edu.cn.	86400	IN	A	211.144.154.7
+jxjylms.xbmu.edu.cn.	86400	IN	A	211.144.149.167
+jxjymanager.xbmu.edu.cn. 86400	IN	A	211.144.154.7
+jxjystudent.xbmu.edu.cn. 86400	IN	A	211.144.154.7
+jxjyxq.xbmu.edu.cn.	86400	IN	A	211.144.149.77
+lib.xbmu.edu.cn.	86400	IN	A	210.26.5.7
+mail.xbmu.edu.cn.	86400	IN	A	210.26.0.50
+mailtest.xbmu.edu.cn.	3600	IN	TXT	"TXT v=spf1 include:spf.163.com -all"
+mailtest.xbmu.edu.cn.	3600	IN	MX	5 hzmx01.mxmail.netease.com.
+mailtest.xbmu.edu.cn.	3600	IN	MX	10 hzmx02.mxmail.netease.com.
+mail.mailtest.xbmu.edu.cn. 3600	IN	CNAME	mailhz.qiye.163.com.
+mydomain.mailtest.xbmu.edu.cn. 3600 IN	TXT	"4TcFKNsD3JZMke8AY2btegd5CWvjMjQH"
+pop.mailtest.xbmu.edu.cn. 3600	IN	CNAME	pophm.qiye.163.com.
+smtp.mailtest.xbmu.edu.cn. 3600	IN	CNAME	smtphm.qiye.163.com.
+mdzs.xbmu.edu.cn.	86400	IN	A	210.26.14.230
+mt.xbmu.edu.cn.		86400	IN	A	210.26.5.49
+mtlab.xbmu.edu.cn.	86400	IN	A	210.26.5.50
+ns.xbmu.edu.cn.		86400	IN	A	210.26.0.10
+ns1.xbmu.edu.cn.	86400	IN	A	210.26.0.10
+ns2.xbmu.edu.cn.	86400	IN	A	60.165.39.130
+ns3.xbmu.edu.cn.	86400	IN	A	124.152.218.50
+nsa.xbmu.edu.cn.	86400	IN	A	10.130.5.8
+pay.xbmu.edu.cn.	86400	IN	A	210.26.0.95
+plat.xbmu.edu.cn.	86400	IN	A	210.26.14.230
+smtp.xbmu.edu.cn.	86400	IN	A	210.26.0.50
+uyghur.xbmu.edu.cn.	86400	IN	A	210.26.15.85
+vpn.xbmu.edu.cn.	86400	IN	A	61.178.103.189
+wgyxy.xbmu.edu.cn.	86400	IN	A	210.26.15.81
+www.xbmu.edu.cn.	86400	IN	CNAME	f6a2daa6223d132b.360safedns.com.
+youthapp.xbmu.edu.cn.	86400	IN	A	210.26.0.114
+zb.xbmu.edu.cn.		86400	IN	A	210.26.14.143
+zb-client.xbmu.edu.cn.	86400	IN	A	210.26.14.143
+zb-content.xbmu.edu.cn.	86400	IN	A	210.26.14.143
+zb-manage.xbmu.edu.cn.	86400	IN	A	210.26.14.143
+zb-user.xbmu.edu.cn.	86400	IN	A	210.26.14.143
+zy.xbmu.edu.cn.		86400	IN	A	210.26.15.251
+zyvpn.xbmu.edu.cn.	86400	IN	A	210.26.15.250
+zzb.xbmu.edu.cn.	86400	IN	A	210.26.0.24
+xbmu.edu.cn.		86400	IN	SOA	ns1.xbmu.edu.cn. root.xbmu.edu.cn. 2017122301 86400 3600 604800 10800
+;; Query time: 84 msec
+;; SERVER: 210.26.0.10#53(210.26.0.10)
+;; WHEN: Thu Oct 18 10:24:06 CST 2018
+;; XFR size: 58 records (messages 1, bytes 1542)
+
