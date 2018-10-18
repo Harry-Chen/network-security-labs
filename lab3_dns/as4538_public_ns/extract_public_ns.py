@@ -10,7 +10,7 @@ def process_raw_result(s):
     correct_ip = []
     wrong_ip = []
     error_ip = []
-    regex="""(\d+\.\d+\.\d+\.\d+)\nHost is up.\n\nHost script results:\n\|_dns-query: (.*?)\n"""
+    regex = r'(\d+\.\d+\.\d+\.\d+)\nHost is up.\n\nHost script results:\n\|_dns-query: (.*?)\n'
     for (ip, response) in re.findall(regex, s):
         if response == '166.111.4.79': # correct address
             correct_ip.append(ip)
@@ -34,10 +34,10 @@ for file in file_list:
         correct.extend(correct_ip)
         wrong.extend(wrong_ip)
         error.extend(error_ip)
-        print("File {} contains {} correct results, {} wrong results and {} error results".format(file, len(correct_ip), len(wrong_ip), len(error_ip)))
+        print('File {} contains {} correct results, {} wrong results and {} error results'.format(file, len(correct_ip), len(wrong_ip), len(error_ip)))
 
 
-print("All results contains {} correct results, {} wrong results and {} error results".format(len(correct), len(wrong), len(error)))
+print('All results contains {} correct results, {} wrong results and {} error results'.format(len(correct), len(wrong), len(error)))
 
 
 with open('as4538_public_ns.txt', 'w') as f:
