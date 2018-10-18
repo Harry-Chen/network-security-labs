@@ -2,6 +2,7 @@ def read_zonefile(filename):
     with open(filename, 'r') as f:
         for line in f:
             name, ttl, _, type, value = line.split(None, 4)
+            # strip the last '.' of FQDN
             name = name[:-1]
             value = value.rstrip()[:-1]
             yield name, ttl, type, value
@@ -15,12 +16,6 @@ for name, ttl, type, value in read_zonefile('data/edu_domain_ns.txt'):
     else:
         name_servers[name].add(value)
 
-total = 0
-count = 0
-for name, servers in name_servers.items():
-    total += 1
-    if len(servers) == 1:
-        print(name, 'has only ONE name server:', list(servers)[0])
-        count += 1
+for name, servers in sorted(name_servers.items()):
+    print('{}:{}'.format(name, ','.join(servers)))
 
-print(count, 'of', total, 'domain names have only ONE name server!')

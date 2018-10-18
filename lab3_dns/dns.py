@@ -47,9 +47,10 @@ def test_list(cat):
   polluted_names = set()
 
   names = load_names('data/alexa/{}.txt'.format(cat))
-  for name in names:
-    test1(name)
-    test2(name)
+  for i in range(100):
+    for name in names:
+      test1(name)
+      test2(name)
   with open('data/{}_pollute_report.ip.csv'.format(cat), 'w') as f:
     for ip, count in fake_ips.items():
       f.write('{},{}\n'.format(ip, count))
