@@ -58,7 +58,7 @@ def test_list(cat):
     for ttl, count in ttls.items():
       f.write('{},{}\n'.format(ttl, count))
   with open('{}_pollute_report.txt'.format(cat), 'w') as f:
-      f.write('\n'.join(polluted_names) + '\n')
+      f.write('\n'.join(sorted(polluted_names)) + '\n')
 
 def main():
   test_list('global')
