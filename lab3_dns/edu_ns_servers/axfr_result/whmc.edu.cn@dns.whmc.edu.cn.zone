@@ -1,0 +1,55 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @125.220.184.8 AXFR whmc.edu.cn
+; (1 server found)
+;; global options: +cmd
+whmc.edu.cn.		38400	IN	SOA	dns.whmc.edu.cn. net.whmc.edu.cn. 2005090503 10800 3600 604800 38400
+whmc.edu.cn.		38400	IN	NS	dns.whmc.edu.cn.
+whmc.edu.cn.		38400	IN	MX	10 whmc.edu.cn.
+whmc.edu.cn.		38400	IN	MX	10 mail.whmc.edu.cn.
+whmc.edu.cn.		38400	IN	MX	10 pop3.whmc.edu.cn.
+whmc.edu.cn.		38400	IN	MX	10 smtp.whmc.edu.cn.
+by.whmc.edu.cn.		38400	IN	A	59.175.200.6
+byzc.whmc.edu.cn.	38400	IN	A	59.175.200.6
+cb.whmc.edu.cn.		38400	IN	A	59.175.200.6
+col.whmc.edu.cn.	38400	IN	A	59.175.200.6
+dh.whmc.edu.cn.		38400	IN	A	59.175.200.6
+dns.whmc.edu.cn.	38400	IN	A	125.220.184.8
+dw.whmc.edu.cn.		38400	IN	A	59.175.200.6
+en.whmc.edu.cn.		38400	IN	A	59.175.200.6
+gg.whmc.edu.cn.		38400	IN	A	59.175.200.6
+gj.whmc.edu.cn.		38400	IN	A	59.175.200.6
+yb.gk.whmc.edu.cn.	38400	IN	A	59.175.200.14
+gl.whmc.edu.cn.		38400	IN	A	59.175.200.6
+hq.whmc.edu.cn.		38400	IN	A	59.175.200.6
+ilas.whmc.edu.cn.	38400	IN	A	192.168.10.17
+jjy.whmc.edu.cn.	38400	IN	A	59.175.200.6
+jw.whmc.edu.cn.		38400	IN	A	59.175.200.6
+jwgl1.whmc.edu.cn.	38400	IN	A	59.175.200.22
+jwgl2.whmc.edu.cn.	38400	IN	A	59.175.200.23
+jwxt.whmc.edu.cn.	38400	IN	A	59.175.200.15
+jy.whmc.edu.cn.		38400	IN	A	59.175.200.6
+kj.whmc.edu.cn.		38400	IN	A	59.175.200.6
+lib.whmc.edu.cn.	38400	IN	A	59.175.200.6
+mail.whmc.edu.cn.	38400	IN	A	59.175.200.5
+oa.whmc.edu.cn.		38400	IN	A	59.175.200.16
+pj.whmc.edu.cn.		38400	IN	A	59.175.200.6
+rs.whmc.edu.cn.		38400	IN	A	59.175.200.6
+test.whmc.edu.cn.	38400	IN	A	59.175.200.4
+vod.whmc.edu.cn.	38400	IN	A	192.168.10.12
+www.whmc.edu.cn.	38400	IN	A	59.175.200.3
+xg.whmc.edu.cn.		38400	IN	A	59.175.200.6
+jy.xg.whmc.edu.cn.	38400	IN	A	59.175.200.6
+tw.xg.whmc.edu.cn.	38400	IN	A	59.175.200.6
+xl.xg.whmc.edu.cn.	38400	IN	A	59.175.200.6
+xx.whmc.edu.cn.		38400	IN	A	59.175.200.6
+yb.whmc.edu.cn.		38400	IN	A	59.175.200.6
+ys.whmc.edu.cn.		38400	IN	A	59.175.200.6
+yx.whmc.edu.cn.		38400	IN	A	58.53.199.40
+zc.whmc.edu.cn.		38400	IN	A	59.175.200.6
+zs.whmc.edu.cn.		38400	IN	A	59.175.200.7
+whmc.edu.cn.		38400	IN	SOA	dns.whmc.edu.cn. net.whmc.edu.cn. 2005090503 10800 3600 604800 38400
+;; Query time: 20 msec
+;; SERVER: 125.220.184.8#53(125.220.184.8)
+;; WHEN: Fri Oct 19 10:29:44 CST 2018
+;; XFR size: 46 records (messages 1, bytes 959)
+

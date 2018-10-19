@@ -1,0 +1,55 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @211.80.8.1 AXFR sgsw.edu.cn
+; (1 server found)
+;; global options: +cmd
+sgsw.edu.cn.		38400	IN	SOA	dns. lee_qi.foxmail.com. 1267620116 10800 3600 604800 38400
+sgsw.edu.cn.		38400	IN	NS	dns.sgsw.edu.cn.
+app.sgsw.edu.cn.	38400	IN	A	101.230.10.4
+card.sgsw.edu.cn.	38400	IN	A	101.230.10.5
+cia.sgsw.edu.cn.	38400	IN	A	101.230.10.7
+cms.sgsw.edu.cn.	38400	IN	A	101.230.10.5
+cswe.sgsw.edu.cn.	38400	IN	A	101.230.10.6
+cw.sgsw.edu.cn.		38400	IN	A	101.230.10.11
+dns.sgsw.edu.cn.	38400	IN	A	211.80.8.1
+dns2.sgsw.edu.cn.	38400	IN	A	211.80.8.2
+e-learning.sgsw.edu.cn.	38400	IN	A	101.230.10.6
+ebook.sgsw.edu.cn.	38400	IN	A	101.230.10.6
+enonline.sgsw.edu.cn.	38400	IN	A	101.230.10.7
+erp.sgsw.edu.cn.	38400	IN	A	101.230.10.13
+exam.sgsw.edu.cn.	38400	IN	A	101.230.10.7
+icd.sgsw.edu.cn.	38400	IN	A	101.230.10.6
+ighit.sgsw.edu.cn.	38400	IN	A	101.230.10.6
+ighitbbs.sgsw.edu.cn.	38400	IN	A	101.230.10.6
+ighitlms.sgsw.edu.cn.	38400	IN	A	101.230.10.6
+image.sgsw.edu.cn.	38400	IN	A	101.230.10.7
+jd.sgsw.edu.cn.		38400	IN	A	101.230.10.6
+mclass.sgsw.edu.cn.	38400	IN	A	101.230.10.10
+oa.sgsw.edu.cn.		38400	IN	A	101.230.10.13
+online.sgsw.edu.cn.	38400	IN	A	101.230.10.7
+panto.sgsw.edu.cn.	38400	IN	A	101.230.10.12
+pj.sgsw.edu.cn.		38400	IN	A	101.230.10.11
+portal.sgsw.edu.cn.	38400	IN	A	101.230.10.7
+px.sgsw.edu.cn.		38400	IN	A	101.230.10.5
+sf.sgsw.edu.cn.		38400	IN	A	101.230.10.6
+sfx.sgsw.edu.cn.	38400	IN	A	101.230.10.9
+spf.sgsw.edu.cn.	38400	IN	TXT	"v=spf1 all"
+static.sgsw.edu.cn.	38400	IN	A	101.230.10.7
+swwy.sgsw.edu.cn.	38400	IN	A	101.230.10.8
+tycj.sgsw.edu.cn.	38400	IN	A	101.230.10.6
+tyjx.sgsw.edu.cn.	38400	IN	A	101.230.10.6
+vcenter6.sgsw.edu.cn.	38400	IN	A	211.80.8.137
+vpn.sgsw.edu.cn.	38400	IN	A	101.230.10.7
+wap.sgsw.edu.cn.	38400	IN	A	101.230.10.7
+www.sgsw.edu.cn.	38400	IN	A	101.230.10.4
+xlcs.sgsw.edu.cn.	38400	IN	A	101.230.10.5
+xly.sgsw.edu.cn.	38400	IN	A	101.230.10.13
+xq.sgsw.edu.cn.		38400	IN	A	101.230.10.4
+xwgf.sgsw.edu.cn.	38400	IN	A	101.230.10.13
+zs.sgsw.edu.cn.		38400	IN	A	101.230.10.4
+zyk.sgsw.edu.cn.	38400	IN	A	101.230.10.6
+sgsw.edu.cn.		38400	IN	SOA	dns. lee_qi.foxmail.com. 1267620116 10800 3600 604800 38400
+;; Query time: 28 msec
+;; SERVER: 211.80.8.1#53(211.80.8.1)
+;; WHEN: Fri Oct 19 10:29:02 CST 2018
+;; XFR size: 46 records (messages 1, bytes 1051)
+

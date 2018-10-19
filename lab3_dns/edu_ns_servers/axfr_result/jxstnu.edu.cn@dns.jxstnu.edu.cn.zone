@@ -1,0 +1,123 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @210.35.24.2 AXFR jxstnu.edu.cn
+; (1 server found)
+;; global options: +cmd
+jxstnu.edu.cn.		86400	IN	SOA	dns.jxstnu.edu.cn. root.dns.jxstnu.edu.cn. 85 10800 900 604800 86400
+#jxstnu.edu.cn.		86400	IN	MX	10 jxstnu.eyou.cn4e.com.
+jxstnu.edu.cn.		86400	IN	NS	dns.jxstnu.edu.cn.
+jxstnu.edu.cn.		86400	IN	MX	10 mail.jxstnu.edu.cn.
+#cy.jxstnu.edu.cn.	86400	IN	A	210.35.24.26
+#epaper.jxstnu.edu.cn.	86400	IN	A	210.35.24.26
+#home.jxstnu.edu.cn.	86400	IN	A	210.35.24.27
+#jpkc.jxstnu.edu.cn.	86400	IN	A	210.35.24.37
+#jyw.jxstnu.edu.cn.	86400	IN	A	210.35.24.35
+#mail.jxstnu.edu.cn.	86400	IN	A	117.40.44.156
+#moa.jxstnu.edu.cn.	86400	IN	A	117.40.44.152
+#news.jxstnu.edu.cn.	86400	IN	A	210.35.24.26
+#oa.jxstnu.edu.cn.	86400	IN	A	117.40.44.152
+#pic.jxstnu.edu.cn.	86400	IN	A	210.35.24.26
+#pop.jxstnu.edu.cn.	86400	IN	A	117.40.44.156
+#pop3.jxstnu.edu.cn.	86400	IN	A	117.40.44.156
+#smtp.jxstnu.edu.cn.	86400	IN	A	117.40.44.156
+#zsjy.jxstnu.edu.cn.	86400	IN	A	210.35.24.36
+*.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+alumni.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+bayi.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+bwc.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+clxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+cy.jxstnu.edu.cn.	86400	IN	A	117.40.44.152
+dangag.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+demo.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+dffz.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+dmxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+dns.jxstnu.edu.cn.	86400	IN	A	210.35.24.2
+dns2.jxstnu.edu.cn.	86400	IN	A	210.35.24.3
+drug.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+dwzw.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+epaper.jxstnu.edu.cn.	86400	IN	A	117.40.44.152
+fgb.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+finance.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+fxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+fzb.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+gh.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+gjc.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+gjxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+home.jxstnu.edu.cn.	86400	IN	A	210.35.24.27
+houqin.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+hr.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+hxhgxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+jjc.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+jjglxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+jpkc.jxstnu.edu.cn.	86400	IN	A	210.35.24.37
+jwb.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+jwc.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+jwgl.jxstnu.edu.cn.	86400	IN	A	172.18.4.241
+jxcl.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+jxdd.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+jxgd.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+jxjy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+jxsw.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+jxyj.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+jxzj.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+jxzy.jxstnu.edu.cn.	86400	IN	A	172.16.4.17
+jyw.jxstnu.edu.cn.	86400	IN	A	210.35.24.35
+jyxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+jzgcxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+kyc.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+lgxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+lswhxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+ltb.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+lyxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+mail.jxstnu.edu.cn.	86400	IN	A	210.35.24.24
+mlxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+moa.jxstnu.edu.cn.	86400	IN	A	172.18.4.44
+msxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+net.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+news.jxstnu.edu.cn.	86400	IN	A	117.40.44.152
+oa.jxstnu.edu.cn.	86400	IN	A	172.18.4.44
+overseasedu.jxstnu.edu.cn. 86400 IN	A	117.40.44.151
+pic.jxstnu.edu.cn.	86400	IN	A	117.40.44.152
+pop.jxstnu.edu.cn.	86400	IN	A	210.35.24.24
+pop3.jxstnu.edu.cn.	86400	IN	A	210.35.24.24
+rsc.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+sjc.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+sjxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+smkxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+smtp.jxstnu.edu.cn.	86400	IN	A	210.35.24.24
+sxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+tsg.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+tuanwei.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+txxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+tyxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+tzb.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+vir.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+vod.jxstnu.edu.cn.	86400	IN	A	172.16.4.16
+vpn.jxstnu.edu.cn.	86400	IN	A	117.40.44.154
+vpn2.jxstnu.edu.cn.	86400	IN	A	117.40.44.157
+wenxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+wkzx.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+www.jxstnu.edu.cn.	86400	IN	A	117.40.44.150
+wyxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+xb.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+xcb.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+xdjy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+xgb.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+xkb.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+xszz.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+yjs.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+yxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+yyxy.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+zbb.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+zcgl.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+zjc.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+zjjd.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+zsjy.jxstnu.edu.cn.	86400	IN	A	117.40.44.153
+zzb.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+zzs.jxstnu.edu.cn.	86400	IN	A	117.40.44.151
+*.vpn2.jxstnu.edu.nc.	86400	IN	A	117.40.44.157
+jxstnu.edu.cn.		86400	IN	SOA	dns.jxstnu.edu.cn. root.dns.jxstnu.edu.cn. 85 10800 900 604800 86400
+;; Query time: 35 msec
+;; SERVER: 210.35.24.2#53(210.35.24.2)
+;; WHEN: Fri Oct 19 10:28:46 CST 2018
+;; XFR size: 114 records (messages 1, bytes 2478)
+

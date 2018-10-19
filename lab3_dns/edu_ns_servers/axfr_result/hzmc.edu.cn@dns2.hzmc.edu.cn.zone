@@ -1,0 +1,36 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @211.86.0.2 AXFR hzmc.edu.cn
+; (1 server found)
+;; global options: +cmd
+hzmc.edu.cn.		86400	IN	SOA	ns.hzmc.edu.cn. root.ns.hzmc.edu.cn. 2000120104 28800 14400 3600000 86400
+hzmc.edu.cn.		86400	IN	NS	ns.hzmc.edu.cn.
+hzmc.edu.cn.		86400	IN	NS	dns.hzmc.edu.cn.
+hzmc.edu.cn.		86400	IN	A	211.86.0.1
+hzmc.edu.cn.		86400	IN	MX	10 ns.hzmc.edu.cn.
+2017.hzmc.edu.cn.	86400	IN	A	211.86.0.4
+apis.hzmc.edu.cn.	86400	IN	A	211.86.1.130
+authserver.hzmc.edu.cn.	86400	IN	A	211.86.1.130
+dns.hzmc.edu.cn.	86400	IN	A	211.86.0.1
+ehall.hzmc.edu.cn.	86400	IN	A	211.86.1.130
+ehallapp.hzmc.edu.cn.	86400	IN	A	211.86.1.130
+esop.hzmc.edu.cn.	86400	IN	A	211.86.1.130
+ftp.hzmc.edu.cn.	86400	IN	CNAME	dns.hzmc.edu.cn.
+imp.hzmc.edu.cn.	86400	IN	A	211.86.1.130
+www.jwc.hzmc.edu.cn.	86400	IN	A	211.86.1.11
+ky.hzmc.edu.cn.		86400	IN	A	211.86.1.15
+www.lib.hzmc.edu.cn.	86400	IN	A	211.86.3.38
+mdm.hzmc.edu.cn.	86400	IN	A	211.86.1.130
+pwd.hzmc.edu.cn.	86400	IN	A	211.86.1.130
+res.hzmc.edu.cn.	86400	IN	A	211.86.1.130
+rszp.hzmc.edu.cn.	86400	IN	A	211.86.1.151
+www.spdb.hzmc.edu.cn.	86400	IN	A	211.86.0.3
+www.web.hzmc.edu.cn.	86400	IN	A	211.86.0.4
+www.hzmc.edu.cn.	86400	IN	A	211.86.0.4
+www.yzzp.hzmc.edu.cn.	86400	IN	A	211.86.0.8
+www.zwc.hzmc.edu.cn.	86400	IN	A	211.86.2.200
+hzmc.edu.cn.		86400	IN	SOA	ns.hzmc.edu.cn. root.ns.hzmc.edu.cn. 2000120104 28800 14400 3600000 86400
+;; Query time: 12 msec
+;; SERVER: 211.86.0.2#53(211.86.0.2)
+;; WHEN: Fri Oct 19 10:28:20 CST 2018
+;; XFR size: 27 records (messages 1, bytes 630)
+

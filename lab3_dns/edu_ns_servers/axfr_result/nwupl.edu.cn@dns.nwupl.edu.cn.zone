@@ -1,0 +1,143 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @202.200.168.100 AXFR nwupl.edu.cn
+; (1 server found)
+;; global options: +cmd
+nwupl.edu.cn.		3600	IN	SOA	dns.nwupl.edu.cn. admin.nwupl.edu.cn. 2017110101 3600 3600 604800 300
+nwupl.edu.cn.		3600	IN	NS	dns.nwupl.edu.cn.
+nwupl.edu.cn.		3600	IN	MX	5 hzmx01.mxmail.netease.com.
+nwupl.edu.cn.		3600	IN	MX	10 hzmx02.mxmail.netease.com.
+nwupl.edu.cn.		3600	IN	A	202.200.168.101
+nwupl.edu.cn.		3600	IN	TXT	"MS=ms63244322"
+nwupl.edu.cn.		3600	IN	TXT	"v=spf1 include:spf.163.com -all"
+_dmarc.nwupl.edu.cn.	3600	IN	TXT	"v=DMARC1; p=none; fo=1; ruf=mailto:dmarc@qiye.163.com; rua=mailto:dmarc_report@qiye.163.com"
+art.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+bid.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+admin.bid.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+api.bid.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+file.bid.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+bkzn.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+bwc.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+cati.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+cert.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+cloud.nwupl.edu.cn.	3600	IN	A	123.138.101.198
+cw.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+cy.nwupl.edu.cn.	3600	IN	A	123.138.101.203
+dfwx.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+dns.nwupl.edu.cn.	3600	IN	A	202.200.168.100
+ecard.nwupl.edu.cn.	3600	IN	A	123.138.101.201
+en.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+enrol.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+epay.nwupl.edu.cn.	3600	IN	A	123.138.101.200
+fashuo.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+fkdsj.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+fkfxy.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+fli.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+flkx.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+fzgh.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+gaxy.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+gjs.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+gonghui.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+grs.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+gzc.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+hqbzc.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+ihr.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+imap.nwupl.edu.cn.	3600	IN	CNAME	imaphm.qiye.163.com.
+ip.nwupl.edu.cn.	3600	IN	A	123.138.101.206
+ipm.nwupl.edu.cn.	3600	IN	A	123.138.101.207
+iprnc.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+jiangjin.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+jiwei.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+jjc.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+jjfxy.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+jjkfc.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+jjxy.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+job.nwupl.edu.cn.	3600	IN	A	47.91.162.12
+jwc.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+jxcg.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+korean.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+kyc.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+lang.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+law.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+ler.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+lib.nwupl.edu.cn.	3600	IN	A	202.200.174.10
+llc.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+localhost.nwupl.edu.cn.	3600	IN	A	127.0.0.1
+ltc.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+mail.nwupl.edu.cn.	3600	IN	CNAME	mailedu.qiye.163.com.
+mailg.nwupl.edu.cn.	3600	IN	A	202.200.168.97
+mjy.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+msfxy.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+mzb.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+mzzj.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+news.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+nic.nwupl.edu.cn.	3600	IN	A	202.200.170.163
+nt.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+nwsil.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+oa.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+office.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+om.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+opc.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+owvlab.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+pm.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+pop.nwupl.edu.cn.	3600	IN	CNAME	pophm.qiye.163.com.
+pop3.nwupl.edu.cn.	3600	IN	CNAME	pophm.qiye.163.com.
+portal.nwupl.edu.cn.	3600	IN	A	123.138.101.198
+ps.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+pu.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+rsc.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+sbyy.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+sfjd.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+sfjdzx.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+sie.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+smtp.nwupl.edu.cn.	3600	IN	CNAME	smtphm.qiye.163.com.
+snlaw.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+stu.nwupl.edu.cn.	3600	IN	TXT	"v=spf1 include:spf.163.com -all"
+stu.nwupl.edu.cn.	3600	IN	MX	5 hzmx01.mxmail.netease.com.
+stu.nwupl.edu.cn.	3600	IN	MX	10 hzmx02.mxmail.netease.com.
+_dmarc.stu.nwupl.edu.cn. 3600	IN	TXT	"v=DMARC1; p=none; fo=1; ruf=mailto:dmarc@qiye.163.com; rua=mailto:dmarc_report@qiye.163.com"
+imap.stu.nwupl.edu.cn.	3600	IN	CNAME	imaphm.qiye.163.com.
+mail.stu.nwupl.edu.cn.	3600	IN	CNAME	mailedu.qiye.163.com.
+pop.stu.nwupl.edu.cn.	3600	IN	CNAME	pophm.qiye.163.com.
+pop3.stu.nwupl.edu.cn.	3600	IN	CNAME	pophm.qiye.163.com.
+smtp.stu.nwupl.edu.cn.	3600	IN	CNAME	smtphm.qiye.163.com.
+swzx.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+sxy.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+teacher.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+tw.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+urp1.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+urp2.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+urpg.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+web.nwupl.edu.cn.	3600	IN	A	202.200.168.99
+web.nwupl.edu.cn.	3600	IN	A	221.11.16.89
+www.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+xbjuris.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+xbmsf.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+xbxsf.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+xbxzf.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+xcb.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+xlzxzx.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+xsfxy.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+xsyzc.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+xwcb.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+xxgk.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+xzfxy.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+yq.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+zfcw.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+zfxg.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+zgxy.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+zhexue.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+zhfx.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+zjxy.nwupl.edu.cn.	3600	IN	A	211.144.149.101
+bbs.zjxy.nwupl.edu.cn.	3600	IN	A	211.144.149.101
+cjdata.zjxy.nwupl.edu.cn. 3600	IN	A	211.144.149.102
+cjlog.zjxy.nwupl.edu.cn. 3600	IN	A	211.144.149.102
+cjsupport.zjxy.nwupl.edu.cn. 3600 IN	A	211.144.149.102
+m.zjxy.nwupl.edu.cn.	3600	IN	A	211.144.149.77
+manager.zjxy.nwupl.edu.cn. 3600	IN	A	211.144.149.102
+zzb.nwupl.edu.cn.	3600	IN	A	202.200.168.101
+nwupl.edu.cn.		3600	IN	SOA	dns.nwupl.edu.cn. admin.nwupl.edu.cn. 2017110101 3600 3600 604800 300
+;; Query time: 19 msec
+;; SERVER: 202.200.168.100#53(202.200.168.100)
+;; WHEN: Fri Oct 19 10:29:25 CST 2018
+;; XFR size: 134 records (messages 1, bytes 3132)
+

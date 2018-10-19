@@ -1,0 +1,77 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @119.60.11.214 AXFR nxgs.edu.cn
+; (1 server found)
+;; global options: +cmd
+nxgs.edu.cn.		86400	IN	SOA	nxgs.edu.cn. nxgs.edu.cn. 0 86400 3600 604800 10800
+nxgs.edu.cn.		86400	IN	NS	gsdxdns.nxgs.edu.cn.
+2010jpk.nxgs.edu.cn.	86400	IN	A	119.60.11.211
+2011jpk.nxgs.edu.cn.	86400	IN	A	119.60.11.211
+2012jpk.nxgs.edu.cn.	86400	IN	A	119.60.11.211
+2012jpkps.nxgs.edu.cn.	86400	IN	A	119.60.11.211
+apis.nxgs.edu.cn.	86400	IN	A	119.60.11.211
+authserver.nxgs.edu.cn.	86400	IN	A	119.60.11.211
+bpm.nxgs.edu.cn.	86400	IN	A	119.60.11.211
+bwc.nxgs.edu.cn.	86400	IN	CNAME	bwc-nxgs-edu-cn.cname.saaswaf.com.
+cwc.nxgs.edu.cn.	86400	IN	CNAME	cwc-nxgs-edu-cn.cname.saaswaf.com.
+dzb.nxgs.edu.cn.	86400	IN	CNAME	dzb-nxgs-edu-cn.cname.saaswaf.com.
+ehall.nxgs.edu.cn.	86400	IN	A	119.60.11.211
+ehallapp.nxgs.edu.cn.	86400	IN	A	119.60.11.211
+ggys.nxgs.edu.cn.	86400	IN	CNAME	ggys-nxgs-edu-cn.cname.saaswaf.com.
+gh.nxgs.edu.cn.		86400	IN	CNAME	gh-nxgs-edu-cn.cname.saaswaf.com.
+gsdxdns.nxgs.edu.cn.	86400	IN	A	119.60.11.214
+gsyddns.nxgs.edu.cn.	86400	IN	A	111.50.3.133
+hggcx.nxgs.edu.cn.	86400	IN	CNAME	hggcx-nxgs-edu-cn.cname.saaswaf.com.
+hqzx.nxgs.edu.cn.	86400	IN	CNAME	hqzx-nxgs-edu-cn.cname.saaswaf.com.
+imp.nxgs.edu.cn.	86400	IN	A	119.60.11.211
+jcb.nxgs.edu.cn.	86400	IN	CNAME	jcb-nxgs-edu-cn.cname.saaswaf.com.
+jd.nxgs.edu.cn.		86400	IN	CNAME	jd-nxgs-edu-cn.cname.saaswaf.com.
+jdgc.nxgs.edu.cn.	86400	IN	CNAME	jdgc-nxgs-edu-cn.cname.saaswaf.com.
+jds.nxgs.edu.cn.	86400	IN	CNAME	jds-nxgs-edu-cn.cname.saaswaf.com.
+jdys.nxgs.edu.cn.	86400	IN	CNAME	jdys-nxgs-edu-cn.cname.saaswaf.com.
+jdzyk.nxgs.edu.cn.	86400	IN	CNAME	jdzyk-nxgs-edu-cn.cname.saaswaf.com.
+jjc.nxgs.edu.cn.	86400	IN	CNAME	jjc-nxgs-edu-cn.cname.saaswaf.com.
+jpk.nxgs.edu.cn.	86400	IN	CNAME	jpk-nxgs-edu-cn.cname.saaswaf.com.
+jpk2006.nxgs.edu.cn.	86400	IN	A	119.60.11.212
+jpk2007.nxgs.edu.cn.	86400	IN	A	119.60.11.212
+jpk2008.nxgs.edu.cn.	86400	IN	A	119.60.11.212
+jpk2009.nxgs.edu.cn.	86400	IN	A	119.60.11.212
+jpk2010.nxgs.edu.cn.	86400	IN	A	119.60.11.212
+jpk2011.nxgs.edu.cn.	86400	IN	A	119.60.11.212
+jwc.nxgs.edu.cn.	86400	IN	CNAME	jwc-nxgs-edu-cn.cname.saaswaf.com.
+jxgcx.nxgs.edu.cn.	86400	IN	CNAME	jxgcx-nxgs-edu-cn.cname.saaswaf.com.
+kjx.nxgs.edu.cn.	86400	IN	CNAME	kjx-nxgs-edu-cn.cname.saaswaf.com.
+kyc.nxgs.edu.cn.	86400	IN	CNAME	kyc-nxgs-edu-cn.cname.saaswaf.com.
+lib.nxgs.edu.cn.	86400	IN	CNAME	lib-nxgs-edu-cn.cname.saaswaf.com.
+libcx.nxgs.edu.cn.	86400	IN	A	119.60.11.212
+lygl.nxgs.edu.cn.	86400	IN	CNAME	lygl-nxgs-edu-cn.cname.saaswaf.com.
+mdm.nxgs.edu.cn.	86400	IN	A	119.60.11.211
+mp.nxgs.edu.cn.		86400	IN	A	119.60.11.211
+phzyys.nxgs.edu.cn.	86400	IN	CNAME	phzyys-nxgs-edu-cn.cname.saaswaf.com.
+portal.nxgs.edu.cn.	86400	IN	A	10.0.17.2
+qzpr.nxgs.edu.cn.	86400	IN	A	119.60.11.212
+res.nxgs.edu.cn.	86400	IN	A	119.60.11.211
+rsc.nxgs.edu.cn.	86400	IN	CNAME	rsc-nxgs-edu-cn.cname.saaswaf.com.
+sf.nxgs.edu.cn.		86400	IN	A	119.60.11.211
+sjdztwz.nxgs.edu.cn.	86400	IN	CNAME	sjdztwz-nxgs-edu-cn.cname.saaswaf.com.
+smjj.nxgs.edu.cn.	86400	IN	CNAME	smjj-nxgs-edu-cn.cname.saaswaf.com.
+sxzbc.nxgs.edu.cn.	86400	IN	CNAME	sxzbc-nxgs-edu-cn.cname.saaswaf.com.
+sz.nxgs.edu.cn.		86400	IN	CNAME	sz-nxgs-edu-cn.cname.saaswaf.com.
+tw.nxgs.edu.cn.		86400	IN	CNAME	tw-nxgs-edu-cn.cname.saaswaf.com.
+wlzx.nxgs.edu.cn.	86400	IN	CNAME	wlzx-nxgs-edu-cn.cname.saaswaf.com.
+www.nxgs.edu.cn.	86400	IN	CNAME	www-nxgs-edu-cn.cname.saaswaf.com.
+wxpt.nxgs.edu.cn.	86400	IN	A	111.50.3.132
+wxyx.nxgs.edu.cn.	86400	IN	CNAME	wxyx-nxgs-edu-cn.cname.saaswaf.com.
+xmb.nxgs.edu.cn.	86400	IN	CNAME	xmb-nxgs-edu-cn.cname.saaswaf.com.
+xsc.nxgs.edu.cn.	86400	IN	CNAME	xsc-nxgs-edu-cn.cname.saaswaf.com.
+xxjs.nxgs.edu.cn.	86400	IN	CNAME	xxjs-nxgs-edu-cn.cname.saaswaf.com.
+zsjyc.nxgs.edu.cn.	86400	IN	CNAME	zsjyc-nxgs-edu-cn.cname.saaswaf.com.
+ztlqzmd.nxgs.edu.cn.	86400	IN	A	119.60.11.211
+zxc.nxgs.edu.cn.	86400	IN	CNAME	zxc-nxgs-edu-cn.cname.saaswaf.com.
+zyk.nxgs.edu.cn.	86400	IN	A	119.60.11.210
+zzb.nxgs.edu.cn.	86400	IN	CNAME	zzb-nxgs-edu-cn.cname.saaswaf.com.
+nxgs.edu.cn.		86400	IN	SOA	nxgs.edu.cn. nxgs.edu.cn. 0 86400 3600 604800 10800
+;; Query time: 36 msec
+;; SERVER: 119.60.11.214#53(119.60.11.214)
+;; WHEN: Fri Oct 19 10:29:27 CST 2018
+;; XFR size: 68 records (messages 1, bytes 2068)
+

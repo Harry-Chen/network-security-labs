@@ -1,0 +1,25 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @125.219.132.18 AXFR ycvc.edu.cn
+; (1 server found)
+;; global options: +cmd
+ycvc.edu.cn.		180	IN	SOA	dns.ycvc.edu.cn. master.ycvc.edu.cn. 2013091312 604800 604800 3600000 180
+ycvc.edu.cn.		180	IN	NS	dns.ycvc.edu.cn.
+ycvc.edu.cn.		180	IN	NS	dns2.ycvc.edu.cn.
+dns.ycvc.edu.cn.	180	IN	A	125.219.132.8
+dns2.ycvc.edu.cn.	180	IN	A	125.219.132.18
+dpstar.ycvc.edu.cn.	180	IN	A	222.89.243.121
+ids.ycvc.edu.cn.	180	IN	A	222.89.243.121
+imp.ycvc.edu.cn.	180	IN	A	222.89.243.121
+my.ycvc.edu.cn.		180	IN	A	222.89.243.121
+oa.ycvc.edu.cn.		180	IN	A	125.219.132.20
+sakai.ycvc.edu.cn.	180	IN	A	222.89.243.121
+www.ycvc.edu.cn.	180	IN	A	125.219.132.14
+xg.ycvc.edu.cn.		180	IN	A	222.89.243.122
+yx.ycvc.edu.cn.		180	IN	A	222.89.243.122
+zhs.ycvc.edu.cn.	180	IN	A	222.89.243.122
+ycvc.edu.cn.		180	IN	SOA	dns.ycvc.edu.cn. master.ycvc.edu.cn. 2013091312 604800 604800 3600000 180
+;; Query time: 19 msec
+;; SERVER: 125.219.132.18#53(125.219.132.18)
+;; WHEN: Fri Oct 19 10:30:47 CST 2018
+;; XFR size: 16 records (messages 1, bytes 378)
+

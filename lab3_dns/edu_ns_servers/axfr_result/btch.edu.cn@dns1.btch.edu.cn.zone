@@ -1,0 +1,48 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @124.207.242.238 AXFR btch.edu.cn
+; (1 server found)
+;; global options: +cmd
+btch.edu.cn.		600	IN	SOA	dns1.btch.edu.cn. root.btch.edu.cn. 2018040302 10800 3600 86400 86400
+.			600	IN	TXT	"v=spf1 include:spf.mail.qq.com ~all"
+#.			600	IN	MX	5 mxbiz1.qq.com.
+#.			600	IN	MX	10 smtp.btch.edu.cn.
+#.			600	IN	MX	10 mxbiz2.qq.com.
+#\@.			600	IN	TXT	"v=spf ip4:124.207.182.6 ~all"
+btch.edu.cn.		600	IN	NS	dns.qq.com.
+btch.edu.cn.		600	IN	NS	dns.btch.edu.cn.
+btch.edu.cn.		600	IN	NS	dns1.btch.edu.cn.
+btch.edu.cn.		600	IN	MX	5 mxbiz1.qq.com.
+btch.edu.cn.		600	IN	MX	10 mxbiz2.qq.com.
+#gw.btch.edu.cn.	600	IN	A	124.207.182.6
+#imap.btch.edu.cn.	600	IN	A	124.207.182.6
+#pop3.btch.edu.cn.	600	IN	A	124.207.182.6
+#qqimap.btch.edu.cn.	600	IN	CNAME	imap.exmail.qq.com.
+#qqmail.btch.edu.cn.	600	IN	CNAME	ssl.exmail.qq.com.
+#qqpop.btch.edu.cn.	600	IN	CNAME	pop.exmail.qq.com.
+#qqsmtp.btch.edu.cn.	600	IN	CNAME	smtp.exmail.qq.com.
+#reg.btch.edu.cn.	600	IN	A	101.6.230.12
+#smtp.btch.edu.cn.	600	IN	A	124.207.182.6
+#testdept.btch.edu.cn.	600	IN	A	124.207.182.10
+#zp.btch.edu.cn.	600	IN	A	124.207.182.10
+dns.btch.edu.cn.	600	IN	A	124.207.182.5
+dns1.btch.edu.cn.	600	IN	A	124.207.242.238
+ghost1.btch.edu.cn.	600	IN	A	124.207.182.21
+kejiao.btch.edu.cn.	600	IN	A	124.207.182.12
+mail.btch.edu.cn.	600	IN	CNAME	ssl.exmail.qq.com.
+mailinf.btch.edu.cn.	600	IN	A	124.207.182.6
+oldmail.btch.edu.cn.	600	IN	A	124.207.182.6
+reg.btch.edu.cn.	600	IN	A	124.207.182.9
+research.btch.edu.cn.	600	IN	A	124.207.182.11
+telediabetes.btch.edu.cn. 600	IN	A	124.207.182.28
+telemed.btch.edu.cn.	600	IN	A	124.207.242.234
+vpn.btch.edu.cn.	600	IN	A	124.207.182.3
+www.btch.edu.cn.	600	IN	A	124.207.182.10
+yypt.btch.edu.cn.	600	IN	A	124.207.182.18
+zp.btch.edu.cn.		600	IN	A	124.207.182.15
+zpzp.btch.edu.cn.	600	IN	A	124.207.182.15
+btch.edu.cn.		600	IN	SOA	dns1.btch.edu.cn. root.btch.edu.cn. 2018040302 10800 3600 86400 86400
+;; Query time: 5 msec
+;; SERVER: 124.207.242.238#53(124.207.242.238)
+;; WHEN: Fri Oct 19 10:28:18 CST 2018
+;; XFR size: 39 records (messages 1, bytes 966)
+

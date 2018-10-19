@@ -1,0 +1,73 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @222.204.107.72 AXFR jxycu.edu.cn
+; (1 server found)
+;; global options: +cmd
+jxycu.edu.cn.		7200	IN	SOA	dns.jxycu.edu.cn. root.ycu.jx.cn. 2018092902 360 360 360000 7200
+jxycu.edu.cn.		7200	IN	MX	9 mail.jxycu.edu.cn.
+jxycu.edu.cn.		7200	IN	NS	dns.jxycu.edu.cn.
+jxycu.edu.cn.		7200	IN	NS	dns1.jxycu.edu.cn.
+aes-online.jxycu.edu.cn. 7200	IN	A	222.204.107.73
+bwc.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+cwc.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+cyxy.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+dag.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+dns.jxycu.edu.cn.	7200	IN	A	222.204.107.72
+dns1.jxycu.edu.cn.	7200	IN	A	61.180.25.72
+dzb.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+ecard.jxycu.edu.cn.	7200	IN	A	10.0.99.5
+fzghc.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+gbz.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+gh.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+hqc.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+hsxy.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+jgxy.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+jwc.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+jxcg.jxycu.edu.cn.	7200	IN	A	61.180.25.71
+kyc.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+lgxy.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+ltxc.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+mail.jxycu.edu.cn.	7200	IN	A	222.204.107.2
+mkszyxy.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+ms.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+oice.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+pjb.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+rjfwwb.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+rsc.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+rsxt.jxycu.edu.cn.	7200	IN	A	222.204.107.40
+rw.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+sjc.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+sjxy.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+sm.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+tw.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+tyxy.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+tzb.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+update.jxycu.edu.cn.	7200	IN	A	222.204.107.38
+client.update.jxycu.edu.cn. 7200 IN	A	222.204.107.38
+content.update.jxycu.edu.cn. 7200 IN	A	222.204.107.38
+dl.update.jxycu.edu.cn.	7200	IN	A	222.204.107.38
+manage.update.jxycu.edu.cn. 7200 IN	A	222.204.107.38
+user.update.jxycu.edu.cn. 7200	IN	A	222.204.107.38
+vpn.jxycu.edu.cn.	7200	IN	A	222.204.107.74
+webvpn.jxycu.edu.cn.	7200	IN	A	222.204.107.76
+*.webvpn.jxycu.edu.cn.	7200	IN	A	222.204.107.76
+wgzx.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+www.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+wy.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+xg.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+xjw.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+xyh.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+ycxycj.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+ycxyzbb.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+yjsc.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+yxy.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+yywd.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+zcc.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+zf.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+zsw.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+zzb.jxycu.edu.cn.	7200	IN	A	222.204.107.73
+jxycu.edu.cn.		7200	IN	SOA	dns.jxycu.edu.cn. root.ycu.jx.cn. 2018092902 360 360 360000 7200
+;; Query time: 38 msec
+;; SERVER: 222.204.107.72#53(222.204.107.72)
+;; WHEN: Fri Oct 19 10:28:58 CST 2018
+;; XFR size: 64 records (messages 1, bytes 1384)
+

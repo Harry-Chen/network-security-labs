@@ -1,0 +1,90 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @125.216.183.2 AXFR nfu.edu.cn
+; (1 server found)
+;; global options: +cmd
+nfu.edu.cn.		86400	IN	SOA	nfu.edu.cn. root.nfu.edu.cn. 20180918 3600 900 3600 3600
+nfu.edu.cn.		86400	IN	NS	dns1.nfu.edu.cn.
+nfu.edu.cn.		86400	IN	NS	dns2.nfu.edu.cn.
+nfu.edu.cn.		86400	IN	MX	10 mail.nfu.edu.cn.
+nfu.edu.cn.		86400	IN	A	202.103.141.10
+apbs.nfu.edu.cn.	86400	IN	A	121.33.227.5
+art.nfu.edu.cn.		86400	IN	A	121.33.227.5
+auth.nfu.edu.cn.	86400	IN	A	202.103.141.5
+axf.nfu.edu.cn.		86400	IN	A	106.15.160.198
+bwb.nfu.edu.cn.		86400	IN	A	121.33.227.5
+cddc.nfu.edu.cn.	86400	IN	A	121.33.227.5
+cw.nfu.edu.cn.		86400	IN	A	121.33.227.5
+cwgs.nfu.edu.cn.	86400	IN	A	121.33.227.9
+cxstar.nfu.edu.cn.	86400	IN	A	121.33.227.5
+das.nfu.edu.cn.		86400	IN	A	121.33.227.5
+dass.nfu.edu.cn.	86400	IN	A	121.33.227.5
+dfcx.nfu.edu.cn.	86400	IN	A	121.33.227.5
+dns1.nfu.edu.cn.	86400	IN	A	125.216.183.2
+dns1.nfu.edu.cn.	86400	IN	A	202.103.141.10
+dns2.nfu.edu.cn.	86400	IN	A	125.216.183.3
+dns2.nfu.edu.cn.	86400	IN	A	202.103.141.9
+dy.nfu.edu.cn.		86400	IN	A	121.33.227.5
+e.nfu.edu.cn.		86400	IN	A	121.33.227.5
+ecampus.nfu.edu.cn.	86400	IN	A	202.103.141.6
+eitc.nfu.edu.cn.	86400	IN	A	121.33.227.5
+ess.nfu.edu.cn.		86400	IN	A	125.216.183.50
+fmmf.nfu.edu.cn.	86400	IN	A	121.33.227.5
+gh.nfu.edu.cn.		86400	IN	A	121.33.227.5
+gj.nfu.edu.cn.		86400	IN	A	121.33.227.5
+gjzs.nfu.edu.cn.	86400	IN	A	121.33.227.5
+hlx.nfu.edu.cn.		86400	IN	A	121.33.227.5
+icc.nfu.edu.cn.		86400	IN	A	121.33.227.14
+itest1.nfu.edu.cn.	86400	IN	A	113.105.12.69
+itest2.nfu.edu.cn.	86400	IN	A	113.105.12.73
+jcsj.nfu.edu.cn.	86400	IN	A	121.33.227.5
+jf.nfu.edu.cn.		86400	IN	A	210.21.79.135
+journal.nfu.edu.cn.	86400	IN	A	121.33.227.5
+jw.nfu.edu.cn.		86400	IN	A	121.33.227.5
+jwxt.nfu.edu.cn.	86400	IN	A	202.103.141.3
+jx.nfu.edu.cn.		86400	IN	A	121.33.227.5
+jxzk.nfu.edu.cn.	86400	IN	A	121.33.227.5
+jxzs.nfu.edu.cn.	86400	IN	A	121.33.227.5
+jyyjy.nfu.edu.cn.	86400	IN	A	121.33.227.5
+kjxy.nfu.edu.cn.	86400	IN	A	121.33.227.5
+lib.nfu.edu.cn.		86400	IN	A	121.33.227.5
+lqcx.nfu.edu.cn.	86400	IN	A	121.33.227.5
+lsearch.nfu.edu.cn.	86400	IN	A	113.105.12.72
+mail.nfu.edu.cn.	86400	IN	A	125.216.183.17
+mpay.nfu.edu.cn.	86400	IN	A	121.33.227.17
+my.nfu.edu.cn.		86400	IN	A	202.103.141.11
+naxf.nfu.edu.cn.	86400	IN	A	106.15.160.198
+nc.nfu.edu.cn.		86400	IN	A	121.33.227.5
+newmedia.nfu.edu.cn.	86400	IN	A	121.33.227.5
+oa.nfu.edu.cn.		86400	IN	A	202.103.141.13
+pay.nfu.edu.cn.		86400	IN	A	106.15.160.198
+pc.nfu.edu.cn.		86400	IN	A	125.216.183.49
+pctest.nfu.edu.cn.	86400	IN	A	125.216.183.49
+portal.nfu.edu.cn.	86400	IN	A	202.103.141.11
+rlzyb.nfu.edu.cn.	86400	IN	A	121.33.227.5
+sece.nfu.edu.cn.	86400	IN	A	121.33.227.5
+sxy.nfu.edu.cn.		86400	IN	A	121.33.227.5
+tapp1.nfu.edu.cn.	86400	IN	A	121.33.227.17
+tapp2.nfu.edu.cn.	86400	IN	A	121.33.227.18
+tyjx.nfu.edu.cn.	86400	IN	A	121.33.227.5
+wcy.nfu.edu.cn.		86400	IN	A	121.33.227.5
+wpay.nfu.edu.cn.	86400	IN	A	121.33.227.13
+www.nfu.edu.cn.		86400	IN	A	202.103.141.10
+wy.nfu.edu.cn.		86400	IN	A	121.33.227.5
+xg.nfu.edu.cn.		86400	IN	A	121.33.227.5
+xkp2.nfu.edu.cn.	86400	IN	A	121.33.227.12
+xsm.nfu.edu.cn.		86400	IN	A	202.103.141.7
+xy.nfu.edu.cn.		86400	IN	A	121.33.227.5
+xybgs.nfu.edu.cn.	86400	IN	A	121.33.227.5
+xygl.nfu.edu.cn.	86400	IN	A	121.33.227.5
+ygyjy.nfu.edu.cn.	86400	IN	A	121.33.227.5
+yxjy.nfu.edu.cn.	86400	IN	A	121.33.227.5
+yyx.nfu.edu.cn.		86400	IN	A	121.33.227.5
+zhsyx.nfu.edu.cn.	86400	IN	A	121.33.227.5
+zs.nfu.edu.cn.		86400	IN	A	121.33.227.5
+zsb.nfu.edu.cn.		86400	IN	A	121.33.227.5
+nfu.edu.cn.		86400	IN	SOA	nfu.edu.cn. root.nfu.edu.cn. 20180918 3600 900 3600 3600
+;; Query time: 39 msec
+;; SERVER: 125.216.183.2#53(125.216.183.2)
+;; WHEN: Fri Oct 19 10:28:47 CST 2018
+;; XFR size: 81 records (messages 1, bytes 1712)
+

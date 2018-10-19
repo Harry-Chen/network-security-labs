@@ -1,0 +1,80 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @42.247.23.98 AXFR sada.edu.cn
+; (1 server found)
+;; global options: +cmd
+sada.edu.cn.		86400	IN	SOA	sada.edu.cn. root.sada.edu.cn. 2016102101 21600 3600 604800 86400
+sada.edu.cn.		86400	IN	NS	dns2.sada.edu.cn.
+sada.edu.cn.		86400	IN	MX	10 mail.sada.edu.cn.
+apis.sada.edu.cn.	86400	IN	A	116.236.134.254
+authserver.sada.edu.cn.	86400	IN	A	116.236.134.254
+bpm.sada.edu.cn.	86400	IN	A	116.236.134.254
+cas.sada.edu.cn.	86400	IN	CNAME	c17fb425e5a721aefb6301f9032d1816.sangfordns.com.
+cyzx.sada.edu.cn.	86400	IN	A	116.236.134.236
+dc.sada.edu.cn.		86400	IN	A	42.247.23.100
+dns1.sada.edu.cn.	86400	IN	A	42.247.23.97
+dns2.sada.edu.cn.	86400	IN	A	42.247.23.98
+dw.sada.edu.cn.		86400	IN	CNAME	1982e67de9d13ae6a157a9416dab8d15.sangfordns.com.
+ehall.sada.edu.cn.	86400	IN	CNAME	0686cd5ac5047476a778a4368587cf2f.sangfordns.com.
+ehallapp.sada.edu.cn.	86400	IN	A	116.236.134.254
+esop.sada.edu.cn.	86400	IN	A	116.236.134.254
+idea.sada.edu.cn.	86400	IN	A	116.236.134.236
+imp.sada.edu.cn.	86400	IN	A	116.236.134.254
+ky.sada.edu.cn.		86400	IN	A	116.236.134.236
+mail.sada.edu.cn.	86400	IN	A	42.247.23.101
+mdm.sada.edu.cn.	86400	IN	A	116.236.134.254
+message.sada.edu.cn.	86400	IN	A	42.247.23.100
+noa.sada.edu.cn.	86400	IN	A	116.236.134.236
+nurp.sada.edu.cn.	86400	IN	A	42.247.23.100
+oa.sada.edu.cn.		86400	IN	CNAME	4f58025d127e003244e6a0b0709afbf2.sangfordns.com.
+pm.sada.edu.cn.		86400	IN	A	42.247.23.100
+rcsj.sada.edu.cn.	86400	IN	A	116.236.134.236
+report.sada.edu.cn.	86400	IN	A	42.247.23.100
+report8.sada.edu.cn.	86400	IN	A	42.247.23.100
+res.sada.edu.cn.	86400	IN	A	116.236.134.254
+reslib.sada.edu.cn.	86400	IN	CNAME	63086a7e00fb5c2ee7e28034ef2f75d0.sangfordns.com.
+fanyapp.fy.reslib.sada.edu.cn. 86400 IN	A	116.236.134.226
+fystat1.fy.reslib.sada.edu.cn. 86400 IN	A	116.236.134.226
+mooc1-api.reslib.sada.edu.cn. 86400 IN	A	116.236.134.226
+passport2-api.reslib.sada.edu.cn. 86400	IN A	116.236.134.226
+reslib.reslib.sada.edu.cn. 86400 IN	A	116.236.134.226
+reslibananas.reslib.sada.edu.cn. 86400 IN A	116.236.134.226
+reslibapp.reslib.sada.edu.cn. 86400 IN	A	116.236.134.226
+reslibcloud.reslib.sada.edu.cn.	86400 IN A	116.236.134.226
+reslibclouddisk.reslib.sada.edu.cn. 86400 IN A	116.236.134.226
+reslibcs.reslib.sada.edu.cn. 86400 IN	A	116.236.134.226
+reslibcsd.reslib.sada.edu.cn. 86400 IN	A	116.236.134.226
+reslibcsd0.reslib.sada.edu.cn. 86400 IN	A	116.236.134.226
+reslibhead.reslib.sada.edu.cn. 86400 IN	A	116.236.134.226
+reslibi.reslib.sada.edu.cn. 86400 IN	A	116.236.134.226
+reslibmooc.reslib.sada.edu.cn. 86400 IN	A	116.236.134.226
+reslibmsg.reslib.sada.edu.cn. 86400 IN	A	116.236.134.226
+reslibpananas.reslib.sada.edu.cn. 86400	IN A	116.236.134.226
+reslibphoto.reslib.sada.edu.cn.	86400 IN A	116.236.134.226
+group.yd.reslib.sada.edu.cn. 86400 IN	A	116.236.134.226
+rsc.sada.edu.cn.	86400	IN	A	116.236.134.236
+smp.sada.edu.cn.	86400	IN	A	116.236.134.254
+teach.sada.edu.cn.	86400	IN	A	42.247.23.100
+testapis.sada.edu.cn.	86400	IN	A	116.236.134.253
+testauthserver.sada.edu.cn. 86400 IN	A	116.236.134.253
+testbpm.sada.edu.cn.	86400	IN	A	116.236.134.253
+testehall.sada.edu.cn.	86400	IN	A	116.236.134.253
+testehallapp.sada.edu.cn. 86400	IN	A	116.236.134.253
+testimp.sada.edu.cn.	86400	IN	A	116.236.134.253
+testmdm.sada.edu.cn.	86400	IN	A	116.236.134.253
+testres.sada.edu.cn.	86400	IN	A	116.236.134.253
+testsmp.sada.edu.cn.	86400	IN	A	116.236.134.253
+web.sada.edu.cn.	86400	IN	CNAME	8be15b3adaba27d3263b7047d58b8509.sangfordns.com.
+wecloud.sada.edu.cn.	86400	IN	A	42.247.23.100
+welcome.sada.edu.cn.	86400	IN	A	42.247.23.100
+www.sada.edu.cn.	86400	IN	CNAME	82ecfd14dfc9cb532a81c8a463c5240f.sangfordns.com.
+xg.sada.edu.cn.		86400	IN	A	42.247.23.100
+xxglc.sada.edu.cn.	86400	IN	CNAME	56baf4d9989464f4f4a810126ffcb524.sangfordns.com.
+yrs.sada.edu.cn.	86400	IN	A	42.247.23.100
+zc.sada.edu.cn.		86400	IN	A	42.247.23.100
+zsb.sada.edu.cn.	86400	IN	CNAME	9ffc8bfb7cfce18f791595a2c24c6631.sangfordns.com.
+sada.edu.cn.		86400	IN	SOA	sada.edu.cn. root.sada.edu.cn. 2016102101 21600 3600 604800 86400
+;; Query time: 31 msec
+;; SERVER: 42.247.23.98#53(42.247.23.98)
+;; WHEN: Fri Oct 19 10:29:07 CST 2018
+;; XFR size: 71 records (messages 1, bytes 1992)
+

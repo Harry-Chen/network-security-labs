@@ -10,12 +10,12 @@ def try_axfr(param):
     out, err = p.communicate()
     result = out.decode()
     if 'failed' not in result and 'timed out' not in result and 'error' not in result:
-        print('AXFR succeeded for {} @{}, result:'.format(domain, name))
-        with open('axfr_result/{}.zone'.format(domain), 'w') as f:
+        print('AXFR succeeded for {}@{}, result:'.format(domain, name))
+        with open('axfr_result/{}@{}.zone'.format(domain, name), 'w') as f:
             f.write(result)
         print(result)
     else:
-        print('AXFR failed for {} @{}'.format(domain, name))
+        print('AXFR failed for {}@{}'.format(domain, name))
 
 
 if __name__ == '__main__':

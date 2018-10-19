@@ -1,0 +1,23 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @49.52.48.2 AXFR sistm.edu.cn
+; (1 server found)
+;; global options: +cmd
+sistm.edu.cn.		10800	IN	SOA	dns1.sistm.edu.cn. root.dns1.sistm.edu.cn. 42 10800 900 604800 86400
+sistm.edu.cn.		60	IN	MX	5 mxbiz.vip.qq.com.
+sistm.edu.cn.		60	IN	TXT	"v=spf1 include:spf.mail.qq.com ~all"
+sistm.edu.cn.		10800	IN	NS	dns1.sistm.edu.cn.
+dns1.sistm.edu.cn.	10800	IN	A	49.52.48.2
+imap.sistm.edu.cn.	60	IN	CNAME	imap.exmail.qq.com.
+m.sistm.edu.cn.		3600	IN	A	211.144.127.245
+mail.sistm.edu.cn.	60	IN	CNAME	exmail.qq.com.
+policy.sistm.edu.cn.	10800	IN	A	211.144.101.176
+pop.sistm.edu.cn.	60	IN	CNAME	pop.exmail.qq.com.
+pop3.sistm.edu.cn.	60	IN	CNAME	pop.exmail.qq.com.
+smtp.sistm.edu.cn.	60	IN	CNAME	smtp.exmail.qq.com.
+www.sistm.edu.cn.	10800	IN	A	211.144.107.18
+sistm.edu.cn.		10800	IN	SOA	dns1.sistm.edu.cn. root.dns1.sistm.edu.cn. 42 10800 900 604800 86400
+;; Query time: 27 msec
+;; SERVER: 49.52.48.2#53(49.52.48.2)
+;; WHEN: Fri Oct 19 10:29:27 CST 2018
+;; XFR size: 14 records (messages 1, bytes 398)
+

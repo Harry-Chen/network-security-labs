@@ -1,0 +1,72 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> +time=1 +tries=1 @125.216.100.2 AXFR gdhsc.edu.cn
+; (1 server found)
+;; global options: +cmd
+gdhsc.edu.cn.		604800	IN	SOA	gdhsc.edu.cn. root.gdhsc.edu.cn. 2 604800 86400 2419200 604800
+gdhsc.edu.cn.		604800	IN	NS	ns.
+gdhsc.edu.cn.		604800	IN	A	121.33.188.41
+bwc.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+cas.gdhsc.edu.cn.	604800	IN	A	121.33.188.43
+cbox.gdhsc.edu.cn.	604800	IN	A	121.33.188.52
+computer.gdhsc.edu.cn.	604800	IN	CNAME	ibox.gdhsc.edu.cn.
+cwc.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+cyxy.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+dangan.gdhsc.edu.cn.	604800	IN	CNAME	ibox.gdhsc.edu.cn.
+db.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+djw.gdhsc.edu.cn.	604800	IN	CNAME	vbox.gdhsc.edu.cn.
+fk99.gdhsc.edu.cn.	604800	IN	A	121.33.188.58
+ggx.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+gjxy.gdhsc.edu.cn.	604800	IN	A	154.83.68.141
+glx.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+hf.gdhsc.edu.cn.	604800	IN	CNAME	ibox.gdhsc.edu.cn.
+hqc.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+hslc.gdhsc.edu.cn.	604800	IN	CNAME	fk99.gdhsc.edu.cn.
+ibox.gdhsc.edu.cn.	604800	IN	A	121.33.188.57
+ie.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+im.gdhsc.edu.cn.	604800	IN	A	172.16.59.37
+ip.gdhsc.edu.cn.	604800	IN	A	172.16.17.6
+jgzj.gdhsc.edu.cn.	604800	IN	CNAME	vbox.gdhsc.edu.cn.
+jjx.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+jpkc.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+jpkc-3d.gdhsc.edu.cn.	604800	IN	CNAME	ibox.gdhsc.edu.cn.
+jwc.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+jyzx.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+kjx.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+kyc.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+luqu.gdhsc.edu.cn.	604800	IN	CNAME	ibox.gdhsc.edu.cn.
+mcp.gdhsc.edu.cn.	604800	IN	A	121.33.188.40
+mh.gdhsc.edu.cn.	604800	IN	A	172.16.59.41
+mpc.gdhsc.edu.cn.	604800	IN	A	172.16.59.36
+mzs.gdhsc.edu.cn.	604800	IN	CNAME	cbox.gdhsc.edu.cn.
+ncre.gdhsc.edu.cn.	604800	IN	CNAME	ibox.gdhsc.edu.cn.
+ns.gdhsc.edu.cn.	604800	IN	A	121.33.188.41
+photo.gdhsc.edu.cn.	604800	IN	CNAME	ibox.gdhsc.edu.cn.
+pj.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+portal.gdhsc.edu.cn.	604800	IN	A	121.33.188.44
+rsc.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+salary.gdhsc.edu.cn.	604800	IN	A	121.33.188.36
+signup.gdhsc.edu.cn.	604800	IN	CNAME	ibox.gdhsc.edu.cn.
+sjb.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+syjx.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+szbwz.gdhsc.edu.cn.	604800	IN	CNAME	ibox.gdhsc.edu.cn.
+tsg.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+tw.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+tyb.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+ubox.gdhsc.edu.cn.	604800	IN	A	121.33.188.41
+vbox.gdhsc.edu.cn.	604800	IN	A	121.33.188.34
+www.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+wxtest.gdhsc.edu.cn.	604800	IN	CNAME	ibox.gdhsc.edu.cn.
+wxx.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+wyx.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+xq.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+xsc.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+xxgkw.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+yb.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+ysx.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+zs.gdhsc.edu.cn.	604800	IN	CNAME	ubox.gdhsc.edu.cn.
+gdhsc.edu.cn.		604800	IN	SOA	gdhsc.edu.cn. root.gdhsc.edu.cn. 2 604800 86400 2419200 604800
+;; Query time: 40 msec
+;; SERVER: 125.216.100.2#53(125.216.100.2)
+;; WHEN: Fri Oct 19 10:27:45 CST 2018
+;; XFR size: 63 records (messages 1, bytes 1263)
+
