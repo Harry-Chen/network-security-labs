@@ -1,0 +1,20 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> nsupdate.ycptu.edu.cn @115.24.28.1 TXT +tries=1 +time=1
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39868
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4000
+;; QUESTION SECTION:
+;nsupdate.ycptu.edu.cn.		IN	TXT
+
+;; ANSWER SECTION:
+nsupdate.ycptu.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+;; Query time: 24 msec
+;; SERVER: 115.24.28.1#53(115.24.28.1)
+;; WHEN: Fri Oct 19 10:09:03 CST 2018
+;; MSG SIZE  rcvd: 129
+

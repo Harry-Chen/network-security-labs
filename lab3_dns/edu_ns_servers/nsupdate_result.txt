@@ -1,0 +1,3461 @@
+NSUPDATE may success for bisu6.edu.cn@dns2.bisu.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  57020
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.bisu6.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+.			3600000	IN	NS	B.ROOT-SERVERS.NET.
+.			3600000	IN	NS	K.ROOT-SERVERS.NET.
+.			3600000	IN	NS	H.ROOT-SERVERS.NET.
+.			3600000	IN	NS	M.ROOT-SERVERS.NET.
+.			3600000	IN	NS	J.ROOT-SERVERS.NET.
+.			3600000	IN	NS	F.ROOT-SERVERS.NET.
+.			3600000	IN	NS	G.ROOT-SERVERS.NET.
+.			3600000	IN	NS	C.ROOT-SERVERS.NET.
+.			3600000	IN	NS	D.ROOT-SERVERS.NET.
+.			3600000	IN	NS	I.ROOT-SERVERS.NET.
+.			3600000	IN	NS	A.ROOT-SERVERS.NET.
+.			3600000	IN	NS	L.ROOT-SERVERS.NET.
+.			3600000	IN	NS	E.ROOT-SERVERS.NET.
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:   7247
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 0
+;; QUESTION SECTION:
+;bisu6.edu.cn.			IN	SOA
+
+;; AUTHORITY SECTION:
+.			3600000	IN	NS	K.ROOT-SERVERS.NET.
+.			3600000	IN	NS	E.ROOT-SERVERS.NET.
+.			3600000	IN	NS	F.ROOT-SERVERS.NET.
+.			3600000	IN	NS	B.ROOT-SERVERS.NET.
+.			3600000	IN	NS	C.ROOT-SERVERS.NET.
+.			3600000	IN	NS	L.ROOT-SERVERS.NET.
+.			3600000	IN	NS	D.ROOT-SERVERS.NET.
+.			3600000	IN	NS	I.ROOT-SERVERS.NET.
+.			3600000	IN	NS	M.ROOT-SERVERS.NET.
+.			3600000	IN	NS	G.ROOT-SERVERS.NET.
+.			3600000	IN	NS	J.ROOT-SERVERS.NET.
+.			3600000	IN	NS	A.ROOT-SERVERS.NET.
+.			3600000	IN	NS	H.ROOT-SERVERS.NET.
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  53776
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 0
+;; QUESTION SECTION:
+;edu.cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+.			3600000	IN	NS	A.ROOT-SERVERS.NET.
+.			3600000	IN	NS	J.ROOT-SERVERS.NET.
+.			3600000	IN	NS	D.ROOT-SERVERS.NET.
+.			3600000	IN	NS	E.ROOT-SERVERS.NET.
+.			3600000	IN	NS	K.ROOT-SERVERS.NET.
+.			3600000	IN	NS	L.ROOT-SERVERS.NET.
+.			3600000	IN	NS	B.ROOT-SERVERS.NET.
+.			3600000	IN	NS	C.ROOT-SERVERS.NET.
+.			3600000	IN	NS	F.ROOT-SERVERS.NET.
+.			3600000	IN	NS	I.ROOT-SERVERS.NET.
+.			3600000	IN	NS	M.ROOT-SERVERS.NET.
+.			3600000	IN	NS	H.ROOT-SERVERS.NET.
+.			3600000	IN	NS	G.ROOT-SERVERS.NET.
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  43589
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 0
+;; QUESTION SECTION:
+;cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+.			3600000	IN	NS	M.ROOT-SERVERS.NET.
+.			3600000	IN	NS	E.ROOT-SERVERS.NET.
+.			3600000	IN	NS	L.ROOT-SERVERS.NET.
+.			3600000	IN	NS	D.ROOT-SERVERS.NET.
+.			3600000	IN	NS	G.ROOT-SERVERS.NET.
+.			3600000	IN	NS	F.ROOT-SERVERS.NET.
+.			3600000	IN	NS	B.ROOT-SERVERS.NET.
+.			3600000	IN	NS	A.ROOT-SERVERS.NET.
+.			3600000	IN	NS	C.ROOT-SERVERS.NET.
+.			3600000	IN	NS	J.ROOT-SERVERS.NET.
+.			3600000	IN	NS	H.ROOT-SERVERS.NET.
+.			3600000	IN	NS	I.ROOT-SERVERS.NET.
+.			3600000	IN	NS	K.ROOT-SERVERS.NET.
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  15678
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 0
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; AUTHORITY SECTION:
+.			3600000	IN	NS	A.ROOT-SERVERS.NET.
+.			3600000	IN	NS	J.ROOT-SERVERS.NET.
+.			3600000	IN	NS	D.ROOT-SERVERS.NET.
+.			3600000	IN	NS	E.ROOT-SERVERS.NET.
+.			3600000	IN	NS	L.ROOT-SERVERS.NET.
+.			3600000	IN	NS	I.ROOT-SERVERS.NET.
+.			3600000	IN	NS	F.ROOT-SERVERS.NET.
+.			3600000	IN	NS	B.ROOT-SERVERS.NET.
+.			3600000	IN	NS	K.ROOT-SERVERS.NET.
+.			3600000	IN	NS	M.ROOT-SERVERS.NET.
+.			3600000	IN	NS	H.ROOT-SERVERS.NET.
+.			3600000	IN	NS	C.ROOT-SERVERS.NET.
+.			3600000	IN	NS	G.ROOT-SERVERS.NET.
+
+could not find enclosing zone
+
+NSUPDATE may success for bisu6.edu.cn@dns.bisu.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  18101
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 12
+;; QUESTION SECTION:
+;nsupdate.bisu6.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+.			453536	IN	NS	c.root-servers.net.
+.			453536	IN	NS	l.root-servers.net.
+.			453536	IN	NS	i.root-servers.net.
+.			453536	IN	NS	m.root-servers.net.
+.			453536	IN	NS	b.root-servers.net.
+.			453536	IN	NS	k.root-servers.net.
+.			453536	IN	NS	d.root-servers.net.
+.			453536	IN	NS	e.root-servers.net.
+.			453536	IN	NS	f.root-servers.net.
+.			453536	IN	NS	j.root-servers.net.
+.			453536	IN	NS	g.root-servers.net.
+.			453536	IN	NS	a.root-servers.net.
+.			453536	IN	NS	h.root-servers.net.
+
+;; ADDITIONAL SECTION:
+a.root-servers.net.	453536	IN	A	198.41.0.4
+a.root-servers.net.	453536	IN	AAAA	2001:503:ba3e::2:30
+b.root-servers.net.	453536	IN	A	192.228.79.201
+b.root-servers.net.	453536	IN	AAAA	2001:500:84::b
+c.root-servers.net.	453536	IN	A	192.33.4.12
+c.root-servers.net.	453536	IN	AAAA	2001:500:2::c
+d.root-servers.net.	453536	IN	A	199.7.91.13
+d.root-servers.net.	453536	IN	AAAA	2001:500:2d::d
+e.root-servers.net.	453536	IN	A	192.203.230.10
+f.root-servers.net.	453536	IN	A	192.5.5.241
+f.root-servers.net.	453536	IN	AAAA	2001:500:2f::f
+g.root-servers.net.	453536	IN	A	192.112.36.4
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  34083
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 13
+;; QUESTION SECTION:
+;bisu6.edu.cn.			IN	SOA
+
+;; AUTHORITY SECTION:
+.			453536	IN	NS	k.root-servers.net.
+.			453536	IN	NS	m.root-servers.net.
+.			453536	IN	NS	i.root-servers.net.
+.			453536	IN	NS	h.root-servers.net.
+.			453536	IN	NS	d.root-servers.net.
+.			453536	IN	NS	b.root-servers.net.
+.			453536	IN	NS	e.root-servers.net.
+.			453536	IN	NS	f.root-servers.net.
+.			453536	IN	NS	l.root-servers.net.
+.			453536	IN	NS	a.root-servers.net.
+.			453536	IN	NS	g.root-servers.net.
+.			453536	IN	NS	j.root-servers.net.
+.			453536	IN	NS	c.root-servers.net.
+
+;; ADDITIONAL SECTION:
+a.root-servers.net.	453536	IN	A	198.41.0.4
+a.root-servers.net.	453536	IN	AAAA	2001:503:ba3e::2:30
+b.root-servers.net.	453536	IN	A	192.228.79.201
+b.root-servers.net.	453536	IN	AAAA	2001:500:84::b
+c.root-servers.net.	453536	IN	A	192.33.4.12
+c.root-servers.net.	453536	IN	AAAA	2001:500:2::c
+d.root-servers.net.	453536	IN	A	199.7.91.13
+d.root-servers.net.	453536	IN	AAAA	2001:500:2d::d
+e.root-servers.net.	453536	IN	A	192.203.230.10
+f.root-servers.net.	453536	IN	A	192.5.5.241
+f.root-servers.net.	453536	IN	AAAA	2001:500:2f::f
+g.root-servers.net.	453536	IN	A	192.112.36.4
+h.root-servers.net.	453536	IN	A	198.97.190.53
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  34868
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 13
+;; QUESTION SECTION:
+;edu.cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+.			453536	IN	NS	a.root-servers.net.
+.			453536	IN	NS	l.root-servers.net.
+.			453536	IN	NS	k.root-servers.net.
+.			453536	IN	NS	e.root-servers.net.
+.			453536	IN	NS	h.root-servers.net.
+.			453536	IN	NS	d.root-servers.net.
+.			453536	IN	NS	i.root-servers.net.
+.			453536	IN	NS	c.root-servers.net.
+.			453536	IN	NS	m.root-servers.net.
+.			453536	IN	NS	f.root-servers.net.
+.			453536	IN	NS	g.root-servers.net.
+.			453536	IN	NS	j.root-servers.net.
+.			453536	IN	NS	b.root-servers.net.
+
+;; ADDITIONAL SECTION:
+a.root-servers.net.	453536	IN	A	198.41.0.4
+a.root-servers.net.	453536	IN	AAAA	2001:503:ba3e::2:30
+b.root-servers.net.	453536	IN	A	192.228.79.201
+b.root-servers.net.	453536	IN	AAAA	2001:500:84::b
+c.root-servers.net.	453536	IN	A	192.33.4.12
+c.root-servers.net.	453536	IN	AAAA	2001:500:2::c
+d.root-servers.net.	453536	IN	A	199.7.91.13
+d.root-servers.net.	453536	IN	AAAA	2001:500:2d::d
+e.root-servers.net.	453536	IN	A	192.203.230.10
+f.root-servers.net.	453536	IN	A	192.5.5.241
+f.root-servers.net.	453536	IN	AAAA	2001:500:2f::f
+g.root-servers.net.	453536	IN	A	192.112.36.4
+h.root-servers.net.	453536	IN	A	198.97.190.53
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  53075
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 13
+;; QUESTION SECTION:
+;cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+.			453536	IN	NS	b.root-servers.net.
+.			453536	IN	NS	a.root-servers.net.
+.			453536	IN	NS	c.root-servers.net.
+.			453536	IN	NS	h.root-servers.net.
+.			453536	IN	NS	e.root-servers.net.
+.			453536	IN	NS	d.root-servers.net.
+.			453536	IN	NS	g.root-servers.net.
+.			453536	IN	NS	m.root-servers.net.
+.			453536	IN	NS	f.root-servers.net.
+.			453536	IN	NS	i.root-servers.net.
+.			453536	IN	NS	j.root-servers.net.
+.			453536	IN	NS	l.root-servers.net.
+.			453536	IN	NS	k.root-servers.net.
+
+;; ADDITIONAL SECTION:
+a.root-servers.net.	453536	IN	A	198.41.0.4
+a.root-servers.net.	453536	IN	AAAA	2001:503:ba3e::2:30
+b.root-servers.net.	453536	IN	A	192.228.79.201
+b.root-servers.net.	453536	IN	AAAA	2001:500:84::b
+c.root-servers.net.	453536	IN	A	192.33.4.12
+c.root-servers.net.	453536	IN	AAAA	2001:500:2::c
+d.root-servers.net.	453536	IN	A	199.7.91.13
+d.root-servers.net.	453536	IN	AAAA	2001:500:2d::d
+e.root-servers.net.	453536	IN	A	192.203.230.10
+f.root-servers.net.	453536	IN	A	192.5.5.241
+f.root-servers.net.	453536	IN	AAAA	2001:500:2f::f
+g.root-servers.net.	453536	IN	A	192.112.36.4
+h.root-servers.net.	453536	IN	A	198.97.190.53
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  20414
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 13
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; AUTHORITY SECTION:
+.			453536	IN	NS	f.root-servers.net.
+.			453536	IN	NS	j.root-servers.net.
+.			453536	IN	NS	e.root-servers.net.
+.			453536	IN	NS	d.root-servers.net.
+.			453536	IN	NS	c.root-servers.net.
+.			453536	IN	NS	i.root-servers.net.
+.			453536	IN	NS	m.root-servers.net.
+.			453536	IN	NS	g.root-servers.net.
+.			453536	IN	NS	l.root-servers.net.
+.			453536	IN	NS	h.root-servers.net.
+.			453536	IN	NS	b.root-servers.net.
+.			453536	IN	NS	k.root-servers.net.
+.			453536	IN	NS	a.root-servers.net.
+
+;; ADDITIONAL SECTION:
+a.root-servers.net.	453536	IN	A	198.41.0.4
+a.root-servers.net.	453536	IN	AAAA	2001:503:ba3e::2:30
+b.root-servers.net.	453536	IN	A	192.228.79.201
+b.root-servers.net.	453536	IN	AAAA	2001:500:84::b
+c.root-servers.net.	453536	IN	A	192.33.4.12
+c.root-servers.net.	453536	IN	AAAA	2001:500:2::c
+d.root-servers.net.	453536	IN	A	199.7.91.13
+d.root-servers.net.	453536	IN	AAAA	2001:500:2d::d
+e.root-servers.net.	453536	IN	A	192.203.230.10
+f.root-servers.net.	453536	IN	A	192.5.5.241
+f.root-servers.net.	453536	IN	AAAA	2001:500:2f::f
+g.root-servers.net.	453536	IN	A	192.112.36.4
+h.root-servers.net.	453536	IN	A	198.97.190.53
+
+could not find enclosing zone
+NSUPDATE may success for aoshu.edu.cn@dns1.resource.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  14945
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 9
+;; QUESTION SECTION:
+;nsupdate.aoshu.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+edu.cn.			75428	IN	NS	dns2.edu.cn.
+edu.cn.			75428	IN	NS	ns2.cuhk.hk.
+edu.cn.			75428	IN	NS	dns.edu.cn.
+edu.cn.			75428	IN	NS	ns2.cernet.net.
+edu.cn.			75428	IN	NS	deneb.dfn.de.
+
+;; ADDITIONAL SECTION:
+dns2.edu.cn.		28272	IN	A	202.112.0.13
+deneb.dfn.de.		13352	IN	A	192.76.176.9
+dns.edu.cn.		36216	IN	A	202.112.0.35
+ns2.cernet.net.		23683	IN	A	101.4.126.203
+ns2.cuhk.hk.		5329	IN	A	137.189.6.21
+dns2.edu.cn.		64469	IN	AAAA	2001:da8:1:100::22
+dns.edu.cn.		36216	IN	AAAA	2001:250:c006::35
+ns2.cernet.net.		68351	IN	AAAA	2001:da8:1:100::22
+ns2.cernet.net.		68351	IN	AAAA	2001:250:c006::35
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:   7997
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 9
+;; QUESTION SECTION:
+;aoshu.edu.cn.			IN	SOA
+
+;; AUTHORITY SECTION:
+edu.cn.			75428	IN	NS	dns2.edu.cn.
+edu.cn.			75428	IN	NS	deneb.dfn.de.
+edu.cn.			75428	IN	NS	dns.edu.cn.
+edu.cn.			75428	IN	NS	ns2.cernet.net.
+edu.cn.			75428	IN	NS	ns2.cuhk.hk.
+
+;; ADDITIONAL SECTION:
+dns2.edu.cn.		28272	IN	A	202.112.0.13
+deneb.dfn.de.		13352	IN	A	192.76.176.9
+dns.edu.cn.		36216	IN	A	202.112.0.35
+ns2.cernet.net.		23683	IN	A	101.4.126.203
+ns2.cuhk.hk.		5329	IN	A	137.189.6.21
+dns2.edu.cn.		64469	IN	AAAA	2001:da8:1:100::22
+dns.edu.cn.		36216	IN	AAAA	2001:250:c006::35
+ns2.cernet.net.		68351	IN	AAAA	2001:250:c006::35
+ns2.cernet.net.		68351	IN	AAAA	2001:da8:1:100::22
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  42600
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 9
+;; QUESTION SECTION:
+;edu.cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+edu.cn.			75428	IN	NS	ns2.cernet.net.
+edu.cn.			75428	IN	NS	dns.edu.cn.
+edu.cn.			75428	IN	NS	deneb.dfn.de.
+edu.cn.			75428	IN	NS	ns2.cuhk.hk.
+edu.cn.			75428	IN	NS	dns2.edu.cn.
+
+;; ADDITIONAL SECTION:
+dns2.edu.cn.		28272	IN	A	202.112.0.13
+deneb.dfn.de.		13352	IN	A	192.76.176.9
+dns.edu.cn.		36216	IN	A	202.112.0.35
+ns2.cernet.net.		23683	IN	A	101.4.126.203
+ns2.cuhk.hk.		5329	IN	A	137.189.6.21
+dns2.edu.cn.		64469	IN	AAAA	2001:da8:1:100::22
+dns.edu.cn.		36216	IN	AAAA	2001:250:c006::35
+ns2.cernet.net.		68351	IN	AAAA	2001:da8:1:100::22
+ns2.cernet.net.		68351	IN	AAAA	2001:250:c006::35
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:   3756
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			75284	IN	NS	b.dns.cn.
+cn.			75284	IN	NS	e.dns.cn.
+cn.			75284	IN	NS	d.dns.cn.
+cn.			75284	IN	NS	g.dns.cn.
+cn.			75284	IN	NS	f.dns.cn.
+cn.			75284	IN	NS	c.dns.cn.
+cn.			75284	IN	NS	ns.cernet.net.
+cn.			75284	IN	NS	a.dns.cn.
+
+;; ADDITIONAL SECTION:
+c.dns.cn.		19697	IN	A	203.119.27.1
+g.dns.cn.		20111	IN	A	66.198.183.65
+b.dns.cn.		16052	IN	A	203.119.26.1
+f.dns.cn.		26323	IN	A	195.219.8.90
+e.dns.cn.		23060	IN	A	203.119.29.1
+d.dns.cn.		34865	IN	A	203.119.28.1
+a.dns.cn.		81827	IN	A	203.119.25.1
+ns.cernet.net.		32839	IN	A	202.112.0.44
+d.dns.cn.		650	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		650	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:   1062
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 15
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; AUTHORITY SECTION:
+.			24306	IN	NS	f.root-servers.net.
+.			24306	IN	NS	a.root-servers.net.
+.			24306	IN	NS	d.root-servers.net.
+.			24306	IN	NS	k.root-servers.net.
+.			24306	IN	NS	g.root-servers.net.
+.			24306	IN	NS	j.root-servers.net.
+.			24306	IN	NS	i.root-servers.net.
+.			24306	IN	NS	h.root-servers.net.
+.			24306	IN	NS	m.root-servers.net.
+.			24306	IN	NS	b.root-servers.net.
+.			24306	IN	NS	c.root-servers.net.
+.			24306	IN	NS	e.root-servers.net.
+.			24306	IN	NS	l.root-servers.net.
+
+;; ADDITIONAL SECTION:
+d.root-servers.net.	45371	IN	A	199.7.91.13
+f.root-servers.net.	26118	IN	A	192.5.5.241
+c.root-servers.net.	26118	IN	A	192.33.4.12
+a.root-servers.net.	26118	IN	A	198.41.0.4
+e.root-servers.net.	26118	IN	A	192.203.230.10
+k.root-servers.net.	26118	IN	A	193.0.14.129
+h.root-servers.net.	26118	IN	A	198.97.190.53
+i.root-servers.net.	26118	IN	A	192.36.148.17
+l.root-servers.net.	26118	IN	A	199.7.83.42
+b.root-servers.net.	55150	IN	A	192.228.79.201
+j.root-servers.net.	26118	IN	A	192.58.128.30
+g.root-servers.net.	26118	IN	A	192.112.36.4
+m.root-servers.net.	26118	IN	A	202.12.27.33
+d.root-servers.net.	28822	IN	AAAA	2001:500:2d::d
+f.root-servers.net.	26118	IN	AAAA	2001:500:2f::f
+
+could not find enclosing zone
+
+NSUPDATE may success for aqnu.edu.cn@dns2.aqnu.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  39138
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.aqnu.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+aqnu.edu.cn.		3600	IN	SOA	dns1.aqnu.edu.cn. admin.aqnu.edu.cn. 1532936714 3600 3600 86400 3600
+
+Found zone name: aqnu.edu.cn
+The master is: dns1.aqnu.edu.cn
+Sending update to 210.45.168.6#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:   4851
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;aqnu.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:   4851
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.aqnu.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for aqnu.edu.cn@dns1.aqnu.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:   5203
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.aqnu.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+aqnu.edu.cn.		3600	IN	SOA	dns1.aqnu.edu.cn. admin.aqnu.edu.cn. 1532936714 3600 3600 86400 3600
+
+Found zone name: aqnu.edu.cn
+The master is: dns1.aqnu.edu.cn
+Sending update to 210.45.168.1#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  51185
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;aqnu.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  51185
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.aqnu.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for aqvtc.edu.cn@ns2.hosting.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  22602
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.aqvtc.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+aqvtc.edu.cn.		0	IN	SOA	ns1.cernet.com. ccert.consesi.gmail.com. 2016121201 300 180 1209600 900
+
+Found zone name: aqvtc.edu.cn
+The master is: ns1.cernet.com
+Sending update to 121.194.2.55#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  61543
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;aqvtc.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  61543
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.aqvtc.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for aqvtc.edu.cn@ns1.hosting.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  64478
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.aqvtc.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+aqvtc.edu.cn.		0	IN	SOA	ns1.cernet.com. ccert.consesi.gmail.com. 2016121201 300 180 1209600 900
+
+Found zone name: aqvtc.edu.cn
+The master is: ns1.cernet.com
+Sending update to 121.194.2.51#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  52907
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;aqvtc.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  52907
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.aqvtc.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+NSUPDATE failed for cernet2091.edu.cn@dns.cngi.edu.cn
+NSUPDATE failed for cernet2092.edu.cn@dns1.cngi.edu.cn
+NSUPDATE failed for cernet2092.edu.cn@dns.cngi.edu.cn
+NSUPDATE failed for cernet2093.edu.cn@dns1.cngi.edu.cn
+NSUPDATE failed for cernet2093.edu.cn@dns.cngi.edu.cn
+NSUPDATE failed for cernet2094.edu.cn@dns1.cngi.edu.cn
+NSUPDATE failed for cernet2094.edu.cn@dns.cngi.edu.cn
+NSUPDATE failed for cernet2095.edu.cn@dns1.cngi.edu.cn
+NSUPDATE failed for cernet2095.edu.cn@dns.cngi.edu.cn
+NSUPDATE failed for cernet2096.edu.cn@dns1.cngi.edu.cn
+NSUPDATE failed for cernet2096.edu.cn@dns.cngi.edu.cn
+NSUPDATE failed for cernet2097.edu.cn@dns1.cngi.edu.cn
+NSUPDATE failed for cernet2097.edu.cn@dns.cngi.edu.cn
+NSUPDATE failed for cernet2098.edu.cn@dns1.cngi.edu.cn
+NSUPDATE failed for cernet2098.edu.cn@dns.cngi.edu.cn
+NSUPDATE failed for cernet2099.edu.cn@dns1.cngi.edu.cn
+NSUPDATE failed for cernet2099.edu.cn@dns.cngi.edu.cn
+NSUPDATE failed for cernet2100.edu.cn@dns1.cngi.edu.cn
+NSUPDATE failed for cernet2100.edu.cn@dns.cngi.edu.cn
+NSUPDATE may success for cernsafe.edu.cn@ns.cloud.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  37432
+;; flags: qr aa ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.cernsafe.edu.cn.	IN	SOA
+
+;; AUTHORITY SECTION:
+cernsafe.edu.cn.	0	IN	SOA	cernsafe.edu.cn. root.cernsafe.edu.cn. 43 10800 900 604800 86400
+
+Found zone name: cernsafe.edu.cn
+The master is: cernsafe.edu.cn
+Sending update to 101.4.63.100#53
+; Communication with 101.4.63.100#53 failed: operation canceled
+../../../lib/dns/name.c:1002: REQUIRE((((source) != ((void *)0)) && (((const isc__magic_t *)(source))->magic == ((('D') << 24 | ('N') << 16 | ('S') << 8 | ('n')))))) failed, back trace
+#0 0x7fdf26c819e7 in ??
+#1 0x7fdf26c8193a in ??
+#2 0x7fdf2815b445 in ??
+#3 0x560c90980650 in ??
+#4 0x560c909820fd in ??
+#5 0x560c90983712 in ??
+#6 0x7fdf26ca5923 in ??
+#7 0x7fdf2664c494 in ??
+#8 0x7fdf25a9dacf in ??
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  52372
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.cernsafe.edu.cn. 600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for cernssafe.edu.cn@ns.cloud.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  22628
+;; flags: qr aa ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.cernssafe.edu.cn.	IN	SOA
+
+;; AUTHORITY SECTION:
+cernssafe.edu.cn.	0	IN	SOA	cernssafe.edu.cn. root.cernssafe.edu.cn. 43 10800 900 604800 86400
+
+Found zone name: cernssafe.edu.cn
+The master is: cernssafe.edu.cn
+Sending update to 101.4.63.100#53
+; Communication with 101.4.63.100#53 failed: operation canceled
+../../../lib/dns/name.c:1002: REQUIRE((((source) != ((void *)0)) && (((const isc__magic_t *)(source))->magic == ((('D') << 24 | ('N') << 16 | ('S') << 8 | ('n')))))) failed, back trace
+#0 0x7f1b6d6d39e7 in ??
+#1 0x7f1b6d6d393a in ??
+#2 0x7f1b6ebad445 in ??
+#3 0x55c7a2cef650 in ??
+#4 0x55c7a2cf10fd in ??
+#5 0x55c7a2cf2712 in ??
+#6 0x7f1b6d6f7923 in ??
+#7 0x7f1b6d09e494 in ??
+#8 0x7f1b6c4efacf in ??
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  47299
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.cernssafe.edu.cn. 600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for cerpark.edu.cn@ns2.service.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  42445
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.cerpark.edu.cn.	IN	SOA
+
+;; AUTHORITY SECTION:
+cerpark.edu.cn.		86400	IN	SOA	ns1.service.edu.cn. cerpark.cernet.com. 2018030502 10800 7200 604800 345600
+
+Found zone name: cerpark.edu.cn
+The master is: ns1.service.edu.cn
+Sending update to 202.112.4.49#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOTAUTH, id:  14393
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;cerpark.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  14393
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.cerpark.edu.cn. 600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for cerpark.edu.cn@ns1.service.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  59628
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.cerpark.edu.cn.	IN	SOA
+
+;; AUTHORITY SECTION:
+cerpark.edu.cn.		86400	IN	SOA	ns1.service.edu.cn. cerpark.cernet.com. 2018030502 10800 7200 604800 345600
+
+Found zone name: cerpark.edu.cn
+The master is: ns1.service.edu.cn
+Sending update to 202.112.5.49#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOTAUTH, id:  27643
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;cerpark.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  27643
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.cerpark.edu.cn. 600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for cers.edu.cn@dns.cers.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:   6083
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.cers.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+cers.edu.cn.		0	IN	SOA	dns.cers.edu.cn. szhu.dns.edu.cn. 2005081050 86400 7200 604800 86400
+
+Found zone name: cers.edu.cn
+The master is: dns.cers.edu.cn
+Sending update to 202.112.0.35#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  10970
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;cers.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  10970
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.cers.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for cers.edu.cn@dns2.cers.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  20681
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.cers.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+cers.edu.cn.		0	IN	SOA	dns.cers.edu.cn. szhu.dns.edu.cn. 2005081050 86400 7200 604800 86400
+
+Found zone name: cers.edu.cn
+The master is: dns.cers.edu.cn
+Sending update to 166.111.8.30#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  19647
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;cers.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  19647
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.cers.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for cers6.edu.cn@dns.tsinghua.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  51594
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.cers6.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+cers6.edu.cn.		0	IN	SOA	dns.tsinghua.edu.cn. szhu.dns.edu.cn. 2011011301 86400 7200 604800 86400
+
+Found zone name: cers6.edu.cn
+The master is: dns.tsinghua.edu.cn
+Sending update to 166.111.8.30#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  32823
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;cers6.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  32823
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.cers6.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for cers6.edu.cn@dns2.tsinghua.edu.cn, result:NSUPDATE may success for cwu.edu.cn@dns.cwu.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  47587
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.cwu.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+cwu.edu.cn.		3600	IN	SOA	dns.cwu.edu.cn. yaocg.cwu.edu.cn. 2018101602 3600 300 86400 3600
+
+Found zone name: cwu.edu.cn
+The master is: dns.cwu.edu.cn
+Sending update to 219.242.28.136#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  43540
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;cwu.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  43540
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.cwu.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for cxcy.edu.cn@dns1.name.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  46771
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;nsupdate.cxcy.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			1428	IN	NS	g.dns.cn.
+cn.			1428	IN	NS	e.dns.cn.
+cn.			1428	IN	NS	a.dns.cn.
+cn.			1428	IN	NS	c.dns.cn.
+cn.			1428	IN	NS	f.dns.cn.
+cn.			1428	IN	NS	b.dns.cn.
+cn.			1428	IN	NS	ns.cernet.net.
+cn.			1428	IN	NS	d.dns.cn.
+
+;; ADDITIONAL SECTION:
+d.dns.cn.		1428	IN	A	203.119.28.1
+f.dns.cn.		1428	IN	A	195.219.8.90
+e.dns.cn.		1428	IN	A	203.119.29.1
+b.dns.cn.		1428	IN	A	203.119.26.1
+ns.cernet.net.		1428	IN	A	202.112.0.44
+a.dns.cn.		1428	IN	A	203.119.25.1
+c.dns.cn.		1428	IN	A	203.119.27.1
+g.dns.cn.		1428	IN	A	66.198.183.65
+d.dns.cn.		1428	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		1428	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  16185
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;cxcy.edu.cn.			IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			1428	IN	NS	a.dns.cn.
+cn.			1428	IN	NS	f.dns.cn.
+cn.			1428	IN	NS	ns.cernet.net.
+cn.			1428	IN	NS	e.dns.cn.
+cn.			1428	IN	NS	c.dns.cn.
+cn.			1428	IN	NS	g.dns.cn.
+cn.			1428	IN	NS	b.dns.cn.
+cn.			1428	IN	NS	d.dns.cn.
+
+;; ADDITIONAL SECTION:
+d.dns.cn.		1428	IN	A	203.119.28.1
+f.dns.cn.		1428	IN	A	195.219.8.90
+e.dns.cn.		1428	IN	A	203.119.29.1
+b.dns.cn.		1428	IN	A	203.119.26.1
+ns.cernet.net.		1428	IN	A	202.112.0.44
+a.dns.cn.		1428	IN	A	203.119.25.1
+c.dns.cn.		1428	IN	A	203.119.27.1
+g.dns.cn.		1428	IN	A	66.198.183.65
+d.dns.cn.		1428	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		1428	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  14291
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;edu.cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			1428	IN	NS	d.dns.cn.
+cn.			1428	IN	NS	b.dns.cn.
+cn.			1428	IN	NS	c.dns.cn.
+cn.			1428	IN	NS	f.dns.cn.
+cn.			1428	IN	NS	g.dns.cn.
+cn.			1428	IN	NS	a.dns.cn.
+cn.			1428	IN	NS	ns.cernet.net.
+cn.			1428	IN	NS	e.dns.cn.
+
+;; ADDITIONAL SECTION:
+d.dns.cn.		1428	IN	A	203.119.28.1
+f.dns.cn.		1428	IN	A	195.219.8.90
+e.dns.cn.		1428	IN	A	203.119.29.1
+b.dns.cn.		1428	IN	A	203.119.26.1
+ns.cernet.net.		1428	IN	A	202.112.0.44
+a.dns.cn.		1428	IN	A	203.119.25.1
+c.dns.cn.		1428	IN	A	203.119.27.1
+g.dns.cn.		1428	IN	A	66.198.183.65
+d.dns.cn.		1428	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		1428	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  11525
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			1428	IN	NS	f.dns.cn.
+cn.			1428	IN	NS	e.dns.cn.
+cn.			1428	IN	NS	c.dns.cn.
+cn.			1428	IN	NS	a.dns.cn.
+cn.			1428	IN	NS	ns.cernet.net.
+cn.			1428	IN	NS	d.dns.cn.
+cn.			1428	IN	NS	g.dns.cn.
+cn.			1428	IN	NS	b.dns.cn.
+
+;; ADDITIONAL SECTION:
+d.dns.cn.		1428	IN	A	203.119.28.1
+f.dns.cn.		1428	IN	A	195.219.8.90
+e.dns.cn.		1428	IN	A	203.119.29.1
+b.dns.cn.		1428	IN	A	203.119.26.1
+ns.cernet.net.		1428	IN	A	202.112.0.44
+a.dns.cn.		1428	IN	A	203.119.25.1
+c.dns.cn.		1428	IN	A	203.119.27.1
+g.dns.cn.		1428	IN	A	66.198.183.65
+d.dns.cn.		1428	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		1428	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  26862
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 15
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; AUTHORITY SECTION:
+.			3143	IN	NS	j.root-servers.net.
+.			3143	IN	NS	g.root-servers.net.
+.			3143	IN	NS	f.root-servers.net.
+.			3143	IN	NS	k.root-servers.net.
+.			3143	IN	NS	d.root-servers.net.
+.			3143	IN	NS	c.root-servers.net.
+.			3143	IN	NS	b.root-servers.net.
+.			3143	IN	NS	l.root-servers.net.
+.			3143	IN	NS	a.root-servers.net.
+.			3143	IN	NS	i.root-servers.net.
+.			3143	IN	NS	e.root-servers.net.
+.			3143	IN	NS	m.root-servers.net.
+.			3143	IN	NS	h.root-servers.net.
+
+;; ADDITIONAL SECTION:
+h.root-servers.net.	3143	IN	A	198.97.190.53
+g.root-servers.net.	3143	IN	A	192.112.36.4
+f.root-servers.net.	3143	IN	A	192.5.5.241
+a.root-servers.net.	3143	IN	A	198.41.0.4
+e.root-servers.net.	3143	IN	A	192.203.230.10
+b.root-servers.net.	2002	IN	A	192.228.79.201
+j.root-servers.net.	3143	IN	A	192.58.128.30
+l.root-servers.net.	3143	IN	A	199.7.83.42
+c.root-servers.net.	3143	IN	A	192.33.4.12
+k.root-servers.net.	3143	IN	A	193.0.14.129
+d.root-servers.net.	3143	IN	A	199.7.91.13
+i.root-servers.net.	3143	IN	A	192.36.148.17
+m.root-servers.net.	3143	IN	A	202.12.27.33
+h.root-servers.net.	3143	IN	AAAA	2001:500:1::53
+g.root-servers.net.	180	IN	AAAA	2001:500:12::d0d
+
+could not find enclosing zone
+
+NSUPDATE may success for cxcy.edu.cn@dns2.name.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  27893
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;nsupdate.cxcy.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			319	IN	NS	ns.cernet.net.
+cn.			319	IN	NS	g.dns.cn.
+cn.			319	IN	NS	c.dns.cn.
+cn.			319	IN	NS	f.dns.cn.
+cn.			319	IN	NS	e.dns.cn.
+cn.			319	IN	NS	a.dns.cn.
+cn.			319	IN	NS	b.dns.cn.
+cn.			319	IN	NS	d.dns.cn.
+
+;; ADDITIONAL SECTION:
+b.dns.cn.		319	IN	A	203.119.26.1
+ns.cernet.net.		319	IN	A	202.112.0.44
+d.dns.cn.		319	IN	A	203.119.28.1
+c.dns.cn.		319	IN	A	203.119.27.1
+e.dns.cn.		319	IN	A	203.119.29.1
+a.dns.cn.		319	IN	A	203.119.25.1
+g.dns.cn.		319	IN	A	66.198.183.65
+f.dns.cn.		319	IN	A	195.219.8.90
+d.dns.cn.		319	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		319	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:   3302
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;cxcy.edu.cn.			IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			319	IN	NS	c.dns.cn.
+cn.			319	IN	NS	a.dns.cn.
+cn.			319	IN	NS	e.dns.cn.
+cn.			319	IN	NS	f.dns.cn.
+cn.			319	IN	NS	ns.cernet.net.
+cn.			319	IN	NS	g.dns.cn.
+cn.			319	IN	NS	b.dns.cn.
+cn.			319	IN	NS	d.dns.cn.
+
+;; ADDITIONAL SECTION:
+b.dns.cn.		319	IN	A	203.119.26.1
+ns.cernet.net.		319	IN	A	202.112.0.44
+d.dns.cn.		319	IN	A	203.119.28.1
+c.dns.cn.		319	IN	A	203.119.27.1
+e.dns.cn.		319	IN	A	203.119.29.1
+a.dns.cn.		319	IN	A	203.119.25.1
+g.dns.cn.		319	IN	A	66.198.183.65
+f.dns.cn.		319	IN	A	195.219.8.90
+d.dns.cn.		319	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		319	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  59001
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;edu.cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			319	IN	NS	b.dns.cn.
+cn.			319	IN	NS	c.dns.cn.
+cn.			319	IN	NS	d.dns.cn.
+cn.			319	IN	NS	ns.cernet.net.
+cn.			319	IN	NS	a.dns.cn.
+cn.			319	IN	NS	g.dns.cn.
+cn.			319	IN	NS	f.dns.cn.
+cn.			319	IN	NS	e.dns.cn.
+
+;; ADDITIONAL SECTION:
+b.dns.cn.		319	IN	A	203.119.26.1
+ns.cernet.net.		319	IN	A	202.112.0.44
+d.dns.cn.		319	IN	A	203.119.28.1
+c.dns.cn.		319	IN	A	203.119.27.1
+e.dns.cn.		319	IN	A	203.119.29.1
+a.dns.cn.		319	IN	A	203.119.25.1
+g.dns.cn.		319	IN	A	66.198.183.65
+f.dns.cn.		319	IN	A	195.219.8.90
+d.dns.cn.		319	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		319	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  16017
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			319	IN	NS	b.dns.cn.
+cn.			319	IN	NS	g.dns.cn.
+cn.			319	IN	NS	d.dns.cn.
+cn.			319	IN	NS	c.dns.cn.
+cn.			319	IN	NS	ns.cernet.net.
+cn.			319	IN	NS	a.dns.cn.
+cn.			319	IN	NS	f.dns.cn.
+cn.			319	IN	NS	e.dns.cn.
+
+;; ADDITIONAL SECTION:
+b.dns.cn.		319	IN	A	203.119.26.1
+ns.cernet.net.		319	IN	A	202.112.0.44
+d.dns.cn.		319	IN	A	203.119.28.1
+c.dns.cn.		319	IN	A	203.119.27.1
+e.dns.cn.		319	IN	A	203.119.29.1
+a.dns.cn.		319	IN	A	203.119.25.1
+g.dns.cn.		319	IN	A	66.198.183.65
+f.dns.cn.		319	IN	A	195.219.8.90
+d.dns.cn.		319	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		319	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  50155
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 15
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; AUTHORITY SECTION:
+.			3103	IN	NS	g.root-servers.net.
+.			3103	IN	NS	a.root-servers.net.
+.			3103	IN	NS	c.root-servers.net.
+.			3103	IN	NS	m.root-servers.net.
+.			3103	IN	NS	j.root-servers.net.
+.			3103	IN	NS	e.root-servers.net.
+.			3103	IN	NS	k.root-servers.net.
+.			3103	IN	NS	l.root-servers.net.
+.			3103	IN	NS	f.root-servers.net.
+.			3103	IN	NS	h.root-servers.net.
+.			3103	IN	NS	d.root-servers.net.
+.			3103	IN	NS	i.root-servers.net.
+.			3103	IN	NS	b.root-servers.net.
+
+;; ADDITIONAL SECTION:
+k.root-servers.net.	3103	IN	A	193.0.14.129
+c.root-servers.net.	3103	IN	A	192.33.4.12
+i.root-servers.net.	3103	IN	A	192.36.148.17
+f.root-servers.net.	3103	IN	A	192.5.5.241
+l.root-servers.net.	3103	IN	A	199.7.83.42
+h.root-servers.net.	3103	IN	A	198.97.190.53
+j.root-servers.net.	3103	IN	A	192.58.128.30
+e.root-servers.net.	3103	IN	A	192.203.230.10
+g.root-servers.net.	3103	IN	A	192.112.36.4
+d.root-servers.net.	3103	IN	A	199.7.91.13
+a.root-servers.net.	3103	IN	A	198.41.0.4
+m.root-servers.net.	3103	IN	A	202.12.27.33
+b.root-servers.net.	3461	IN	A	192.228.79.201
+k.root-servers.net.	3103	IN	AAAA	2001:7fd::1
+c.root-servers.net.	3103	IN	AAAA	2001:500:2::c
+
+could not find enclosing zone
+
+NSUPDATE may success for cxcy2014.edu.cn@dns1.name.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:   3146
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;nsupdate.cxcy2014.edu.cn.	IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			1428	IN	NS	c.dns.cn.
+cn.			1428	IN	NS	b.dns.cn.
+cn.			1428	IN	NS	ns.cernet.net.
+cn.			1428	IN	NS	g.dns.cn.
+cn.			1428	IN	NS	a.dns.cn.
+cn.			1428	IN	NS	d.dns.cn.
+cn.			1428	IN	NS	f.dns.cn.
+cn.			1428	IN	NS	e.dns.cn.
+
+;; ADDITIONAL SECTION:
+d.dns.cn.		1428	IN	A	203.119.28.1
+f.dns.cn.		1428	IN	A	195.219.8.90
+e.dns.cn.		1428	IN	A	203.119.29.1
+b.dns.cn.		1428	IN	A	203.119.26.1
+ns.cernet.net.		1428	IN	A	202.112.0.44
+a.dns.cn.		1428	IN	A	203.119.25.1
+c.dns.cn.		1428	IN	A	203.119.27.1
+g.dns.cn.		1428	IN	A	66.198.183.65
+d.dns.cn.		1428	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		1428	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  55345
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;cxcy2014.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			1428	IN	NS	ns.cernet.net.
+cn.			1428	IN	NS	e.dns.cn.
+cn.			1428	IN	NS	d.dns.cn.
+cn.			1428	IN	NS	c.dns.cn.
+cn.			1428	IN	NS	g.dns.cn.
+cn.			1428	IN	NS	b.dns.cn.
+cn.			1428	IN	NS	f.dns.cn.
+cn.			1428	IN	NS	a.dns.cn.
+
+;; ADDITIONAL SECTION:
+d.dns.cn.		1428	IN	A	203.119.28.1
+f.dns.cn.		1428	IN	A	195.219.8.90
+e.dns.cn.		1428	IN	A	203.119.29.1
+b.dns.cn.		1428	IN	A	203.119.26.1
+ns.cernet.net.		1428	IN	A	202.112.0.44
+a.dns.cn.		1428	IN	A	203.119.25.1
+c.dns.cn.		1428	IN	A	203.119.27.1
+g.dns.cn.		1428	IN	A	66.198.183.65
+d.dns.cn.		1428	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		1428	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  35692
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;edu.cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			1428	IN	NS	d.dns.cn.
+cn.			1428	IN	NS	e.dns.cn.
+cn.			1428	IN	NS	f.dns.cn.
+cn.			1428	IN	NS	ns.cernet.net.
+cn.			1428	IN	NS	a.dns.cn.
+cn.			1428	IN	NS	c.dns.cn.
+cn.			1428	IN	NS	g.dns.cn.
+cn.			1428	IN	NS	b.dns.cn.
+
+;; ADDITIONAL SECTION:
+d.dns.cn.		1428	IN	A	203.119.28.1
+f.dns.cn.		1428	IN	A	195.219.8.90
+e.dns.cn.		1428	IN	A	203.119.29.1
+b.dns.cn.		1428	IN	A	203.119.26.1
+ns.cernet.net.		1428	IN	A	202.112.0.44
+a.dns.cn.		1428	IN	A	203.119.25.1
+c.dns.cn.		1428	IN	A	203.119.27.1
+g.dns.cn.		1428	IN	A	66.198.183.65
+d.dns.cn.		1428	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		1428	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  55731
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			1428	IN	NS	f.dns.cn.
+cn.			1428	IN	NS	a.dns.cn.
+cn.			1428	IN	NS	c.dns.cn.
+cn.			1428	IN	NS	b.dns.cn.
+cn.			1428	IN	NS	d.dns.cn.
+cn.			1428	IN	NS	e.dns.cn.
+cn.			1428	IN	NS	g.dns.cn.
+cn.			1428	IN	NS	ns.cernet.net.
+
+;; ADDITIONAL SECTION:
+d.dns.cn.		1428	IN	A	203.119.28.1
+f.dns.cn.		1428	IN	A	195.219.8.90
+e.dns.cn.		1428	IN	A	203.119.29.1
+b.dns.cn.		1428	IN	A	203.119.26.1
+ns.cernet.net.		1428	IN	A	202.112.0.44
+a.dns.cn.		1428	IN	A	203.119.25.1
+c.dns.cn.		1428	IN	A	203.119.27.1
+g.dns.cn.		1428	IN	A	66.198.183.65
+d.dns.cn.		1428	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		1428	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  27934
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 15
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; AUTHORITY SECTION:
+.			3143	IN	NS	j.root-servers.net.
+.			3143	IN	NS	a.root-servers.net.
+.			3143	IN	NS	g.root-servers.net.
+.			3143	IN	NS	k.root-servers.net.
+.			3143	IN	NS	e.root-servers.net.
+.			3143	IN	NS	f.root-servers.net.
+.			3143	IN	NS	i.root-servers.net.
+.			3143	IN	NS	h.root-servers.net.
+.			3143	IN	NS	d.root-servers.net.
+.			3143	IN	NS	b.root-servers.net.
+.			3143	IN	NS	l.root-servers.net.
+.			3143	IN	NS	m.root-servers.net.
+.			3143	IN	NS	c.root-servers.net.
+
+;; ADDITIONAL SECTION:
+h.root-servers.net.	3143	IN	A	198.97.190.53
+g.root-servers.net.	3143	IN	A	192.112.36.4
+f.root-servers.net.	3143	IN	A	192.5.5.241
+a.root-servers.net.	3143	IN	A	198.41.0.4
+e.root-servers.net.	3143	IN	A	192.203.230.10
+b.root-servers.net.	2002	IN	A	192.228.79.201
+j.root-servers.net.	3143	IN	A	192.58.128.30
+l.root-servers.net.	3143	IN	A	199.7.83.42
+c.root-servers.net.	3143	IN	A	192.33.4.12
+k.root-servers.net.	3143	IN	A	193.0.14.129
+d.root-servers.net.	3143	IN	A	199.7.91.13
+i.root-servers.net.	3143	IN	A	192.36.148.17
+m.root-servers.net.	3143	IN	A	202.12.27.33
+h.root-servers.net.	3143	IN	AAAA	2001:500:1::53
+g.root-servers.net.	180	IN	AAAA	2001:500:12::d0d
+
+could not find enclosing zone
+
+NSUPDATE may success for cxcy2014.edu.cn@dns2.name.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  10254
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;nsupdate.cxcy2014.edu.cn.	IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			319	IN	NS	c.dns.cn.
+cn.			319	IN	NS	b.dns.cn.
+cn.			319	IN	NS	g.dns.cn.
+cn.			319	IN	NS	a.dns.cn.
+cn.			319	IN	NS	ns.cernet.net.
+cn.			319	IN	NS	f.dns.cn.
+cn.			319	IN	NS	d.dns.cn.
+cn.			319	IN	NS	e.dns.cn.
+
+;; ADDITIONAL SECTION:
+b.dns.cn.		319	IN	A	203.119.26.1
+ns.cernet.net.		319	IN	A	202.112.0.44
+d.dns.cn.		319	IN	A	203.119.28.1
+c.dns.cn.		319	IN	A	203.119.27.1
+e.dns.cn.		319	IN	A	203.119.29.1
+a.dns.cn.		319	IN	A	203.119.25.1
+g.dns.cn.		319	IN	A	66.198.183.65
+f.dns.cn.		319	IN	A	195.219.8.90
+d.dns.cn.		319	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		319	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  24190
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;cxcy2014.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			319	IN	NS	ns.cernet.net.
+cn.			319	IN	NS	e.dns.cn.
+cn.			319	IN	NS	f.dns.cn.
+cn.			319	IN	NS	b.dns.cn.
+cn.			319	IN	NS	d.dns.cn.
+cn.			319	IN	NS	a.dns.cn.
+cn.			319	IN	NS	c.dns.cn.
+cn.			319	IN	NS	g.dns.cn.
+
+;; ADDITIONAL SECTION:
+b.dns.cn.		319	IN	A	203.119.26.1
+ns.cernet.net.		319	IN	A	202.112.0.44
+d.dns.cn.		319	IN	A	203.119.28.1
+c.dns.cn.		319	IN	A	203.119.27.1
+e.dns.cn.		319	IN	A	203.119.29.1
+a.dns.cn.		319	IN	A	203.119.25.1
+g.dns.cn.		319	IN	A	66.198.183.65
+f.dns.cn.		319	IN	A	195.219.8.90
+d.dns.cn.		319	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		319	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  29895
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;edu.cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			319	IN	NS	f.dns.cn.
+cn.			319	IN	NS	g.dns.cn.
+cn.			319	IN	NS	a.dns.cn.
+cn.			319	IN	NS	e.dns.cn.
+cn.			319	IN	NS	ns.cernet.net.
+cn.			319	IN	NS	c.dns.cn.
+cn.			319	IN	NS	b.dns.cn.
+cn.			319	IN	NS	d.dns.cn.
+
+;; ADDITIONAL SECTION:
+b.dns.cn.		319	IN	A	203.119.26.1
+ns.cernet.net.		319	IN	A	202.112.0.44
+d.dns.cn.		319	IN	A	203.119.28.1
+c.dns.cn.		319	IN	A	203.119.27.1
+e.dns.cn.		319	IN	A	203.119.29.1
+a.dns.cn.		319	IN	A	203.119.25.1
+g.dns.cn.		319	IN	A	66.198.183.65
+f.dns.cn.		319	IN	A	195.219.8.90
+d.dns.cn.		319	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		319	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:   6155
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			319	IN	NS	f.dns.cn.
+cn.			319	IN	NS	a.dns.cn.
+cn.			319	IN	NS	d.dns.cn.
+cn.			319	IN	NS	e.dns.cn.
+cn.			319	IN	NS	b.dns.cn.
+cn.			319	IN	NS	g.dns.cn.
+cn.			319	IN	NS	c.dns.cn.
+cn.			319	IN	NS	ns.cernet.net.
+
+;; ADDITIONAL SECTION:
+b.dns.cn.		319	IN	A	203.119.26.1
+ns.cernet.net.		319	IN	A	202.112.0.44
+d.dns.cn.		319	IN	A	203.119.28.1
+c.dns.cn.		319	IN	A	203.119.27.1
+e.dns.cn.		319	IN	A	203.119.29.1
+a.dns.cn.		319	IN	A	203.119.25.1
+g.dns.cn.		319	IN	A	66.198.183.65
+f.dns.cn.		319	IN	A	195.219.8.90
+d.dns.cn.		319	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		319	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  49201
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 15
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; AUTHORITY SECTION:
+.			3103	IN	NS	d.root-servers.net.
+.			3103	IN	NS	g.root-servers.net.
+.			3103	IN	NS	j.root-servers.net.
+.			3103	IN	NS	c.root-servers.net.
+.			3103	IN	NS	m.root-servers.net.
+.			3103	IN	NS	h.root-servers.net.
+.			3103	IN	NS	b.root-servers.net.
+.			3103	IN	NS	l.root-servers.net.
+.			3103	IN	NS	k.root-servers.net.
+.			3103	IN	NS	f.root-servers.net.
+.			3103	IN	NS	e.root-servers.net.
+.			3103	IN	NS	a.root-servers.net.
+.			3103	IN	NS	i.root-servers.net.
+
+;; ADDITIONAL SECTION:
+k.root-servers.net.	3103	IN	A	193.0.14.129
+c.root-servers.net.	3103	IN	A	192.33.4.12
+i.root-servers.net.	3103	IN	A	192.36.148.17
+f.root-servers.net.	3103	IN	A	192.5.5.241
+l.root-servers.net.	3103	IN	A	199.7.83.42
+h.root-servers.net.	3103	IN	A	198.97.190.53
+j.root-servers.net.	3103	IN	A	192.58.128.30
+e.root-servers.net.	3103	IN	A	192.203.230.10
+g.root-servers.net.	3103	IN	A	192.112.36.4
+d.root-servers.net.	3103	IN	A	199.7.91.13
+a.root-servers.net.	3103	IN	A	198.41.0.4
+m.root-servers.net.	3103	IN	A	202.12.27.33
+b.root-servers.net.	3461	IN	A	192.228.79.201
+k.root-servers.net.	3103	IN	AAAA	2001:7fd::1
+c.root-servers.net.	3103	IN	AAAA	2001:500:2::c
+
+could not find enclosing zone
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:    534
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.cers6.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+cers6.edu.cn.		0	IN	SOA	dns.tsinghua.edu.cn. szhu.dns.edu.cn. 2011011301 86400 7200 604800 86400
+
+Found zone name: cers6.edu.cn
+The master is: dns.tsinghua.edu.cn
+Sending update to 166.111.8.31#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  24464
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;cers6.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  24464
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.cers6.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for cerschool.edu.cn@dns2.service.edu.cn, result:
+; Communication with 202.205.11.9#53 failed: timed out
+dns_request_createvia: not implemented
+
+NSUPDATE may success for cerschool.edu.cn@dns1.service.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:   4248
+;; flags: qr aa ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.cerschool.edu.cn.	IN	SOA
+
+;; AUTHORITY SECTION:
+cerschool.edu.cn.	0	IN	SOA	ns.cerschool.edu.cn. postmaster.cerschool.edu.cn. 2017110201 28800 7200 604800 86400
+
+Found zone name: cerschool.edu.cn
+The master is: ns.cerschool.edu.cn
+Sending update to 202.205.109.1#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  40553
+;; flags: qr ra; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;cerschool.edu.cn.		IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  40553
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.cerschool.edu.cn. 600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for cert.edu.cn@spring.nic.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  46016
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.cert.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+cert.edu.cn.		0	IN	SOA	spring.nic.edu.cn. szhu.dns.edu.cn. 2013071207 28800 7200 604800 28800
+
+Found zone name: cert.edu.cn
+The master is: spring.nic.edu.cn
+Sending update to 202.112.0.13#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:   6743
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;cert.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:   6743
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.cert.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for certest.edu.cn@dns1.name.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  48907
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;nsupdate.certest.edu.cn.	IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			1421	IN	NS	f.dns.cn.
+cn.			1421	IN	NS	ns.cernet.net.
+cn.			1421	IN	NS	b.dns.cn.
+cn.			1421	IN	NS	e.dns.cn.
+cn.			1421	IN	NS	c.dns.cn.
+cn.			1421	IN	NS	g.dns.cn.
+cn.			1421	IN	NS	d.dns.cn.
+cn.			1421	IN	NS	a.dns.cn.
+
+;; ADDITIONAL SECTION:
+d.dns.cn.		1421	IN	A	203.119.28.1
+f.dns.cn.		1421	IN	A	195.219.8.90
+e.dns.cn.		1421	IN	A	203.119.29.1
+b.dns.cn.		1421	IN	A	203.119.26.1
+ns.cernet.net.		1421	IN	A	202.112.0.44
+a.dns.cn.		1421	IN	A	203.119.25.1
+c.dns.cn.		1421	IN	A	203.119.27.1
+g.dns.cn.		1421	IN	A	66.198.183.65
+d.dns.cn.		1421	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		1421	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  47629
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;certest.edu.cn.			IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			1421	IN	NS	d.dns.cn.
+cn.			1421	IN	NS	f.dns.cn.
+cn.			1421	IN	NS	b.dns.cn.
+cn.			1421	IN	NS	g.dns.cn.
+cn.			1421	IN	NS	e.dns.cn.
+cn.			1421	IN	NS	c.dns.cn.
+cn.			1421	IN	NS	a.dns.cn.
+cn.			1421	IN	NS	ns.cernet.net.
+
+;; ADDITIONAL SECTION:
+d.dns.cn.		1421	IN	A	203.119.28.1
+f.dns.cn.		1421	IN	A	195.219.8.90
+e.dns.cn.		1421	IN	A	203.119.29.1
+b.dns.cn.		1421	IN	A	203.119.26.1
+ns.cernet.net.		1421	IN	A	202.112.0.44
+a.dns.cn.		1421	IN	A	203.119.25.1
+c.dns.cn.		1421	IN	A	203.119.27.1
+g.dns.cn.		1421	IN	A	66.198.183.65
+d.dns.cn.		1421	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		1421	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  37008
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;edu.cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			1421	IN	NS	e.dns.cn.
+cn.			1421	IN	NS	ns.cernet.net.
+cn.			1421	IN	NS	f.dns.cn.
+cn.			1421	IN	NS	b.dns.cn.
+cn.			1421	IN	NS	d.dns.cn.
+cn.			1421	IN	NS	a.dns.cn.
+cn.			1421	IN	NS	c.dns.cn.
+cn.			1421	IN	NS	g.dns.cn.
+
+;; ADDITIONAL SECTION:
+d.dns.cn.		1421	IN	A	203.119.28.1
+f.dns.cn.		1421	IN	A	195.219.8.90
+e.dns.cn.		1421	IN	A	203.119.29.1
+b.dns.cn.		1421	IN	A	203.119.26.1
+ns.cernet.net.		1421	IN	A	202.112.0.44
+a.dns.cn.		1421	IN	A	203.119.25.1
+c.dns.cn.		1421	IN	A	203.119.27.1
+g.dns.cn.		1421	IN	A	66.198.183.65
+d.dns.cn.		1421	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		1421	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  54344
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			1421	IN	NS	b.dns.cn.
+cn.			1421	IN	NS	ns.cernet.net.
+cn.			1421	IN	NS	d.dns.cn.
+cn.			1421	IN	NS	a.dns.cn.
+cn.			1421	IN	NS	g.dns.cn.
+cn.			1421	IN	NS	e.dns.cn.
+cn.			1421	IN	NS	f.dns.cn.
+cn.			1421	IN	NS	c.dns.cn.
+
+;; ADDITIONAL SECTION:
+d.dns.cn.		1421	IN	A	203.119.28.1
+f.dns.cn.		1421	IN	A	195.219.8.90
+e.dns.cn.		1421	IN	A	203.119.29.1
+b.dns.cn.		1421	IN	A	203.119.26.1
+ns.cernet.net.		1421	IN	A	202.112.0.44
+a.dns.cn.		1421	IN	A	203.119.25.1
+c.dns.cn.		1421	IN	A	203.119.27.1
+g.dns.cn.		1421	IN	A	66.198.183.65
+d.dns.cn.		1421	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		1421	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  42221
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 15
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; AUTHORITY SECTION:
+.			3136	IN	NS	f.root-servers.net.
+.			3136	IN	NS	h.root-servers.net.
+.			3136	IN	NS	e.root-servers.net.
+.			3136	IN	NS	c.root-servers.net.
+.			3136	IN	NS	l.root-servers.net.
+.			3136	IN	NS	b.root-servers.net.
+.			3136	IN	NS	m.root-servers.net.
+.			3136	IN	NS	a.root-servers.net.
+.			3136	IN	NS	j.root-servers.net.
+.			3136	IN	NS	k.root-servers.net.
+.			3136	IN	NS	i.root-servers.net.
+.			3136	IN	NS	g.root-servers.net.
+.			3136	IN	NS	d.root-servers.net.
+
+;; ADDITIONAL SECTION:
+h.root-servers.net.	3136	IN	A	198.97.190.53
+g.root-servers.net.	3136	IN	A	192.112.36.4
+f.root-servers.net.	3136	IN	A	192.5.5.241
+a.root-servers.net.	3136	IN	A	198.41.0.4
+e.root-servers.net.	3136	IN	A	192.203.230.10
+b.root-servers.net.	1995	IN	A	192.228.79.201
+j.root-servers.net.	3136	IN	A	192.58.128.30
+l.root-servers.net.	3136	IN	A	199.7.83.42
+c.root-servers.net.	3136	IN	A	192.33.4.12
+k.root-servers.net.	3136	IN	A	193.0.14.129
+d.root-servers.net.	3136	IN	A	199.7.91.13
+i.root-servers.net.	3136	IN	A	192.36.148.17
+m.root-servers.net.	3136	IN	A	202.12.27.33
+h.root-servers.net.	3136	IN	AAAA	2001:500:1::53
+g.root-servers.net.	173	IN	AAAA	2001:500:12::d0d
+
+could not find enclosing zone
+
+NSUPDATE may success for certest.edu.cn@dns2.name.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  38133
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;nsupdate.certest.edu.cn.	IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			312	IN	NS	ns.cernet.net.
+cn.			312	IN	NS	g.dns.cn.
+cn.			312	IN	NS	f.dns.cn.
+cn.			312	IN	NS	a.dns.cn.
+cn.			312	IN	NS	d.dns.cn.
+cn.			312	IN	NS	e.dns.cn.
+cn.			312	IN	NS	c.dns.cn.
+cn.			312	IN	NS	b.dns.cn.
+
+;; ADDITIONAL SECTION:
+b.dns.cn.		312	IN	A	203.119.26.1
+ns.cernet.net.		312	IN	A	202.112.0.44
+d.dns.cn.		312	IN	A	203.119.28.1
+c.dns.cn.		312	IN	A	203.119.27.1
+e.dns.cn.		312	IN	A	203.119.29.1
+a.dns.cn.		312	IN	A	203.119.25.1
+g.dns.cn.		312	IN	A	66.198.183.65
+f.dns.cn.		312	IN	A	195.219.8.90
+d.dns.cn.		312	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		312	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  25110
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;certest.edu.cn.			IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			312	IN	NS	f.dns.cn.
+cn.			312	IN	NS	ns.cernet.net.
+cn.			312	IN	NS	a.dns.cn.
+cn.			312	IN	NS	c.dns.cn.
+cn.			312	IN	NS	e.dns.cn.
+cn.			312	IN	NS	d.dns.cn.
+cn.			312	IN	NS	b.dns.cn.
+cn.			312	IN	NS	g.dns.cn.
+
+;; ADDITIONAL SECTION:
+b.dns.cn.		312	IN	A	203.119.26.1
+ns.cernet.net.		312	IN	A	202.112.0.44
+d.dns.cn.		312	IN	A	203.119.28.1
+c.dns.cn.		312	IN	A	203.119.27.1
+e.dns.cn.		312	IN	A	203.119.29.1
+a.dns.cn.		312	IN	A	203.119.25.1
+g.dns.cn.		312	IN	A	66.198.183.65
+f.dns.cn.		312	IN	A	195.219.8.90
+d.dns.cn.		312	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		312	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  31049
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;edu.cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			312	IN	NS	b.dns.cn.
+cn.			312	IN	NS	ns.cernet.net.
+cn.			312	IN	NS	e.dns.cn.
+cn.			312	IN	NS	f.dns.cn.
+cn.			312	IN	NS	a.dns.cn.
+cn.			312	IN	NS	d.dns.cn.
+cn.			312	IN	NS	c.dns.cn.
+cn.			312	IN	NS	g.dns.cn.
+
+;; ADDITIONAL SECTION:
+b.dns.cn.		312	IN	A	203.119.26.1
+ns.cernet.net.		312	IN	A	202.112.0.44
+d.dns.cn.		312	IN	A	203.119.28.1
+c.dns.cn.		312	IN	A	203.119.27.1
+e.dns.cn.		312	IN	A	203.119.29.1
+a.dns.cn.		312	IN	A	203.119.25.1
+g.dns.cn.		312	IN	A	66.198.183.65
+f.dns.cn.		312	IN	A	195.219.8.90
+d.dns.cn.		312	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		312	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:   2956
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			312	IN	NS	d.dns.cn.
+cn.			312	IN	NS	g.dns.cn.
+cn.			312	IN	NS	b.dns.cn.
+cn.			312	IN	NS	ns.cernet.net.
+cn.			312	IN	NS	a.dns.cn.
+cn.			312	IN	NS	f.dns.cn.
+cn.			312	IN	NS	e.dns.cn.
+cn.			312	IN	NS	c.dns.cn.
+
+;; ADDITIONAL SECTION:
+b.dns.cn.		312	IN	A	203.119.26.1
+ns.cernet.net.		312	IN	A	202.112.0.44
+d.dns.cn.		312	IN	A	203.119.28.1
+c.dns.cn.		312	IN	A	203.119.27.1
+e.dns.cn.		312	IN	A	203.119.29.1
+a.dns.cn.		312	IN	A	203.119.25.1
+g.dns.cn.		312	IN	A	66.198.183.65
+f.dns.cn.		312	IN	A	195.219.8.90
+d.dns.cn.		312	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		312	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  10895
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 15
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; AUTHORITY SECTION:
+.			3096	IN	NS	e.root-servers.net.
+.			3096	IN	NS	l.root-servers.net.
+.			3096	IN	NS	m.root-servers.net.
+.			3096	IN	NS	f.root-servers.net.
+.			3096	IN	NS	i.root-servers.net.
+.			3096	IN	NS	c.root-servers.net.
+.			3096	IN	NS	b.root-servers.net.
+.			3096	IN	NS	h.root-servers.net.
+.			3096	IN	NS	k.root-servers.net.
+.			3096	IN	NS	a.root-servers.net.
+.			3096	IN	NS	d.root-servers.net.
+.			3096	IN	NS	j.root-servers.net.
+.			3096	IN	NS	g.root-servers.net.
+
+;; ADDITIONAL SECTION:
+k.root-servers.net.	3096	IN	A	193.0.14.129
+c.root-servers.net.	3096	IN	A	192.33.4.12
+i.root-servers.net.	3096	IN	A	192.36.148.17
+f.root-servers.net.	3096	IN	A	192.5.5.241
+l.root-servers.net.	3096	IN	A	199.7.83.42
+h.root-servers.net.	3096	IN	A	198.97.190.53
+j.root-servers.net.	3096	IN	A	192.58.128.30
+e.root-servers.net.	3096	IN	A	192.203.230.10
+g.root-servers.net.	3096	IN	A	192.112.36.4
+d.root-servers.net.	3096	IN	A	199.7.91.13
+a.root-servers.net.	3096	IN	A	198.41.0.4
+m.root-servers.net.	3096	IN	A	202.12.27.33
+b.root-servers.net.	3454	IN	A	192.228.79.201
+k.root-servers.net.	3096	IN	AAAA	2001:7fd::1
+c.root-servers.net.	3096	IN	AAAA	2001:500:2::c
+
+could not find enclosing zone
+NSUPDATE may success for 021.edu.cn@dns1.021.edu.cn, result:
+; Communication with 219.228.24.2#53 failed: timed out
+dns_request_createvia: not implemented
+
+NSUPDATE may success for 021.edu.cn@dns2.021.edu.cn, result:
+; Communication with 219.228.24.3#53 failed: timed out
+dns_request_createvia: not implemented
+
+NSUPDATE may success for 10000nt.edu.cn@dns2.10000nt.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  25906
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.10000nt.edu.cn.	IN	SOA
+
+;; AUTHORITY SECTION:
+10000nt.edu.cn.		0	IN	SOA	ns.buptnet.edu.cn. hostmaster.bupt.edu.cn. 2100000027 360000 3600 604800 86400
+
+Found zone name: 10000nt.edu.cn
+The master is: ns.buptnet.edu.cn
+Sending update to 202.112.10.36#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOTAUTH, id:  15231
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;10000nt.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  15231
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.10000nt.edu.cn. 600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for 10000nt.edu.cn@dns1.10000nt.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  52975
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.10000nt.edu.cn.	IN	SOA
+
+;; AUTHORITY SECTION:
+10000nt.edu.cn.		0	IN	SOA	ns.buptnet.edu.cn. hostmaster.bupt.edu.cn. 2100000027 360000 3600 604800 86400
+
+Found zone name: 10000nt.edu.cn
+The master is: ns.buptnet.edu.cn
+Sending update to 202.112.10.37#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOTAUTH, id:  46590
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;10000nt.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  46590
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.10000nt.edu.cn. 600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for 101edu.edu.cn@dns1.resource.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  45312
+;; flags: qr aa ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.101edu.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+101edu.edu.cn.		0	IN	SOA	ns.101edu.edu.cn. postmaster.101edu.edu.cn. 2018101601 28800 7200 604800 3600
+
+Found zone name: 101edu.edu.cn
+The master is: ns.101edu.edu.cn
+Sending update to 202.205.109.1#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  13550
+;; flags: qr ra; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;101edu.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  13550
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.101edu.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for 101edu.edu.cn@dns2.resource.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  29655
+;; flags: qr aa ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.101edu.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+101edu.edu.cn.		0	IN	SOA	ns.101edu.edu.cn. postmaster.101edu.edu.cn. 2018101601 28800 7200 604800 3600
+
+Found zone name: 101edu.edu.cn
+The master is: ns.101edu.edu.cn
+Sending update to 202.205.11.70#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  51481
+;; flags: qr ra; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;101edu.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  51481
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.101edu.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE failed for 10ms.edu.cn@ns2.hosting.edu.cn
+NSUPDATE failed for 10ms.edu.cn@ns1.hosting.edu.cn
+NSUPDATE may success for 114.edu.cn@dns1.etone.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  36704
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.114.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+114.edu.cn.		0	IN	SOA	114.edu.cn. qikw.cernet.com. 2015042701 86400 3600 604800 10800
+
+Found zone name: 114.edu.cn
+The master is: 114.edu.cn
+Sending update to 59.64.112.189#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  56028
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;114.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  56028
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.114.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for 114.edu.cn@dns2.etone.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  34706
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.114.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+114.edu.cn.		0	IN	SOA	114.edu.cn. qikw.cernet.com. 2015042701 86400 3600 604800 10800
+
+Found zone name: 114.edu.cn
+The master is: 114.edu.cn
+Sending update to 59.64.112.186#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  62699
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;114.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  62699
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.114.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for 123.edu.cn@ns2.hosting.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  48321
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.123.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+123.edu.cn.		0	IN	SOA	ns1.cernet.com. ccert.consesi.gmail.com. 2014031701 300 180 1209600 900
+
+Found zone name: 123.edu.cn
+The master is: ns1.cernet.com
+Sending update to 121.194.2.55#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  36253
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;123.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  36253
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.123.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for 123.edu.cn@ns1.hosting.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  29177
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.123.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+123.edu.cn.		0	IN	SOA	ns1.cernet.com. ccert.consesi.gmail.com. 2014031701 300 180 1209600 900
+
+Found zone name: 123.edu.cn
+The master is: ns1.cernet.com
+Sending update to 121.194.2.51#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:   2205
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;123.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:   2205
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.123.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for 211.edu.cn@dns1.cer.net, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  37173
+;; flags: qr aa ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.211.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+211.edu.cn.		0	IN	SOA	ns.211.edu.cn. postmaster.211.edu.cn. 2018071301 28800 7200 604800 86400
+
+Found zone name: 211.edu.cn
+The master is: ns.211.edu.cn
+Sending update to 202.205.109.1#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  36456
+;; flags: qr ra; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;211.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  36456
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.211.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for bit.edu.cn@dns.bit.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:   4681
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.bit.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+bit.edu.cn.		0	IN	SOA	dns.bit.edu.cn. hostmaster.bit.edu.cn. 2018101601 288 300 6048 864
+
+Found zone name: bit.edu.cn
+The master is: dns.bit.edu.cn
+Sending update to 202.204.80.1#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  46020
+;; flags: qr; ZONE: 0, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  46020
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.bit.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for bit.edu.cn@dns2.bit.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:   1840
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.bit.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+bit.edu.cn.		0	IN	SOA	dns.bit.edu.cn. hostmaster.bit.edu.cn. 2018101601 28800 300 604800 86400
+
+Found zone name: bit.edu.cn
+The master is: dns.bit.edu.cn
+Sending update to 202.204.80.2#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  13779
+;; flags: qr; ZONE: 0, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  13779
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.bit.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for bit6.edu.cn@dns.bit.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  16537
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.bit6.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+bit6.edu.cn.		0	IN	SOA	dns.bit.edu.cn. root.bit.edu.cn. 20170325 28800 7200 604800 86400
+
+Found zone name: bit6.edu.cn
+The master is: dns.bit.edu.cn
+Sending update to 202.204.80.1#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  13230
+;; flags: qr; ZONE: 0, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  13230
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.bit6.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for bitc.edu.cn@dns2.online.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  15364
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.bitc.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+bitc.edu.cn.		0	IN	SOA	dns.online.edu.cn. xhy.online.edu.cn. 2018050501 10800 10800 604800 400
+
+Found zone name: bitc.edu.cn
+The master is: dns.online.edu.cn
+Sending update to 202.205.0.2#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  50866
+;; flags: qr; ZONE: 0, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  50866
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.bitc.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for bitc.edu.cn@dns.online.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  30838
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.bitc.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+bitc.edu.cn.		0	IN	SOA	dns.online.edu.cn. xhy.online.edu.cn. 2018050501 10800 10800 604800 400
+
+Found zone name: bitc.edu.cn
+The master is: dns.online.edu.cn
+Sending update to 202.205.0.1#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  62413
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;bitc.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  62413
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.bitc.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for biti.edu.cn@dns.biti.edu.cn, result:
+; Communication with 211.68.32.1#53 failed: timed out
+dns_request_createvia: not implemented
+
+NSUPDATE may success for bitzh.edu.cn@dns1.bitzh.edu.cn, result:
+; Communication with 42.247.24.145#53 failed: timed out
+dns_request_createvia: not implemented
+
+NSUPDATE may success for bitzh.edu.cn@dns2.bitzh.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  60477
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.bitzh.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+bitzh.edu.cn.		0	IN	SOA	dns1.bitzh.edu.cn. root.bitzh.edu.cn. 2018061301 3600 1800 604800 86400
+
+Found zone name: bitzh.edu.cn
+The master is: dns1.bitzh.edu.cn
+Sending update to 221.4.215.215#53
+; Communication with 221.4.215.215#53 failed: operation canceled
+../../../lib/dns/name.c:1002: REQUIRE((((source) != ((void *)0)) && (((const isc__magic_t *)(source))->magic == ((('D') << 24 | ('N') << 16 | ('S') << 8 | ('n')))))) failed, back trace
+#0 0x7f468d2279e7 in ??
+#1 0x7f468d22793a in ??
+#2 0x7f468e701445 in ??
+#3 0x563692e98650 in ??
+#4 0x563692e9a0fd in ??
+#5 0x563692e9b712 in ??
+#6 0x7f468d24b923 in ??
+#7 0x7f468cbf2494 in ??
+#8 0x7f468c043acf in ??
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  15702
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.bitzh.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for bj.edu.cn@dns2.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  39923
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.bj.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+bj.edu.cn.		0	IN	SOA	dns2.edu.cn. szhu.dns.edu.cn. 2001103114 28800 7200 604800 86400
+
+Found zone name: bj.edu.cn
+The master is: dns2.edu.cn
+Sending update to 202.112.0.13#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:   3640
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;bj.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:   3640
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.bj.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for bj5hs.edu.cn@dns2.online.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  11311
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 9
+;; QUESTION SECTION:
+;nsupdate.bj5hs.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+edu.cn.			153924	IN	NS	dns2.edu.cn.
+edu.cn.			153924	IN	NS	deneb.dfn.de.
+edu.cn.			153924	IN	NS	dns.edu.cn.
+edu.cn.			153924	IN	NS	ns2.cuhk.hk.
+edu.cn.			153924	IN	NS	ns2.cernet.net.
+
+;; ADDITIONAL SECTION:
+dns.edu.cn.		129321	IN	A	202.112.0.35
+dns.edu.cn.		129321	IN	AAAA	2001:250:c006::35
+ns2.cuhk.hk.		9265	IN	A	137.189.6.21
+ns2.cernet.net.		9265	IN	A	101.4.126.203
+ns2.cernet.net.		9265	IN	AAAA	2001:da8:1:100::22
+ns2.cernet.net.		9265	IN	AAAA	2001:250:c006::35
+dns2.edu.cn.		129323	IN	A	202.112.0.13
+dns2.edu.cn.		129321	IN	AAAA	2001:da8:1:100::22
+deneb.dfn.de.		9265	IN	A	192.76.176.9
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  33831
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 9
+;; QUESTION SECTION:
+;bj5hs.edu.cn.			IN	SOA
+
+;; AUTHORITY SECTION:
+edu.cn.			153924	IN	NS	ns2.cernet.net.
+edu.cn.			153924	IN	NS	dns2.edu.cn.
+edu.cn.			153924	IN	NS	deneb.dfn.de.
+edu.cn.			153924	IN	NS	dns.edu.cn.
+edu.cn.			153924	IN	NS	ns2.cuhk.hk.
+
+;; ADDITIONAL SECTION:
+dns.edu.cn.		129321	IN	A	202.112.0.35
+dns.edu.cn.		129321	IN	AAAA	2001:250:c006::35
+ns2.cuhk.hk.		9265	IN	A	137.189.6.21
+ns2.cernet.net.		9265	IN	A	101.4.126.203
+ns2.cernet.net.		9265	IN	AAAA	2001:da8:1:100::22
+ns2.cernet.net.		9265	IN	AAAA	2001:250:c006::35
+dns2.edu.cn.		129323	IN	A	202.112.0.13
+dns2.edu.cn.		129321	IN	AAAA	2001:da8:1:100::22
+deneb.dfn.de.		9265	IN	A	192.76.176.9
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  19299
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 9
+;; QUESTION SECTION:
+;edu.cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+edu.cn.			153924	IN	NS	deneb.dfn.de.
+edu.cn.			153924	IN	NS	dns.edu.cn.
+edu.cn.			153924	IN	NS	ns2.cuhk.hk.
+edu.cn.			153924	IN	NS	ns2.cernet.net.
+edu.cn.			153924	IN	NS	dns2.edu.cn.
+
+;; ADDITIONAL SECTION:
+dns.edu.cn.		129321	IN	A	202.112.0.35
+dns.edu.cn.		129321	IN	AAAA	2001:250:c006::35
+ns2.cuhk.hk.		9265	IN	A	137.189.6.21
+ns2.cernet.net.		9265	IN	A	101.4.126.203
+ns2.cernet.net.		9265	IN	AAAA	2001:da8:1:100::22
+ns2.cernet.net.		9265	IN	AAAA	2001:250:c006::35
+dns2.edu.cn.		129323	IN	A	202.112.0.13
+dns2.edu.cn.		129321	IN	AAAA	2001:da8:1:100::22
+deneb.dfn.de.		9265	IN	A	192.76.176.9
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  58246
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 0
+;; QUESTION SECTION:
+;cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			170756	IN	NS	ns.cernet.net.
+cn.			170756	IN	NS	a.dns.cn.
+cn.			170756	IN	NS	b.dns.cn.
+cn.			170756	IN	NS	c.dns.cn.
+cn.			170756	IN	NS	d.dns.cn.
+cn.			170756	IN	NS	e.dns.cn.
+cn.			170756	IN	NS	f.dns.cn.
+cn.			170756	IN	NS	g.dns.cn.
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:   7696
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 13
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; AUTHORITY SECTION:
+.			440698	IN	NS	a.root-servers.net.
+.			440698	IN	NS	b.root-servers.net.
+.			440698	IN	NS	c.root-servers.net.
+.			440698	IN	NS	d.root-servers.net.
+.			440698	IN	NS	e.root-servers.net.
+.			440698	IN	NS	f.root-servers.net.
+.			440698	IN	NS	g.root-servers.net.
+.			440698	IN	NS	h.root-servers.net.
+.			440698	IN	NS	i.root-servers.net.
+.			440698	IN	NS	j.root-servers.net.
+.			440698	IN	NS	k.root-servers.net.
+.			440698	IN	NS	l.root-servers.net.
+.			440698	IN	NS	m.root-servers.net.
+
+;; ADDITIONAL SECTION:
+a.root-servers.net.	440698	IN	A	198.41.0.4
+a.root-servers.net.	440698	IN	AAAA	2001:503:ba3e::2:30
+b.root-servers.net.	440698	IN	A	192.228.79.201
+b.root-servers.net.	440698	IN	AAAA	2001:500:84::b
+c.root-servers.net.	440698	IN	A	192.33.4.12
+c.root-servers.net.	440698	IN	AAAA	2001:500:2::c
+d.root-servers.net.	440698	IN	A	199.7.91.13
+d.root-servers.net.	440698	IN	AAAA	2001:500:2d::d
+e.root-servers.net.	440698	IN	A	192.203.230.10
+f.root-servers.net.	440698	IN	A	192.5.5.241
+f.root-servers.net.	440698	IN	AAAA	2001:500:2f::f
+g.root-servers.net.	440698	IN	A	192.112.36.4
+h.root-servers.net.	440698	IN	A	198.97.190.53
+
+could not find enclosing zone
+
+NSUPDATE failed for bj5hs.edu.cn@dns.online.edu.cn
+NSUPDATE may success for bjaaa.edu.cn@dns2.resource.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  20285
+;; flags: qr aa ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.bjaaa.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+bjaaa.edu.cn.		0	IN	SOA	ns.bjaaa.edu.cn. postmaster.bjaaa.edu.cn. 2017122901 28800 7200 604800 3600
+
+Found zone name: bjaaa.edu.cn
+The master is: ns.bjaaa.edu.cn
+Sending update to 202.205.11.70#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  25014
+;; flags: qr ra; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;bjaaa.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  25014
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.bjaaa.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for bjaaa.edu.cn@dns1.resource.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  35973
+;; flags: qr aa ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.bjaaa.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+bjaaa.edu.cn.		0	IN	SOA	ns.bjaaa.edu.cn. postmaster.bjaaa.edu.cn. 2017122901 28800 7200 604800 3600
+
+Found zone name: bjaaa.edu.cn
+The master is: ns.bjaaa.edu.cn
+Sending update to 202.205.109.1#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  25498
+;; flags: qr ra; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;bjaaa.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  25498
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.bjaaa.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE failed for bjadc.edu.cn@ns1.myedu.edu.cn
+NSUPDATE may success for bjaj.edu.cn@dns2.resource.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  24067
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 7
+;; QUESTION SECTION:
+;nsupdate.bjaj.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+edu.cn.			6885	IN	NS	dns2.edu.cn.
+edu.cn.			6885	IN	NS	deneb.dfn.de.
+edu.cn.			6885	IN	NS	ns2.cernet.net.
+edu.cn.			6885	IN	NS	dns.edu.cn.
+edu.cn.			6885	IN	NS	ns2.cuhk.hk.
+
+;; ADDITIONAL SECTION:
+dns2.edu.cn.		86016	IN	A	202.112.0.13
+ns2.cernet.net.		31364	IN	A	101.4.126.203
+dns.edu.cn.		79971	IN	A	202.112.0.35
+deneb.dfn.de.		7265	IN	A	192.76.176.9
+ns2.cuhk.hk.		46296	IN	A	137.189.6.21
+dns2.edu.cn.		82853	IN	AAAA	2001:da8:1:100::22
+dns.edu.cn.		82853	IN	AAAA	2001:250:c006::35
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  62977
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 7
+;; QUESTION SECTION:
+;bjaj.edu.cn.			IN	SOA
+
+;; AUTHORITY SECTION:
+edu.cn.			6885	IN	NS	dns.edu.cn.
+edu.cn.			6885	IN	NS	dns2.edu.cn.
+edu.cn.			6885	IN	NS	ns2.cernet.net.
+edu.cn.			6885	IN	NS	ns2.cuhk.hk.
+edu.cn.			6885	IN	NS	deneb.dfn.de.
+
+;; ADDITIONAL SECTION:
+dns2.edu.cn.		86016	IN	A	202.112.0.13
+ns2.cernet.net.		31364	IN	A	101.4.126.203
+dns.edu.cn.		79971	IN	A	202.112.0.35
+deneb.dfn.de.		7265	IN	A	192.76.176.9
+ns2.cuhk.hk.		46296	IN	A	137.189.6.21
+dns2.edu.cn.		82853	IN	AAAA	2001:da8:1:100::22
+dns.edu.cn.		82853	IN	AAAA	2001:250:c006::35
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  46572
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 7
+;; QUESTION SECTION:
+;edu.cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+edu.cn.			6885	IN	NS	deneb.dfn.de.
+edu.cn.			6885	IN	NS	ns2.cernet.net.
+edu.cn.			6885	IN	NS	ns2.cuhk.hk.
+edu.cn.			6885	IN	NS	dns2.edu.cn.
+edu.cn.			6885	IN	NS	dns.edu.cn.
+
+;; ADDITIONAL SECTION:
+dns2.edu.cn.		86016	IN	A	202.112.0.13
+ns2.cernet.net.		31364	IN	A	101.4.126.203
+dns.edu.cn.		79971	IN	A	202.112.0.35
+deneb.dfn.de.		7265	IN	A	192.76.176.9
+ns2.cuhk.hk.		46296	IN	A	137.189.6.21
+dns2.edu.cn.		82853	IN	AAAA	2001:da8:1:100::22
+dns.edu.cn.		82853	IN	AAAA	2001:250:c006::35
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:   7776
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			3964	IN	NS	ns.cernet.net.
+cn.			3964	IN	NS	e.dns.cn.
+cn.			3964	IN	NS	b.dns.cn.
+cn.			3964	IN	NS	a.dns.cn.
+cn.			3964	IN	NS	f.dns.cn.
+cn.			3964	IN	NS	d.dns.cn.
+cn.			3964	IN	NS	g.dns.cn.
+cn.			3964	IN	NS	c.dns.cn.
+
+;; ADDITIONAL SECTION:
+e.dns.cn.		42208	IN	A	203.119.29.1
+b.dns.cn.		11912	IN	A	203.119.26.1
+f.dns.cn.		8523	IN	A	195.219.8.90
+g.dns.cn.		42184	IN	A	66.198.183.65
+d.dns.cn.		10010	IN	A	203.119.28.1
+a.dns.cn.		4725	IN	A	203.119.25.1
+ns.cernet.net.		3964	IN	A	202.112.0.44
+c.dns.cn.		25205	IN	A	203.119.27.1
+d.dns.cn.		3964	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		3964	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  49850
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 15
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; AUTHORITY SECTION:
+.			22746	IN	NS	f.root-servers.net.
+.			22746	IN	NS	k.root-servers.net.
+.			22746	IN	NS	e.root-servers.net.
+.			22746	IN	NS	m.root-servers.net.
+.			22746	IN	NS	j.root-servers.net.
+.			22746	IN	NS	c.root-servers.net.
+.			22746	IN	NS	h.root-servers.net.
+.			22746	IN	NS	d.root-servers.net.
+.			22746	IN	NS	g.root-servers.net.
+.			22746	IN	NS	i.root-servers.net.
+.			22746	IN	NS	b.root-servers.net.
+.			22746	IN	NS	l.root-servers.net.
+.			22746	IN	NS	a.root-servers.net.
+
+;; ADDITIONAL SECTION:
+a.root-servers.net.	70536	IN	A	198.41.0.4
+b.root-servers.net.	83283	IN	A	192.228.79.201
+c.root-servers.net.	70536	IN	A	192.33.4.12
+d.root-servers.net.	70536	IN	A	199.7.91.13
+e.root-servers.net.	70536	IN	A	192.203.230.10
+f.root-servers.net.	70536	IN	A	192.5.5.241
+g.root-servers.net.	70536	IN	A	192.112.36.4
+h.root-servers.net.	70536	IN	A	198.97.190.53
+i.root-servers.net.	70536	IN	A	192.36.148.17
+j.root-servers.net.	70536	IN	A	192.58.128.30
+k.root-servers.net.	70536	IN	A	193.0.14.129
+l.root-servers.net.	70536	IN	A	199.7.83.42
+m.root-servers.net.	70536	IN	A	202.12.27.33
+a.root-servers.net.	70536	IN	AAAA	2001:503:ba3e::2:30
+b.root-servers.net.	83283	IN	AAAA	2001:500:84::b
+
+could not find enclosing zone
+
+NSUPDATE may success for bjaj.edu.cn@dns1.resource.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  14024
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 9
+;; QUESTION SECTION:
+;nsupdate.bjaj.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+edu.cn.			75388	IN	NS	deneb.dfn.de.
+edu.cn.			75388	IN	NS	ns2.cernet.net.
+edu.cn.			75388	IN	NS	dns2.edu.cn.
+edu.cn.			75388	IN	NS	ns2.cuhk.hk.
+edu.cn.			75388	IN	NS	dns.edu.cn.
+
+;; ADDITIONAL SECTION:
+dns2.edu.cn.		28232	IN	A	202.112.0.13
+deneb.dfn.de.		13312	IN	A	192.76.176.9
+dns.edu.cn.		36176	IN	A	202.112.0.35
+ns2.cernet.net.		23643	IN	A	101.4.126.203
+ns2.cuhk.hk.		5289	IN	A	137.189.6.21
+dns2.edu.cn.		64429	IN	AAAA	2001:da8:1:100::22
+dns.edu.cn.		36176	IN	AAAA	2001:250:c006::35
+ns2.cernet.net.		68311	IN	AAAA	2001:250:c006::35
+ns2.cernet.net.		68311	IN	AAAA	2001:da8:1:100::22
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  51057
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 9
+;; QUESTION SECTION:
+;bjaj.edu.cn.			IN	SOA
+
+;; AUTHORITY SECTION:
+edu.cn.			75388	IN	NS	ns2.cuhk.hk.
+edu.cn.			75388	IN	NS	dns.edu.cn.
+edu.cn.			75388	IN	NS	dns2.edu.cn.
+edu.cn.			75388	IN	NS	ns2.cernet.net.
+edu.cn.			75388	IN	NS	deneb.dfn.de.
+
+;; ADDITIONAL SECTION:
+dns2.edu.cn.		28232	IN	A	202.112.0.13
+deneb.dfn.de.		13312	IN	A	192.76.176.9
+dns.edu.cn.		36176	IN	A	202.112.0.35
+ns2.cernet.net.		23643	IN	A	101.4.126.203
+ns2.cuhk.hk.		5289	IN	A	137.189.6.21
+dns2.edu.cn.		64429	IN	AAAA	2001:da8:1:100::22
+dns.edu.cn.		36176	IN	AAAA	2001:250:c006::35
+ns2.cernet.net.		68311	IN	AAAA	2001:da8:1:100::22
+ns2.cernet.net.		68311	IN	AAAA	2001:250:c006::35
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  39423
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 9
+;; QUESTION SECTION:
+;edu.cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+edu.cn.			75388	IN	NS	dns.edu.cn.
+edu.cn.			75388	IN	NS	ns2.cernet.net.
+edu.cn.			75388	IN	NS	dns2.edu.cn.
+edu.cn.			75388	IN	NS	deneb.dfn.de.
+edu.cn.			75388	IN	NS	ns2.cuhk.hk.
+
+;; ADDITIONAL SECTION:
+dns2.edu.cn.		28232	IN	A	202.112.0.13
+deneb.dfn.de.		13312	IN	A	192.76.176.9
+dns.edu.cn.		36176	IN	A	202.112.0.35
+ns2.cernet.net.		23643	IN	A	101.4.126.203
+ns2.cuhk.hk.		5289	IN	A	137.189.6.21
+dns2.edu.cn.		64429	IN	AAAA	2001:da8:1:100::22
+dns.edu.cn.		36176	IN	AAAA	2001:250:c006::35
+ns2.cernet.net.		68311	IN	AAAA	2001:250:c006::35
+ns2.cernet.net.		68311	IN	AAAA	2001:da8:1:100::22
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  10303
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			75244	IN	NS	ns.cernet.net.
+cn.			75244	IN	NS	d.dns.cn.
+cn.			75244	IN	NS	f.dns.cn.
+cn.			75244	IN	NS	a.dns.cn.
+cn.			75244	IN	NS	e.dns.cn.
+cn.			75244	IN	NS	c.dns.cn.
+cn.			75244	IN	NS	b.dns.cn.
+cn.			75244	IN	NS	g.dns.cn.
+
+;; ADDITIONAL SECTION:
+c.dns.cn.		19657	IN	A	203.119.27.1
+g.dns.cn.		20071	IN	A	66.198.183.65
+b.dns.cn.		16012	IN	A	203.119.26.1
+f.dns.cn.		26283	IN	A	195.219.8.90
+e.dns.cn.		23020	IN	A	203.119.29.1
+d.dns.cn.		34825	IN	A	203.119.28.1
+a.dns.cn.		81787	IN	A	203.119.25.1
+ns.cernet.net.		32799	IN	A	202.112.0.44
+d.dns.cn.		610	IN	AAAA	2001:dc7:1000::1
+a.dns.cn.		610	IN	AAAA	2001:dc7::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  60881
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 15
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; AUTHORITY SECTION:
+.			24266	IN	NS	i.root-servers.net.
+.			24266	IN	NS	d.root-servers.net.
+.			24266	IN	NS	m.root-servers.net.
+.			24266	IN	NS	h.root-servers.net.
+.			24266	IN	NS	a.root-servers.net.
+.			24266	IN	NS	l.root-servers.net.
+.			24266	IN	NS	k.root-servers.net.
+.			24266	IN	NS	c.root-servers.net.
+.			24266	IN	NS	e.root-servers.net.
+.			24266	IN	NS	j.root-servers.net.
+.			24266	IN	NS	b.root-servers.net.
+.			24266	IN	NS	g.root-servers.net.
+.			24266	IN	NS	f.root-servers.net.
+
+;; ADDITIONAL SECTION:
+d.root-servers.net.	45331	IN	A	199.7.91.13
+f.root-servers.net.	26078	IN	A	192.5.5.241
+c.root-servers.net.	26078	IN	A	192.33.4.12
+a.root-servers.net.	26078	IN	A	198.41.0.4
+e.root-servers.net.	26078	IN	A	192.203.230.10
+k.root-servers.net.	26078	IN	A	193.0.14.129
+h.root-servers.net.	26078	IN	A	198.97.190.53
+i.root-servers.net.	26078	IN	A	192.36.148.17
+l.root-servers.net.	26078	IN	A	199.7.83.42
+b.root-servers.net.	55110	IN	A	192.228.79.201
+j.root-servers.net.	26078	IN	A	192.58.128.30
+g.root-servers.net.	26078	IN	A	192.112.36.4
+m.root-servers.net.	26078	IN	A	202.12.27.33
+d.root-servers.net.	28782	IN	AAAA	2001:500:2d::d
+f.root-servers.net.	26078	IN	AAAA	2001:500:2f::f
+
+could not find enclosing zone
+NSUPDATE may success for hnnu.edu.cn@hnds2.hnnu.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  35919
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.hnnu.edu.cn.		IN	SOA
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  51502
+;; flags: qr aa; QUESTION: 1, ANSWER: 1, AUTHORITY: 2, ADDITIONAL: 2
+;; QUESTION SECTION:
+;hnnu.edu.cn.			IN	SOA
+
+;; ANSWER SECTION:
+hnnu.edu.cn.		3600	IN	SOA	hnds2.hnnu.edu.cn. root.hnnu.edu.cn. 2018101602 3600 300 86400 3600
+
+;; AUTHORITY SECTION:
+hnnu.edu.cn.		3600	IN	NS	hnds1.hnnu.edu.cn.
+hnnu.edu.cn.		3600	IN	NS	hnds2.hnnu.edu.cn.
+
+;; ADDITIONAL SECTION:
+hnds1.hnnu.edu.cn.	3600	IN	A	211.70.176.21
+hnds2.hnnu.edu.cn.	3600	IN	A	211.70.176.22
+
+Found zone name: hnnu.edu.cn
+The master is: hnds2.hnnu.edu.cn
+Sending update to 211.70.176.22#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  26934
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;hnnu.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  26934
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.hnnu.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for hnnvc.edu.cn@ns2.service.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:   2924
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.hnnvc.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+hnnvc.edu.cn.		86400	IN	SOA	ns1.service.edu.cn. 583403996.qq.com. 2018071801 10800 7200 604800 345600
+
+Found zone name: hnnvc.edu.cn
+The master is: ns1.service.edu.cn
+Sending update to 202.112.4.49#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOTAUTH, id:  53365
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;hnnvc.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  53365
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.hnnvc.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for hnnvc.edu.cn@ns1.service.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  60364
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.hnnvc.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+hnnvc.edu.cn.		86400	IN	SOA	ns1.service.edu.cn. 583403996.qq.com. 2018071801 10800 7200 604800 345600
+
+Found zone name: hnnvc.edu.cn
+The master is: ns1.service.edu.cn
+Sending update to 202.112.5.49#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOTAUTH, id:  34480
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;hnnvc.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  34480
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.hnnvc.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for hnp.edu.cn@ns2.service.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  38482
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.hnp.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+hnp.edu.cn.		86400	IN	SOA	ns1.service.edu.cn. zyue13579.163.com. 2018072301 10800 7200 604800 345600
+
+Found zone name: hnp.edu.cn
+The master is: ns1.service.edu.cn
+Sending update to 202.112.4.49#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOTAUTH, id:  37657
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;hnp.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  37657
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.hnp.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for hnp.edu.cn@ns1.service.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  48297
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.hnp.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+hnp.edu.cn.		86400	IN	SOA	ns1.service.edu.cn. zyue13579.163.com. 2018072301 10800 7200 604800 345600
+
+Found zone name: hnp.edu.cn
+The master is: ns1.service.edu.cn
+Sending update to 202.112.5.49#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOTAUTH, id:  60624
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;hnp.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  60624
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.hnp.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for hnpi.edu.cn@dns2.hnpi.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  47124
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.hnpi.edu.cn.		IN	SOA
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  45196
+;; flags: qr aa; QUESTION: 1, ANSWER: 1, AUTHORITY: 3, ADDITIONAL: 3
+;; QUESTION SECTION:
+;hnpi.edu.cn.			IN	SOA
+
+;; ANSWER SECTION:
+hnpi.edu.cn.		3600	IN	SOA	dns2.hnpi.edu.cn. root.hnpi.edu.cn. 2018081502 3600 300 86400 3600
+
+;; AUTHORITY SECTION:
+hnpi.edu.cn.		3600	IN	NS	dns.hnpi.edu.cn.
+hnpi.edu.cn.		3600	IN	NS	dns2.hnpi.edu.cn.
+hnpi.edu.cn.		3600	IN	NS	dns3.hnpi.edu.cn.
+
+;; ADDITIONAL SECTION:
+dns.hnpi.edu.cn.	3600	IN	A	125.219.113.9
+dns2.hnpi.edu.cn.	3600	IN	A	218.28.91.99
+dns3.hnpi.edu.cn.	3600	IN	A	222.88.236.88
+
+Found zone name: hnpi.edu.cn
+The master is: dns2.hnpi.edu.cn
+Sending update to 218.28.91.99#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:   8927
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;hnpi.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:   8927
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.hnpi.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for hnpi.edu.cn@dns3.hnpi.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  10959
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.hnpi.edu.cn.		IN	SOA
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  41262
+;; flags: qr aa; QUESTION: 1, ANSWER: 1, AUTHORITY: 3, ADDITIONAL: 3
+;; QUESTION SECTION:
+;hnpi.edu.cn.			IN	SOA
+
+;; ANSWER SECTION:
+hnpi.edu.cn.		3600	IN	SOA	dns2.hnpi.edu.cn. root.hnpi.edu.cn. 2018081502 3600 300 86400 3600
+
+;; AUTHORITY SECTION:
+hnpi.edu.cn.		3600	IN	NS	dns3.hnpi.edu.cn.
+hnpi.edu.cn.		3600	IN	NS	dns2.hnpi.edu.cn.
+hnpi.edu.cn.		3600	IN	NS	dns.hnpi.edu.cn.
+
+;; ADDITIONAL SECTION:
+dns.hnpi.edu.cn.	3600	IN	A	125.219.113.9
+dns2.hnpi.edu.cn.	3600	IN	A	218.28.91.99
+dns3.hnpi.edu.cn.	3600	IN	A	222.88.236.88
+
+Found zone name: hnpi.edu.cn
+The master is: dns2.hnpi.edu.cn
+Sending update to 222.88.236.88#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  44942
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;hnpi.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  44942
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.hnpi.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for hnpi.edu.cn@dns.hnpi.edu.cn, result:
+; Communication with 125.219.113.9#53 failed: timed out
+dns_request_createvia: not implemented
+
+NSUPDATE may success for hnrtu.edu.cn@dns1.hnrtu.edu.cn, result:
+; Communication with 210.42.192.2#53 failed: timed out
+dns_request_createvia: not implemented
+
+NSUPDATE may success for cerwave.edu.cn@dns.online.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  54419
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.cerwave.edu.cn.	IN	SOA
+
+;; AUTHORITY SECTION:
+cerwave.edu.cn.		0	IN	SOA	dns.online.edu.cn. xhy.online.edu.cn. 2006120601 10800 10800 604800 86400
+
+Found zone name: cerwave.edu.cn
+The master is: dns.online.edu.cn
+Sending update to 202.205.0.1#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  14054
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;cerwave.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  14054
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.cerwave.edu.cn. 600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for cerwave.edu.cn@dns2.online.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  58731
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.cerwave.edu.cn.	IN	SOA
+
+;; AUTHORITY SECTION:
+cerwave.edu.cn.		0	IN	SOA	dns.online.edu.cn. xhy.online.edu.cn. 2006120602 10800 10800 604800 86400
+
+Found zone name: cerwave.edu.cn
+The master is: dns.online.edu.cn
+Sending update to 202.205.0.2#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  14125
+;; flags: qr; ZONE: 0, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  14125
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.cerwave.edu.cn. 600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for ces.edu.cn@dns.ces.edu.cn, result:
+; Communication with 202.205.164.100#53 failed: timed out
+dns_request_createvia: not implemented
+
+NSUPDATE may success for cesc.edu.cn@dns2.online.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  15997
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 9
+;; QUESTION SECTION:
+;nsupdate.cesc.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+edu.cn.			153924	IN	NS	dns2.edu.cn.
+edu.cn.			153924	IN	NS	deneb.dfn.de.
+edu.cn.			153924	IN	NS	dns.edu.cn.
+edu.cn.			153924	IN	NS	ns2.cuhk.hk.
+edu.cn.			153924	IN	NS	ns2.cernet.net.
+
+;; ADDITIONAL SECTION:
+dns.edu.cn.		129321	IN	A	202.112.0.35
+dns.edu.cn.		129321	IN	AAAA	2001:250:c006::35
+ns2.cuhk.hk.		9265	IN	A	137.189.6.21
+ns2.cernet.net.		9265	IN	A	101.4.126.203
+ns2.cernet.net.		9265	IN	AAAA	2001:da8:1:100::22
+ns2.cernet.net.		9265	IN	AAAA	2001:250:c006::35
+dns2.edu.cn.		129323	IN	A	202.112.0.13
+dns2.edu.cn.		129321	IN	AAAA	2001:da8:1:100::22
+deneb.dfn.de.		9265	IN	A	192.76.176.9
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  54427
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 9
+;; QUESTION SECTION:
+;cesc.edu.cn.			IN	SOA
+
+;; AUTHORITY SECTION:
+edu.cn.			153924	IN	NS	ns2.cuhk.hk.
+edu.cn.			153924	IN	NS	ns2.cernet.net.
+edu.cn.			153924	IN	NS	dns2.edu.cn.
+edu.cn.			153924	IN	NS	deneb.dfn.de.
+edu.cn.			153924	IN	NS	dns.edu.cn.
+
+;; ADDITIONAL SECTION:
+dns.edu.cn.		129321	IN	A	202.112.0.35
+dns.edu.cn.		129321	IN	AAAA	2001:250:c006::35
+ns2.cuhk.hk.		9265	IN	A	137.189.6.21
+ns2.cernet.net.		9265	IN	A	101.4.126.203
+ns2.cernet.net.		9265	IN	AAAA	2001:da8:1:100::22
+ns2.cernet.net.		9265	IN	AAAA	2001:250:c006::35
+dns2.edu.cn.		129323	IN	A	202.112.0.13
+dns2.edu.cn.		129321	IN	AAAA	2001:da8:1:100::22
+deneb.dfn.de.		9265	IN	A	192.76.176.9
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  59756
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 9
+;; QUESTION SECTION:
+;edu.cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+edu.cn.			153924	IN	NS	ns2.cernet.net.
+edu.cn.			153924	IN	NS	dns2.edu.cn.
+edu.cn.			153924	IN	NS	deneb.dfn.de.
+edu.cn.			153924	IN	NS	dns.edu.cn.
+edu.cn.			153924	IN	NS	ns2.cuhk.hk.
+
+;; ADDITIONAL SECTION:
+dns.edu.cn.		129321	IN	A	202.112.0.35
+dns.edu.cn.		129321	IN	AAAA	2001:250:c006::35
+ns2.cuhk.hk.		9265	IN	A	137.189.6.21
+ns2.cernet.net.		9265	IN	A	101.4.126.203
+ns2.cernet.net.		9265	IN	AAAA	2001:da8:1:100::22
+ns2.cernet.net.		9265	IN	AAAA	2001:250:c006::35
+dns2.edu.cn.		129323	IN	A	202.112.0.13
+dns2.edu.cn.		129321	IN	AAAA	2001:da8:1:100::22
+deneb.dfn.de.		9265	IN	A	192.76.176.9
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  43431
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 0
+;; QUESTION SECTION:
+;cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			170756	IN	NS	b.dns.cn.
+cn.			170756	IN	NS	c.dns.cn.
+cn.			170756	IN	NS	d.dns.cn.
+cn.			170756	IN	NS	e.dns.cn.
+cn.			170756	IN	NS	f.dns.cn.
+cn.			170756	IN	NS	g.dns.cn.
+cn.			170756	IN	NS	ns.cernet.net.
+cn.			170756	IN	NS	a.dns.cn.
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  50380
+;; flags: qr; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 13
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; AUTHORITY SECTION:
+.			440698	IN	NS	h.root-servers.net.
+.			440698	IN	NS	i.root-servers.net.
+.			440698	IN	NS	j.root-servers.net.
+.			440698	IN	NS	k.root-servers.net.
+.			440698	IN	NS	l.root-servers.net.
+.			440698	IN	NS	m.root-servers.net.
+.			440698	IN	NS	a.root-servers.net.
+.			440698	IN	NS	b.root-servers.net.
+.			440698	IN	NS	c.root-servers.net.
+.			440698	IN	NS	d.root-servers.net.
+.			440698	IN	NS	e.root-servers.net.
+.			440698	IN	NS	f.root-servers.net.
+.			440698	IN	NS	g.root-servers.net.
+
+;; ADDITIONAL SECTION:
+a.root-servers.net.	440698	IN	A	198.41.0.4
+a.root-servers.net.	440698	IN	AAAA	2001:503:ba3e::2:30
+b.root-servers.net.	440698	IN	A	192.228.79.201
+b.root-servers.net.	440698	IN	AAAA	2001:500:84::b
+c.root-servers.net.	440698	IN	A	192.33.4.12
+c.root-servers.net.	440698	IN	AAAA	2001:500:2::c
+d.root-servers.net.	440698	IN	A	199.7.91.13
+d.root-servers.net.	440698	IN	AAAA	2001:500:2d::d
+e.root-servers.net.	440698	IN	A	192.203.230.10
+f.root-servers.net.	440698	IN	A	192.5.5.241
+f.root-servers.net.	440698	IN	AAAA	2001:500:2f::f
+g.root-servers.net.	440698	IN	A	192.112.36.4
+h.root-servers.net.	440698	IN	A	198.97.190.53
+
+could not find enclosing zone
+
+NSUPDATE failed for cesc.edu.cn@dns.online.edu.cn
+NSUPDATE may success for cesl.edu.cn@zhengfa4.cupl.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  65377
+;; flags: qr aa ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.cesl.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+cesl.edu.cn.		3600	IN	SOA	ns.cesl.edu.cn. postmaster.cesl.edu.cn. 2018041003 28800 7200 604800 3600
+
+Found zone name: cesl.edu.cn
+The master is: ns.cesl.edu.cn
+Sending update to 202.205.64.99#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  24737
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;cesl.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  24737
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.cesl.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for cesl.edu.cn@zhengfa2.cupl.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  51011
+;; flags: qr aa ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.cesl.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+cesl.edu.cn.		3600	IN	SOA	ns.cesl.edu.cn. postmaster.cesl.edu.cn. 2018041003 28800 7200 604800 3600
+
+Found zone name: cesl.edu.cn
+The master is: ns.cesl.edu.cn
+Sending update to 202.205.64.9#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  64772
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;cesl.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  64772
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.cesl.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+NSUPDATE may success for gscaas.edu.cn@dns1.gscaas.edu.cn, result:
+; Communication with 101.4.136.205#53 failed: timed out
+dns_request_createvia: not implemented
+
+NSUPDATE may success for gscaas.edu.cn@ns3.hosting.edu.cn, result:
+; Communication with 121.194.13.154#53 failed: timed out
+dns_request_createvia: not implemented
+
+NSUPDATE may success for gsdxlg.edu.cn@ns2.gs.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  44228
+;; flags: qr aa ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.gsdxlg.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+gsdxlg.edu.cn.		0	IN	SOA	ns1.gs.edu.cn. luwei152.163.com. 1313727295 3600 3600 86400 3600
+
+Found zone name: gsdxlg.edu.cn
+The master is: ns1.gs.edu.cn
+Sending update to 202.201.89.132#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  11840
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;gsdxlg.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  11840
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.gsdxlg.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for gsdxlg.edu.cn@ns1.gs.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  47328
+;; flags: qr aa ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.gsdxlg.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+gsdxlg.edu.cn.		0	IN	SOA	ns1.gs.edu.cn. luwei152.163.com. 1313727295 3600 3600 86400 3600
+
+Found zone name: gsdxlg.edu.cn
+The master is: ns1.gs.edu.cn
+Sending update to 202.201.89.131#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  15593
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;gsdxlg.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  15593
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.gsdxlg.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for gsee.edu.cn@ns1.gs.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  48783
+;; flags: qr aa ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.gsee.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+gsee.edu.cn.		0	IN	SOA	ns1.gs.edu.cn. root.gs.edu.cn. 1449024340 3600 3600 86400 3600
+
+Found zone name: gsee.edu.cn
+The master is: ns1.gs.edu.cn
+Sending update to 202.201.89.131#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  53456
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;gsee.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  53456
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.gsee.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for gsee.edu.cn@mdns.gsee.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:   6404
+;; flags: qr aa ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.gsee.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+gsee.edu.cn.		0	IN	SOA	mdns.gsee.edu.cn. root.gsee.edu.cn. 1348103842 3600 3600 86400 3600
+
+Found zone name: gsee.edu.cn
+The master is: mdns.gsee.edu.cn
+Sending update to 210.26.32.1#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  29779
+;; flags: qr ra; ZONE: 0, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  29779
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.gsee.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for gsfc.edu.cn@dns2.gsfc.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  55756
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.gsfc.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+gsfc.edu.cn.		0	IN	SOA	dns1.gsfc.edu.cn. anlong.gsfc.edu.cn. 2018051629 10800 900 604800 86400
+
+Found zone name: gsfc.edu.cn
+The master is: dns1.gsfc.edu.cn
+Sending update to 59.76.112.2#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  19995
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;gsfc.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  19995
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.gsfc.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for gsfc.edu.cn@dns1.gsfc.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  57030
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.gsfc.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+gsfc.edu.cn.		0	IN	SOA	dns1.gsfc.edu.cn. anlong.gsfc.edu.cn. 2018051629 10800 900 604800 86400
+
+Found zone name: gsfc.edu.cn
+The master is: dns1.gsfc.edu.cn
+Sending update to 59.76.112.1#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: REFUSED, id:  50200
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;gsfc.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  50200
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.gsfc.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+
+NSUPDATE may success for gsjcxy.edu.cn@tssns.gsjcxy.edu.cn, result:
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  20718
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 7
+;; QUESTION SECTION:
+;nsupdate.gsjcxy.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+edu.cn.			139512	IN	NS	dns.edu.cn.
+edu.cn.			139512	IN	NS	ns2.cuhk.hk.
+edu.cn.			139512	IN	NS	deneb.dfn.de.
+edu.cn.			139512	IN	NS	ns2.cernet.net.
+edu.cn.			139512	IN	NS	dns2.edu.cn.
+
+;; ADDITIONAL SECTION:
+deneb.dfn.de.		53113	IN	A	192.76.176.9
+dns2.edu.cn.		139512	IN	A	202.112.0.13
+ns2.cuhk.hk.		53113	IN	A	137.189.6.21
+ns2.cernet.net.		53112	IN	A	101.4.126.203
+dns.edu.cn.		139512	IN	A	202.112.0.35
+ns2.cernet.net.		53112	IN	AAAA	2001:da8:1:100::22
+ns2.cernet.net.		53112	IN	AAAA	2001:250:c006::35
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  23894
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 7
+;; QUESTION SECTION:
+;gsjcxy.edu.cn.			IN	SOA
+
+;; AUTHORITY SECTION:
+edu.cn.			139512	IN	NS	dns.edu.cn.
+edu.cn.			139512	IN	NS	dns2.edu.cn.
+edu.cn.			139512	IN	NS	ns2.cernet.net.
+edu.cn.			139512	IN	NS	deneb.dfn.de.
+edu.cn.			139512	IN	NS	ns2.cuhk.hk.
+
+;; ADDITIONAL SECTION:
+deneb.dfn.de.		53113	IN	A	192.76.176.9
+dns2.edu.cn.		139512	IN	A	202.112.0.13
+ns2.cuhk.hk.		53113	IN	A	137.189.6.21
+ns2.cernet.net.		53112	IN	A	101.4.126.203
+dns.edu.cn.		139512	IN	A	202.112.0.35
+ns2.cernet.net.		53112	IN	AAAA	2001:250:c006::35
+ns2.cernet.net.		53112	IN	AAAA	2001:da8:1:100::22
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  55333
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 5, ADDITIONAL: 7
+;; QUESTION SECTION:
+;edu.cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+edu.cn.			139512	IN	NS	deneb.dfn.de.
+edu.cn.			139512	IN	NS	dns2.edu.cn.
+edu.cn.			139512	IN	NS	ns2.cuhk.hk.
+edu.cn.			139512	IN	NS	ns2.cernet.net.
+edu.cn.			139512	IN	NS	dns.edu.cn.
+
+;; ADDITIONAL SECTION:
+deneb.dfn.de.		53113	IN	A	192.76.176.9
+dns2.edu.cn.		139512	IN	A	202.112.0.13
+ns2.cuhk.hk.		53113	IN	A	137.189.6.21
+ns2.cernet.net.		53112	IN	A	101.4.126.203
+dns.edu.cn.		139512	IN	A	202.112.0.35
+ns2.cernet.net.		53112	IN	AAAA	2001:da8:1:100::22
+ns2.cernet.net.		53112	IN	AAAA	2001:250:c006::35
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  22756
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 8, ADDITIONAL: 10
+;; QUESTION SECTION:
+;cn.				IN	SOA
+
+;; AUTHORITY SECTION:
+cn.			139511	IN	NS	g.dns.cn.
+cn.			139511	IN	NS	f.dns.cn.
+cn.			139511	IN	NS	d.dns.cn.
+cn.			139511	IN	NS	b.dns.cn.
+cn.			139511	IN	NS	c.dns.cn.
+cn.			139511	IN	NS	e.dns.cn.
+cn.			139511	IN	NS	a.dns.cn.
+cn.			139511	IN	NS	ns.cernet.net.
+
+;; ADDITIONAL SECTION:
+a.dns.cn.		139511	IN	A	203.119.25.1
+b.dns.cn.		139511	IN	A	203.119.26.1
+c.dns.cn.		139511	IN	A	203.119.27.1
+d.dns.cn.		139511	IN	A	203.119.28.1
+e.dns.cn.		139511	IN	A	203.119.29.1
+f.dns.cn.		139511	IN	A	195.219.8.90
+g.dns.cn.		139511	IN	A	66.198.183.65
+ns.cernet.net.		139511	IN	A	202.112.0.44
+a.dns.cn.		139511	IN	AAAA	2001:dc7::1
+d.dns.cn.		139511	IN	AAAA	2001:dc7:1000::1
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  40345
+;; flags: qr ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 13, ADDITIONAL: 15
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; AUTHORITY SECTION:
+.			485111	IN	NS	i.root-servers.net.
+.			485111	IN	NS	l.root-servers.net.
+.			485111	IN	NS	c.root-servers.net.
+.			485111	IN	NS	h.root-servers.net.
+.			485111	IN	NS	j.root-servers.net.
+.			485111	IN	NS	b.root-servers.net.
+.			485111	IN	NS	g.root-servers.net.
+.			485111	IN	NS	a.root-servers.net.
+.			485111	IN	NS	k.root-servers.net.
+.			485111	IN	NS	e.root-servers.net.
+.			485111	IN	NS	d.root-servers.net.
+.			485111	IN	NS	f.root-servers.net.
+.			485111	IN	NS	m.root-servers.net.
+
+;; ADDITIONAL SECTION:
+a.root-servers.net.	485111	IN	A	198.41.0.4
+b.root-servers.net.	571511	IN	A	199.9.14.201
+c.root-servers.net.	571511	IN	A	192.33.4.12
+d.root-servers.net.	485111	IN	A	199.7.91.13
+e.root-servers.net.	485111	IN	A	192.203.230.10
+f.root-servers.net.	571511	IN	A	192.5.5.241
+g.root-servers.net.	571511	IN	A	192.112.36.4
+h.root-servers.net.	571511	IN	A	198.97.190.53
+i.root-servers.net.	485111	IN	A	192.36.148.17
+j.root-servers.net.	571511	IN	A	192.58.128.30
+k.root-servers.net.	571511	IN	A	193.0.14.129
+l.root-servers.net.	485111	IN	A	199.7.83.42
+m.root-servers.net.	485111	IN	A	202.12.27.33
+a.root-servers.net.	485111	IN	AAAA	2001:503:ba3e::2:30
+b.root-servers.net.	571511	IN	AAAA	2001:500:200::b
+
+could not find enclosing zone

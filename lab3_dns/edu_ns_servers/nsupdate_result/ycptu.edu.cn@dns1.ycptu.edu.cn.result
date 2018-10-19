@@ -1,0 +1,28 @@
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  11868
+;; flags: qr aa ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.ycptu.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+ycptu.edu.cn.		3600	IN	SOA	ycptu. hostmaster. 23 900 600 86400 3600
+
+Found zone name: ycptu.edu.cn
+The master is: ycptu
+Sending update to 115.24.28.1#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  14852
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; ZONE SECTION:
+;ycptu.edu.cn.			IN	SOA
+
+;; UPDATE SECTION:
+nsupdate.ycptu.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  14852
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.ycptu.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+

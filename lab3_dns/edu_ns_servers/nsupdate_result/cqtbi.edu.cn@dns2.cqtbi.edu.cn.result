@@ -1,0 +1,28 @@
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  24991
+;; flags: qr aa; QUESTION: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.cqtbi.edu.cn.		IN	SOA
+
+;; ANSWER SECTION:
+nsupdate.cqtbi.edu.cn.	15	IN	SOA	ns.cqtbi.edu.cn. root.cqtbi.edu.cn. 51 360 900 6840 15
+
+Found zone name: nsupdate.cqtbi.edu.cn
+The master is: ns.cqtbi.edu.cn
+Sending update to 61.186.170.118#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  57152
+;; flags: qr aa; ZONE: 1, PREREQ: 1, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;nsupdate.cqtbi.edu.cn.		IN	SOA
+
+;; PREREQUISITE SECTION:
+nsupdate.cqtbi.edu.cn.	15	IN	SOA	ns.cqtbi.edu.cn. root.cqtbi.edu.cn. 51 360 900 6840 15
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  57152
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.cqtbi.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+

@@ -1,0 +1,28 @@
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  53963
+;; flags: qr aa; QUESTION: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.etec.edu.cn.		IN	SOA
+
+;; ANSWER SECTION:
+nsupdate.etec.edu.cn.	86400	IN	SOA	dns1.etec.edu.cn. admin.etec.edu.cn. 20151111 10800 900 604800 60
+
+Found zone name: nsupdate.etec.edu.cn
+The master is: dns1.etec.edu.cn
+Sending update to 202.119.133.1#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  13243
+;; flags: qr aa; ZONE: 1, PREREQ: 1, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;nsupdate.etec.edu.cn.		IN	SOA
+
+;; PREREQUISITE SECTION:
+nsupdate.etec.edu.cn.	86400	IN	SOA	dns1.etec.edu.cn. admin.etec.edu.cn. 20151111 10800 900 604800 60
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  13243
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.etec.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+

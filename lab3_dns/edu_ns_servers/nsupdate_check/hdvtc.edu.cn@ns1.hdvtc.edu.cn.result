@@ -1,0 +1,20 @@
+
+; <<>> DiG 9.10.3-P4-Debian <<>> nsupdate.hdvtc.edu.cn @211.81.120.70 TXT +tries=1 +time=1
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8838
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1280
+;; QUESTION SECTION:
+;nsupdate.hdvtc.edu.cn.		IN	TXT
+
+;; ANSWER SECTION:
+nsupdate.hdvtc.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+;; Query time: 10 msec
+;; SERVER: 211.81.120.70#53(211.81.120.70)
+;; WHEN: Fri Oct 19 10:06:28 CST 2018
+;; MSG SIZE  rcvd: 129
+

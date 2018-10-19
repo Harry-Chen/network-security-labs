@@ -1,0 +1,34 @@
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id:  31850
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.gtcfla.edu.cn.		IN	SOA
+
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  15196
+;; flags: qr aa; QUESTION: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;gtcfla.edu.cn.			IN	SOA
+
+;; ANSWER SECTION:
+gtcfla.edu.cn.		86400	IN	SOA	dns.gtcfla.edu.cn. hostmaster.gtcfla.edu.cn. 1803961452 7200 20 7200 86400
+
+Found zone name: gtcfla.edu.cn
+The master is: dns.gtcfla.edu.cn
+Sending update to 219.137.33.6#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  29384
+;; flags: qr aa; ZONE: 1, PREREQ: 1, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;gtcfla.edu.cn.			IN	SOA
+
+;; PREREQUISITE SECTION:
+gtcfla.edu.cn.		86400	IN	SOA	dns.gtcfla.edu.cn. hostmaster.gtcfla.edu.cn. 1803961452 7200 20 7200 86400
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  29384
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.gtcfla.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+

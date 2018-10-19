@@ -1,0 +1,28 @@
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  52354
+;; flags: qr aa ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.hnwu.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+hnwu.edu.cn.		3600	IN	SOA	win-b0lst7qvm69. hostmaster. 71 900 600 86400 3600
+
+Found zone name: hnwu.edu.cn
+The master is: win-b0lst7qvm69
+Sending update to 125.221.252.8#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  31976
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; ZONE SECTION:
+;hnwu.edu.cn.			IN	SOA
+
+;; UPDATE SECTION:
+nsupdate.hnwu.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  31976
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.hnwu.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+

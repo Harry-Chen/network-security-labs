@@ -1,0 +1,25 @@
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  55171
+;; flags: qr aa; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+;; QUESTION SECTION:
+;nsupdate.hbue.edu.cn.		IN	SOA
+
+;; AUTHORITY SECTION:
+hbue.edu.cn.		900	IN	SOA	externaldns.hbue.edu.cn. please_set_email.absolutely.nowhere. 320 10800 3600 2419200 900
+
+Found zone name: hbue.edu.cn
+The master is: externaldns.hbue.edu.cn
+Sending update to 218.197.80.8#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  52872
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 0, ADDITIONAL: 0
+;; ZONE SECTION:
+;hbue.edu.cn.			IN	SOA
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  52872
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.hbue.edu.cn.	600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+

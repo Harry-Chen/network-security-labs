@@ -1,0 +1,31 @@
+Reply from SOA query:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id:  16628
+;; flags: qr aa ra; QUESTION: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+;; QUESTION SECTION:
+;nsupdate.ieidjtu.edu.cn.	IN	SOA
+
+;; AUTHORITY SECTION:
+ieidjtu.edu.cn.		3600	IN	SOA	dns1.ieidjtu.edu.cn. jinxue.li. 94 900 600 86400 3600
+
+;; ADDITIONAL SECTION:
+dns1.ieidjtu.edu.cn.	3600	IN	A	125.222.144.9
+
+Found zone name: ieidjtu.edu.cn
+The master is: dns1.ieidjtu.edu.cn
+Sending update to 125.222.144.9#53
+
+Reply from update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  46064
+;; flags: qr; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; ZONE SECTION:
+;ieidjtu.edu.cn.			IN	SOA
+
+;; UPDATE SECTION:
+nsupdate.ieidjtu.edu.cn. 600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
+Outgoing update query:
+;; ->>HEADER<<- opcode: UPDATE, status: NOERROR, id:  46064
+;; flags:; ZONE: 1, PREREQ: 0, UPDATE: 1, ADDITIONAL: 0
+;; UPDATE SECTION:
+nsupdate.ieidjtu.edu.cn. 600	IN	TXT	"You have enabled anonymous nsupdate, which is extremely dangerous!"
+
