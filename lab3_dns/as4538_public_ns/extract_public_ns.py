@@ -17,10 +17,10 @@ def process_raw_result(s):
         elif 'ERROR' in response:
             error_ip.append(ip)
         else:
-            wrong_ip.append("{}:{}".format(ip, response))
+            wrong_ip.append('{}:{}'.format(ip, response))
     return correct_ip, wrong_ip, error_ip
 
-	
+
 data_dir = (Path() / 'public_ns').resolve()
 file_list = [str(x.resolve()) for x in data_dir.iterdir() if not x.is_dir()]
 
@@ -42,12 +42,9 @@ print('All results contains {} correct results, {} wrong results and {} error re
 
 with open('as4538_public_ns.txt', 'w') as f:
     f.write('\n'.join(correct) + '\n')
-    
+
 with open('as4538_public_ns_error.txt', 'w') as f:
     f.write('\n'.join(error) + '\n')
-    
+
 with open('as4538_public_ns_wrong.txt', 'w') as f:
     f.write('\n'.join(wrong) + '\n')
-
-
-

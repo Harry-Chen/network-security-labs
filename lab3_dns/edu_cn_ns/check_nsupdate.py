@@ -4,13 +4,13 @@ import subprocess
 import multiprocessing as mp
 from threading import Timer
 
-def try_axfr(param):
+def try_update(param):
     domain, name, ip = param
     p = subprocess.Popen(['dig', 'nsupdate.{}'.format(domain), '@{}'.format(ip), 'TXT', '+tries=1', '+time=1'], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, stdin=subprocess.PIPE)
     out, err = p.communicate()
     result = out.decode()
 
-    if "dangerous" in result:
+    if 'dangerous' in result:
         print('NSUPDATE HAS SUCCEEDED for {}@{}, result:'.format(domain, name))
         with open('nsupdate_check/{}@{}.result'.format(domain, name), 'w') as f:
             f.write(result)
@@ -35,5 +35,5 @@ if __name__ == '__main__':
                 try_list.append((domain, name, ip))
 
     pool = mp.Pool(processes=20)
-    res = pool.map(try_axfr, try_list)
+    res = pool.map(try_update, try_list)
 
