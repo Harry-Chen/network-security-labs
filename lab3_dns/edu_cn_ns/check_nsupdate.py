@@ -30,6 +30,8 @@ if __name__ == '__main__':
         lines = f.read().splitlines()
         for line in lines:
             domain, ns = line.split(':')
+            if not ns:
+                continue
             for server in ns.split(';'):
                 name, ip = server.split(',')
                 try_list.append((domain, name, ip))
