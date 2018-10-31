@@ -204,7 +204,7 @@ cat ../as4538_addresses/as4538_prefix4.txt | parallel -j 24 sudo nmap -T5 -n -Pn
 
 该算法的优点在于，能够在检测劫持的同时获得正确的解析结果（根据上面观察，最后一个响应包即为正确的响应包）。然而，为了等待全部响应包到达，需要等待更长的时间。
 
-事实上，下面“用于绕过劫持的小工具”同时利用了上述两个算法的优点，实现了尽可能快速地获得正确的解析结果。
+事实上，下面一节提出的工具同时利用了上述两个算法的优点，实现了尽可能快速地获得正确的解析结果。
 
 为了获得尽可能多的 TTL 值以及 IP 地址，脚本对每个列表重复处理 100 次，共计$100 \times 500 = 50000$次探测。
 
@@ -226,11 +226,103 @@ cat ../as4538_addresses/as4538_prefix4.txt | parallel -j 24 sudo nmap -T5 -n -Pn
 
 #### 开发用于绕过劫持的小工具
 
-结合上面一节中两个算法的优点，本节实现了一个正确的 DNS 代理。
+结合上面一节中两个算法的优点，本节实现了一个 DNS 代理小工具（`dns_pollution/cndns.py`），能够转发 DNS 请求、智能检测域名是否被劫持并过滤劫持响应包，从而获得正确的解析结果。
 
-TODO
+小工具监听 UDP 8653（86 代表中国，53 代表 DNS，意为在中国的 DNS）端口，然后*同时*将收到的请求转发给 Google 公共 DNS 8.8.8.8 和一个不存在的 DNS 服务器。接下来，小工具等待这个不存在的 DNS 服务器是否返回了响应包，有响应则说明该域名被劫持。与上一节的算法一类似，由于劫持响应包返回较快，这次等待的超时时间可设置较短，如 $t_{threshold} = 100ms$。若该域名未被劫持，流程是平凡的，仅需从 Google 公共 DNS 接收一个响应包，然后返回给用户即可。若发现域名被劫持，则根据上面一节抓包分析，需要接收三个响应包，包括前两个劫持响应包和最后一个真实响应包，最后将真实响应包返回给用户。考虑到距离较远，等待 Google 公共 DNS 返回响应包的超时时间需要设置稍长，如 $t_{timeout} = 1000ms$。
 
-`dns_pollution/cndns.py`
+特别地，该小工具的延迟并不大。假设劫持响应包返回延迟为 $t_p \lt t_{threshold} \lt t_{timeout}$，真实响应包返回延迟为 $t_r \gt t_p$ 且 $t_r \lt t_{timeout}$。则对于未被劫持的域名，表现给用户的延迟为 $t = \max\{t_{threshold}, t_r\}$；对于被劫持的域名，表现给用户的延迟为 $t = \max\{t_p, t_r\} = t_r$。（先前的方案是对所有域名都尝试接收三个响应包，但这样会严重增大未被劫持的域名的解析延迟，由于未被劫持的域名只有一个响应包，需要等待直到超时才能够返回给用户，从而延迟达到 $t = t_{timeout}$。）
+
+测试结果如下：
+
+```
+➜  lab3 dig @8.8.8.8 youtube.com
+
+; <<>> DiG 9.11.3-1ubuntu1.2-Ubuntu <<>> @8.8.8.8 youtube.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40401
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;youtube.com.			IN	A
+
+;; ANSWER SECTION:
+youtube.com.		199	IN	A	8.7.198.45
+
+;; Query time: 12 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Oct 31 12:23:55 CST 2018
+;; MSG SIZE  rcvd: 45
+
+➜  lab3 dig @8.8.8.8 twd2.net
+
+; <<>> DiG 9.11.3-1ubuntu1.2-Ubuntu <<>> @8.8.8.8 twd2.net
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15456
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;twd2.net.			IN	A
+
+;; ANSWER SECTION:
+twd2.net.		3599	IN	A	192.241.214.69
+
+;; Query time: 331 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Oct 31 12:23:59 CST 2018
+;; MSG SIZE  rcvd: 53
+
+➜  lab3 dig @127.0.0.1 youtube.com -p8653
+
+; <<>> DiG 9.11.3-1ubuntu1.2-Ubuntu <<>> @127.0.0.1 youtube.com -p8653
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33642
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;youtube.com.			IN	A
+
+;; ANSWER SECTION:
+youtube.com.		299	IN	A	216.58.220.206
+
+;; Query time: 170 msec
+;; SERVER: 127.0.0.1#8653(127.0.0.1)
+;; WHEN: Wed Oct 31 12:24:09 CST 2018
+;; MSG SIZE  rcvd: 56
+
+➜  lab3 dig @127.0.0.1 twd2.net -p8653
+
+; <<>> DiG 9.11.3-1ubuntu1.2-Ubuntu <<>> @127.0.0.1 twd2.net -p8653
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64154
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;twd2.net.			IN	A
+
+;; ANSWER SECTION:
+twd2.net.		3599	IN	A	192.241.214.69
+
+;; Query time: 248 msec
+;; SERVER: 127.0.0.1#8653(127.0.0.1)
+;; WHEN: Wed Oct 31 12:24:18 CST 2018
+;; MSG SIZE  rcvd: 53
+```
+
+可以看出，无论域名是否被劫持，该小工具都能够正常解析。
 
 这样，本节实现了域名劫持的绕过。当然，为了顺利访问完整的互联网，受害者还需要做更多的工作。
 
