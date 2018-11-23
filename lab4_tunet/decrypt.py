@@ -14,6 +14,9 @@ def bytes2ints(data, append_length=False):
 def ints2bytes(ints):
     return struct.pack('<' + 'I' * len(ints), *ints)
 
-print(bytes2ints(b'123456', True))
-print(bytes2ints(b'123456', False))
-print(ints2bytes([1,2,3,4]))
+print(len(auth_base64.decode('D4Smnypi1IxLtSgjfqzMfozxWtL=')))
+print(xxtea.decrypt(auth_base64.decode('D4Smnypi1IxLtSgjfqzMfozxWtL='), b'0000000000000000'[:16], padding=False))
+print(len(xxtea.decrypt(auth_base64.decode('D4Smnypi1IxLtSgjfqzMfozxWtL='), b'0000000000000000'[:16], padding=False)))
+
+print(auth_base64.decode('D4Smnypi1IxLtSgjfqzMfozxWtL='))
+print(xxtea.encrypt(b'0000000000000000\x10\x00\x00\x00', b'0000000000000000', padding=False))
