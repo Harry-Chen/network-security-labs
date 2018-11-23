@@ -32,8 +32,7 @@ def __xxtea(t, k, encrypt):
             e = (s >> 2) & 3
             for p in range(0, n - 1):
                 y = t[p + 1]
-                t[p] = (t[p] + m()) & 0xffffffff
-                z = t[p]
+                z = t[p] = (t[p] + m()) & 0xffffffff
             p = n - 1
             y = t[0]
             z = t[-1] = (t[-1] + m()) & 0xffffffff
@@ -44,8 +43,7 @@ def __xxtea(t, k, encrypt):
             e = (s >> 2) & 3
             for p in range(n - 1, 0, -1):
                 z = t[p - 1]
-                t[p] = (t[p] - m()) & 0xffffffff
-                y = t[p]
+                y = t[p] = (t[p] - m()) & 0xffffffff
             p = 0
             z = t[-1]
             y = t[0] = (t[0] - m()) & 0xffffffff
