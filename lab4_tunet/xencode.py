@@ -2,29 +2,30 @@ import math
 
 
 def ord_at(msg, idx):
+
     if len(msg) > idx:
         return ord(msg[idx])
     return 0
 
 
-# 每四个 ASCII 拼接成一个 int32, A B C D -> 0xDCBA
+# 每四个 ASCII 拼接成一个 int32, A B C D -> 0xDCBA，zero-padding
 # append_length: 最后是否附加 ASCII 串长度
 def ascii_to_int_array(msg, append_length):
-    l = len(msg)
+
     pwd = []
-    for i in range(0, l, 4):
+    for i in range(0, len(msg), 4):
         pwd.append(
             ord_at(msg, i) | ord_at(msg, i + 1) << 8 | ord_at(msg, i + 2) << 16
             | ord_at(msg, i + 3) << 24)
+
     if append_length:
-        pwd.append(l)
+        pwd.append(len(msg))
     return pwd
 
 
 def int_array_to_ascii(msg):
-    l = len(msg)
 
-    for i in range(0, l):
+    for i in range(0, len(msg)):
         msg[i] = chr(msg[i] & 0xff) + chr(msg[i] >> 8 & 0xff) + chr(
             msg[i] >> 16 & 0xff) + chr(msg[i] >> 24 & 0xff)
 
@@ -36,10 +37,10 @@ DELTA = 0x9e3779b9
 
 def xx_tea(t, k, encrypt: bool):
 
-    def m(p):
+    def m(a):
         r = z >> 5 ^ y << 2
         r = r + ((y >> 3 ^ z << 4) ^ (s ^ y))
-        r = r + (k[(p & 3) ^ e] ^ z)
+        r = r + (k[(a & 3) ^ e] ^ z)
         return r
 
     n = len(t)
@@ -79,6 +80,7 @@ def xx_tea(t, k, encrypt: bool):
 
 
 def x_encode(msg, key, encode=True):
+
     if msg == "":
         return ""
 
