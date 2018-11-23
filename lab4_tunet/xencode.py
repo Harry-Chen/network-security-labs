@@ -1,38 +1,19 @@
 import math
+import struct
 
 
-def ord_at(msg, idx):
-
-    if len(msg) > idx:
-        if type(msg[idx]) is int:
-            return msg[idx]
-        else:
-            return ord(msg[idx])
-    return 0
-
-
-# 每四个 ASCII 拼接成一个 int32, A B C D -> 0xDCBA，zero-padding
-# append_length: 最后是否附加 ASCII 串长度
-def ascii_to_int_array(msg, append_length):
-
-    pwd = []
-    for i in range(0, len(msg), 4):
-        pwd.append(
-            ord_at(msg, i) | ord_at(msg, i + 1) << 8 | ord_at(msg, i + 2) << 16
-            | ord_at(msg, i + 3) << 24)
-
+def bytes2ints(data, append_length=False):
+    ol = len(data)
+    if len(data) % 4 != 0:
+        data += b'\x00' * (4 - len(data) % 4)
+    ints = list(struct.unpack('<' + 'I' * (len(data) // 4), data))
     if append_length:
-        pwd.append(len(msg))
-    return pwd
+        ints.append(ol)
+    return ints
 
 
-def int_array_to_ascii(msg):
-
-    for i in range(0, len(msg)):
-        msg[i] = chr(msg[i] & 0xff) + chr(msg[i] >> 8 & 0xff) + chr(
-            msg[i] >> 16 & 0xff) + chr(msg[i] >> 24 & 0xff)
-
-    return "".join(msg)
+def ints2bytes(ints):
+    return struct.pack('<' + 'I' * len(ints), *ints)
 
 
 DELTA = 0x9e3779b9
@@ -87,18 +68,18 @@ def x_encode(msg, key, encode=True):
     if msg == "":
         return ""
 
-    k = ascii_to_int_array(key, False)
+    k = bytes2ints(key, False)
 
     # 填充密钥至少到 128 位
     if len(k) < 4:
         k = k + [0] * (4 - len(k))
 
     if encode:
-        m = ascii_to_int_array(msg, True)
-        return int_array_to_ascii(xx_tea(m, k, True))
+        m = bytes2ints(msg, True)
+        return ints2bytes(xx_tea(m, k, True))
     else:
-        m = ascii_to_int_array(msg, False)
-        return int_array_to_ascii(xx_tea(m, k, False)[0:-1])
+        m = bytes2ints(msg, False)
+        return ints2bytes(xx_tea(m, k, False)[0:-1])
 
 
 
