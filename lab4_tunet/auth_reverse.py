@@ -1,4 +1,4 @@
-from xencode import x_encode
+from xencode import x_encode, xx_tea
 import auth_base64
 
 if __name__ == '__main__':

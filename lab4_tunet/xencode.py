@@ -60,7 +60,7 @@ def xx_tea(t, k, encrypt: bool):
                 t[p] = t[p] + m(p) & 0xFFFFFFFF
                 z = t[p]
             y = t[0]
-            t[-1] = t[-1] + m(n - 2) & 0xFFFFFFFF
+            t[-1] = t[-1] + m(n - 1) & 0xFFFFFFFF
             z = t[-1]
             rounds = rounds - 1
 
@@ -74,7 +74,7 @@ def xx_tea(t, k, encrypt: bool):
                 t[p] = t[p] - m(p) & 0xFFFFFFFF
                 y = t[p]
             z = t[-1]
-            t[0] = t[0] - m(1) & 0xFFFFFFFF
+            t[0] = t[0] - m(0) & 0xFFFFFFFF
             y = t[0]
             s = s - DELTA
             rounds = rounds - 1
@@ -97,9 +97,7 @@ def x_encode(msg, key, encode=True):
         m = ascii_to_int_array(msg, True)
         return int_array_to_ascii(xx_tea(m, k, True))
     else:
-        print(msg)
         m = ascii_to_int_array(msg, False)
-        print(m)
         return int_array_to_ascii(xx_tea(m, k, False)[0:-1])
 
 
