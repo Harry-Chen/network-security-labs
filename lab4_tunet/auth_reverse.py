@@ -7,6 +7,8 @@ def test(info, key):
     cipher = auth_base64.decode(info)
     plain = xxtea.decrypt(cipher, key.encode())
     print(json.loads(plain))
+    cipher2 = xxtea.encrypt(plain, key.encode())
+    print(cipher == cipher2)
 
 if __name__ == '__main__':
     test('v4+Rz+BhuxtxaGoih/T0xiedDRdWVkRh1kRnGduq9h/VyK2rFWCO0WdGecEkggVD0OwKXLF/z7Y4A+9tYeZ1k6N17z/j9XQZJoxRC735gwluQom+',

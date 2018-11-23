@@ -19,7 +19,7 @@ def __xxtea(t, k, encrypt):
     DELTA = 0x9e3779b9
 
     def m():
-        return (z >> 5 ^ y << 2) + ((y >> 3 ^ z << 4) ^ (s ^ y)) + (k[(p & 3) ^ e] ^ z)
+        return ((z >> 5) ^ (y << 2)) + ((y >> 3) ^ (z << 4) ^ s ^ y) + (k[(p & 3) ^ e] ^ z)
 
     n = len(t)
     rounds = 6 + 52 // n
@@ -27,33 +27,29 @@ def __xxtea(t, k, encrypt):
     if encrypt:
         z = t[-1]
         s = 0
-        while rounds > 0:
-            s = s + DELTA
+        for round in range(rounds):
+            s += DELTA
             e = (s >> 2) & 3
             for p in range(0, n - 1):
                 y = t[p + 1]
-                t[p] = t[p] + m() & 0xffffffff
+                t[p] = (t[p] + m()) & 0xffffffff
                 z = t[p]
             p = n - 1
             y = t[0]
-            t[-1] = t[-1] + m() & 0xffffffff
-            z = t[-1]
-            rounds = rounds - 1
+            z = t[-1] = (t[-1] + m()) & 0xffffffff
     else:
         y = t[0]
         s = rounds * DELTA
-        while rounds > 0:
+        for round in range(rounds):
             e = (s >> 2) & 3
             for p in range(n - 1, 0, -1):
                 z = t[p - 1]
-                t[p] = t[p] - m() & 0xffffffff
+                t[p] = (t[p] - m()) & 0xffffffff
                 y = t[p]
             p = 0
             z = t[-1]
-            t[0] = t[0] - m() & 0xffffffff
-            y = t[0]
-            s = s - DELTA
-            rounds = rounds - 1
+            y = t[0] = (t[0] - m()) & 0xffffffff
+            s -= DELTA
 
     return t
 
