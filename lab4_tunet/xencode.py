@@ -4,7 +4,10 @@ import math
 def ord_at(msg, idx):
 
     if len(msg) > idx:
-        return ord(msg[idx])
+        if type(msg[idx]) is int:
+            return msg[idx]
+        else:
+            return ord(msg[idx])
     return 0
 
 
@@ -94,7 +97,9 @@ def x_encode(msg, key, encode=True):
         m = ascii_to_int_array(msg, True)
         return int_array_to_ascii(xx_tea(m, k, True))
     else:
+        print(msg)
         m = ascii_to_int_array(msg, False)
+        print(m)
         return int_array_to_ascii(xx_tea(m, k, False)[0:-1])
 
 
