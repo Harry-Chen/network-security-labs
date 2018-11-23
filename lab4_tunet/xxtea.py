@@ -1,6 +1,5 @@
-import math
+import functools
 import struct
-
 
 def bytes2ints(data, append_length=False):
     ol = len(data)
@@ -16,19 +15,14 @@ def ints2bytes(ints):
     return struct.pack('<' + 'I' * len(ints), *ints)
 
 
-DELTA = 0x9e3779b9
+def __xxtea(t, k, encrypt):
+    DELTA = 0x9e3779b9
 
-
-def xx_tea(t, k, encrypt: bool):
-
-    def m(a):
-        r = z >> 5 ^ y << 2
-        r = r + ((y >> 3 ^ z << 4) ^ (s ^ y))
-        r = r + (k[(a & 3) ^ e] ^ z)
-        return r
+    def m():
+        return (z >> 5 ^ y << 2) + ((y >> 3 ^ z << 4) ^ (s ^ y)) + (k[(p & 3) ^ e] ^ z)
 
     n = len(t)
-    rounds = math.floor(6 + 52 / n)
+    rounds = 6 + 52 // n
 
     if encrypt:
         z = t[-1]
@@ -38,24 +32,25 @@ def xx_tea(t, k, encrypt: bool):
             e = (s >> 2) & 3
             for p in range(0, n - 1):
                 y = t[p + 1]
-                t[p] = t[p] + m(p) & 0xFFFFFFFF
+                t[p] = t[p] + m() & 0xffffffff
                 z = t[p]
+            p = n - 1
             y = t[0]
-            t[-1] = t[-1] + m(n - 1) & 0xFFFFFFFF
+            t[-1] = t[-1] + m() & 0xffffffff
             z = t[-1]
             rounds = rounds - 1
-
     else:
         y = t[0]
         s = rounds * DELTA
         while rounds > 0:
             e = (s >> 2) & 3
-            for p in reversed(range(1, n)):
+            for p in range(n - 1, 0, -1):
                 z = t[p - 1]
-                t[p] = t[p] - m(p) & 0xFFFFFFFF
+                t[p] = t[p] - m() & 0xffffffff
                 y = t[p]
+            p = 0
             z = t[-1]
-            t[0] = t[0] - m(0) & 0xFFFFFFFF
+            t[0] = t[0] - m() & 0xffffffff
             y = t[0]
             s = s - DELTA
             rounds = rounds - 1
@@ -63,23 +58,20 @@ def xx_tea(t, k, encrypt: bool):
     return t
 
 
-def x_encode(msg, key, encode=True):
-
-    if msg == "":
-        return ""
+def endec(msg, key, encrypt=True):
+    if not msg:
+        return b''
 
     k = bytes2ints(key, False)
+    k.extend([0] * (4 - len(k)))
 
-    # 填充密钥至少到 128 位
-    if len(k) < 4:
-        k = k + [0] * (4 - len(k))
-
-    if encode:
+    if encrypt:
         m = bytes2ints(msg, True)
-        return ints2bytes(xx_tea(m, k, True))
+        return ints2bytes(__xxtea(m, k, True))
     else:
         m = bytes2ints(msg, False)
-        return ints2bytes(xx_tea(m, k, False)[0:-1])
+        return ints2bytes(__xxtea(m, k, False)[0:-1]).rstrip(b'\x00')
 
 
-
+encrypt = functools.partial(endec, encrypt=True)
+decrypt = functools.partial(endec, encrypt=False)

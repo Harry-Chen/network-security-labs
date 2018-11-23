@@ -13,4 +13,3 @@ def encode(data):
 
 def decode(s):
     return base64.b64decode(''.join(map(lambda c: auth2orig[c], s)))
-
