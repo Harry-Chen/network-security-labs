@@ -7,9 +7,9 @@ auth2orig = dict(zip(AUTH, ORIG))
 orig2auth = dict(zip(ORIG, AUTH))
 
 
-def encode(data):
+def encode(data: bytes) -> str:
     return ''.join(map(lambda c: orig2auth[c], base64.b64encode(data).decode()))
 
 
-def decode(s):
+def decode(s: str) -> bytes:
     return base64.b64decode(''.join(map(lambda c: auth2orig[c], s)))

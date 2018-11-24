@@ -1,7 +1,10 @@
 import functools
 import struct
+from enum import Enum
+from typing import List
 
-def bytes2ints(data, append_length=False):
+
+def bytes2ints(data: bytes, append_length: bool=False) -> List[int]:
     ol = len(data)
     if len(data) % 4 != 0:
         data += b'\x00' * (4 - len(data) % 4)
@@ -11,11 +14,17 @@ def bytes2ints(data, append_length=False):
     return ints
 
 
-def ints2bytes(ints):
+def ints2bytes(ints: List[int]) -> bytes:
     return struct.pack('<' + 'I' * len(ints), *ints)
 
 
-def __xxtea(t, k, encrypt):
+class EncryptionMode(Enum):
+    Encrypt = 0
+    Decrypt = 1
+
+
+def __xx_tea(t: List[int], k: List[int], mode: EncryptionMode) -> List[int]:
+
     DELTA = 0x9e3779b9
 
     def m():
@@ -24,10 +33,10 @@ def __xxtea(t, k, encrypt):
     n = len(t)
     rounds = 6 + 52 // n
 
-    if encrypt:
+    if mode is EncryptionMode.Encrypt:
         z = t[-1]
         s = 0
-        for round in range(rounds):
+        for _ in range(rounds):
             s += DELTA
             e = (s >> 2) & 3
             for p in range(0, n - 1):
@@ -36,10 +45,11 @@ def __xxtea(t, k, encrypt):
             p = n - 1
             y = t[0]
             z = t[-1] = (t[-1] + m()) & 0xffffffff
-    else:
+
+    elif mode is EncryptionMode.Decrypt:
         y = t[0]
         s = rounds * DELTA
-        for round in range(rounds):
+        for _ in range(rounds):
             e = (s >> 2) & 3
             for p in range(n - 1, 0, -1):
                 z = t[p - 1]
@@ -52,20 +62,20 @@ def __xxtea(t, k, encrypt):
     return t
 
 
-def endec(msg, key, encrypt=True):
+def endec(msg: bytes, key: bytes, mode: EncryptionMode) -> bytes:
     if not msg:
         return b''
 
     k = bytes2ints(key, False)
     k.extend([0] * (4 - len(k)))
 
-    if encrypt:
+    if mode is EncryptionMode.Encrypt:
         m = bytes2ints(msg, True)
-        return ints2bytes(__xxtea(m, k, True))
-    else:
+        return ints2bytes(__xx_tea(m, k, EncryptionMode.Encrypt))
+    elif mode is EncryptionMode.Decrypt:
         m = bytes2ints(msg, False)
-        return ints2bytes(__xxtea(m, k, False)[0:-1]).rstrip(b'\x00')
+        return ints2bytes(__xx_tea(m, k, EncryptionMode.Decrypt)[0:-1]).rstrip(b'\x00')
 
 
-encrypt = functools.partial(endec, encrypt=True)
-decrypt = functools.partial(endec, encrypt=False)
+encrypt = functools.partial(endec, mode=EncryptionMode.Encrypt)
+decrypt = functools.partial(endec, mode=EncryptionMode.Decrypt)
