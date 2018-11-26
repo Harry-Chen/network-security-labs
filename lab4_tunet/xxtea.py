@@ -18,13 +18,10 @@ def ints2bytes(ints: List[int]) -> bytes:
     return struct.pack('<' + 'I' * len(ints), *ints)
 
 
-class EncryptionMode(Enum):
-    Encrypt = 0
-    Decrypt = 1
+EncryptionMode = Enum('EncryptionMode', ('Encrypt', 'Decrypt'))
 
 
 def __xx_tea(t: List[int], k: List[int], mode: EncryptionMode) -> List[int]:
-
     DELTA = 0x9e3779b9
 
     def m():
@@ -45,7 +42,6 @@ def __xx_tea(t: List[int], k: List[int], mode: EncryptionMode) -> List[int]:
             p = n - 1
             y = t[0]
             z = t[-1] = (t[-1] + m()) & 0xffffffff
-
     elif mode is EncryptionMode.Decrypt:
         y = t[0]
         s = rounds * DELTA
@@ -58,6 +54,8 @@ def __xx_tea(t: List[int], k: List[int], mode: EncryptionMode) -> List[int]:
             z = t[-1]
             y = t[0] = (t[0] - m()) & 0xffffffff
             s -= DELTA
+    else:
+        assert False
 
     return t
 
@@ -75,6 +73,8 @@ def endec(msg: bytes, key: bytes, mode: EncryptionMode) -> bytes:
     elif mode is EncryptionMode.Decrypt:
         m = bytes2ints(msg, False)
         return ints2bytes(__xx_tea(m, k, EncryptionMode.Decrypt)[0:-1]).rstrip(b'\x00')
+    else:
+        assert False
 
 
 encrypt = functools.partial(endec, mode=EncryptionMode.Encrypt)
