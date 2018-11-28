@@ -95,7 +95,7 @@ hashcat -O -m 1800 -a 3 test.shadow "?a?a?a?a?a"
 
 简单浏览准入系统前端的 JavaScript 代码后，本节发现编码算法 B 采用的函数是 `hashes.min.auth.js` 中的 `Base64.encode()` ，即 Base64 编码。但是将 `hashes.min.auth.js` 与在 GitHub 开源的正版 `hashes.min.auth.js` 比对后，本节发现准入系统将 Base64 编码的字母表由 `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=` 改变为 `LVoJPiCN2R8G90yg+hmFHuacZ1OWMnrsSTXkYpUq/3dlbfKwv6xztjI7DeBE45QA=`，试图混淆逆向者。
 
-加密算法 E 使用的函数为 `portal.main.min.js` 中的 `xEncode()`。本节发现，在该文件中，某些常数被拆解为了两个常数的按位或，如 `0x86014019 | 0x183639A0` 或 `0x8CE0D9BF | 0x731F2640`，试图混淆逆向者。其中的大部分，包括`0x8CE0D9BF | 0x731F2640`，在进行常数折叠后结果均为 `0xFFFFFFFF`。用此数做按位与运算，可以将算术运算限制在模$2^{32}$的完全剩余系中，从而正确实现加密算法。剩下一个 `0x86014019 | 0x183639A0` 的结果为 `0x9e3779b9`，这是 TEA（微型加密算法）的一个特征。注意到 TEA 有 XTEA 以及 [XXTEA](https://en.wikipedia.org/wiki/XXTEA) 等变种，经过比对，本节确认算法 E 即为 XXTEA 的加密部分。特别地，加密算法将输入的字节序列视为小端序的 32 位无符号整数序列。若需要，输入的字节序列尾部用零填充。
+加密算法 E 使用的函数为 `portal.main.min.js` 中的 `xEncode()`。本节发现，在该文件中，某些常数被拆解为了两个常数的按位或，如 `0x86014019 | 0x183639A0` 或 `0x8CE0D9BF | 0x731F2640`，试图混淆逆向者。其中的大部分，包括`0x8CE0D9BF | 0x731F2640`，在进行常数折叠后结果均为 `0xFFFFFFFF`。用此数做按位与运算，可以将算术运算限制在模 $2^{32}$ 的完全剩余系中，从而正确实现加密算法。剩下一个 `0x86014019 | 0x183639A0` 的结果为 `0x9e3779b9`，这是 TEA（微型加密算法）的一个特征。注意到 TEA 有 XTEA 以及 [XXTEA](https://en.wikipedia.org/wiki/XXTEA) 等变种，经过比对，本节确认算法 E 即为 XXTEA 的加密部分。特别地，加密算法将输入的字节序列视为小端序的 32 位无符号整数序列。若需要，输入的字节序列尾部用零填充。
 
 容易写出算法 B 和算法 E 的逆过程（分别为 `auth_base64.py` 和 `xxtea.py`），从而写出使用 token 和 info 计算明文凭据的算法 `auth_reverse.py `。效果如图所示：
 
