@@ -1,6 +1,6 @@
 # 实验四：清华校园网身份认证及单点登录安全分析
 
-- 2016010981 陈晟祺：划水
+- 2016010981 陈晟祺：超级大腿
 - 2015011278 谭闻德：大腿
 
 ## 概述
@@ -15,16 +15,16 @@
 
 本实验将上文提到的登录方式的安全性从高到低按如下顺序排列，并认为同一大类安全性相同：
 
-* https. HTTPS类
-   * post. POST类
-      * plain. 明文POST密码
-      * hash. 明文POST密码的MD5或SHA1等散列值或消息认证码
-      * known_key. POST密码对称加密后的密文，但对称加密密钥明文传输
-* http. HTTP类
-   * post. POST类
-      * plain. 明文POST密码
-      * hash. 明文POST密码的MD5或SHA1等散列值或消息认证码
-      * known_key. POST密码对称加密后的密文，但对称加密密钥明文传输
+* https. HTTPS 类
+   * post. POST 类
+      * plain. 明文 POST 密码
+      * hash. 明文 POST 密码的 MD5 或 SHA1 等散列值或消息认证码
+      * known_key. POST 密码对称加密后的密文，但对称加密密钥明文传输
+* http. HTTP 类
+   * post. POST 类
+      * plain. 明文 POST 密码
+      * hash. 明文 POST 密码的 MD5 或 SHA1 等散列值或消息认证码
+      * known_key. POST 密码对称加密后的密文，但对称加密密钥明文传输
 
 ## 实验结果
 
@@ -41,9 +41,11 @@
 | 云盘 | cloud | https.post.plain | 是 | 是 ||
 | Git | git | https.post.plain | 是 | 是 ||
 
-## 附录：准入认证系统加密算法逆向
+## 附录1 准入认证系统加密算法逆向
 
-上面的结果中，准入系统的类型是 “known_key”，我们有必要对此做进一步的解释。通过阅读准入系统网页的 JavaScript 代码，我们可以发现，整个认证过程是一次 challenge-response，步骤如下：
+上文将准入系统的登录方式认定为“https.post.known_key”或“http.post.known_key”，本附录进行了进一步的解释。
+
+通过阅读准入系统网页的 JavaScript 代码，我们可以发现，整个认证过程是一次 challenge-response，步骤如下：
 
 1. 浏览器向服务器请求一个一次性的 token
 2. 浏览器将用户提供的凭据（包含明文密码）与一些辅助信息格式化为 `JSON`，使用上一步中的 token 作为密钥进行加密后，编码为 ASCII 字符，发送到服务器端
