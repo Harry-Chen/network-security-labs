@@ -1,6 +1,6 @@
 # 小作业：Linux 系统口令破解
 
-- 2016010981 陈晟祺：挪用实验室高端显卡服务器，并运行命令进行破解
+- 2016010981 陈晟祺：借用实验室高端显卡服务器，并运行命令进行破解
 - 2015011278 谭闻德：查阅破解方法以及 hashcat 使用方式
 
 shadow 文件记录：
@@ -20,7 +20,7 @@ echo '$6$dRf2Gldj$W4DfAK9vGyz9XCCJrsPOtR7tgf3q6lDH92kE2WKHNXZHfmu7dKFgo5M72jrL2h
 hashcat -O -m 1800 -a 3 test.shadow "?a?a?a?a?a"
 ```
 
-挪用实验室高端显卡服务器破解，并得到结果如下：
+借用实验室高端显卡服务器破解，并得到结果如下：
 
 ![hashcat](hashcat.jpg)
 
