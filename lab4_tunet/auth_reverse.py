@@ -5,11 +5,12 @@ import auth_base64
 
 
 def test(info: str, key: str):
+    print('\nKey: {}\nCipher: {}'.format(key, info))
     cipher = auth_base64.decode(info)
     plain = xxtea.decrypt(cipher, key.encode())
-    print(json.loads(plain))
+    print('Plain text: {}'.format(json.loads(plain)))
     cipher2 = xxtea.encrypt(plain, key.encode())
-    print(cipher == cipher2)
+    print('encrypt(decrypt(Cipher)) == Cipher: {}'.format(cipher == cipher2))
 
 
 if __name__ == '__main__':
