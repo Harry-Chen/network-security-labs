@@ -1,3 +1,35 @@
+# 小作业：Linux 系统口令破解
+
+- 2016010981 陈晟祺：挪用实验室高端显卡服务器，并运行命令进行破解
+- 2015011278 谭闻德：查阅破解方法以及 hashcat 使用方式
+
+shadow 文件记录：
+
+```
+test:$6$dRf2Gldj$W4DfAK9vGyz9XCCJrsPOtR7tgf3q6lDH92kE2WKHNXZHfmu7dKFgo5M72jrL2hXJjxcdg596WsWPYYgGrmPZp1:17107:0:99999:7:::
+```
+
+已知：密码为 5 位 ASCII 字符。
+
+查阅 Linux shadow 文件记录格式，知该口令为加盐的 SHA512 散列值。
+
+破解命令：
+
+```bash
+echo '$6$dRf2Gldj$W4DfAK9vGyz9XCCJrsPOtR7tgf3q6lDH92kE2WKHNXZHfmu7dKFgo5M72jrL2hXJjxcdg596WsWPYYgGrmPZp1' > test.shadow
+hashcat -O -m 1800 -a 3 test.shadow "?a?a?a?a?a"
+```
+
+挪用实验室高端显卡服务器破解，并得到结果如下：
+
+![hashcat](hashcat.jpg)
+
+![hashcat_result](hashcat_result.png)
+
+可知密码为“tls13”。
+
+值得一提的是，谭闻德同学曾尝试使用自己可怜的笔记本电脑进行破解，速度仅有 165H/s，是上述服务器的千分之一，hashcat 报告预估时间需要一年零二百天。
+
 # 实验四：清华校园网身份认证及单点登录安全分析
 
 - 2016010981 陈晟祺：超级大腿
@@ -5,7 +37,7 @@
 
 ## 概述
 
-本实验分析了清华大学校园网身份认证站点（包括校外网络访问认证 net、准入认证 auth4、auth6 以及 auth）以及其他众多校内信息系统的登录方式，讨论了这些登录方式的安全性。
+本实验分析了清华大学校园网身份认证站点（包括校外网络访问认证 net、准入认证 auth4、auth6 以及 auth）以及其他众多校内信息系统的认证方式，讨论了这些认证方式的安全性。
 
 ## 实验方法
 
@@ -28,7 +60,7 @@
 
 ## 实验结果
 
-| 名称             | 子域名（.tsinghua.edu.cn）| 登录方式 | 是否使用统一凭据 | 是否跳转 | 备注                       |
+| 名称             | 子域名（.tsinghua.edu.cn）| 认证方式 | 是否使用统一凭据 | 是否跳转 | 备注                       |
 | ---------------- | -------------------------- | ---- | ---------------- | -------- | -------------------------- |
 | 校外网络访问认证 | net                        | http.post.hash | 是 | 否 ||
 | 准入认证         | auth, auth6         | https.post.known_key | 是      | 否 |这两个站点使用同样认证方式|
@@ -43,9 +75,9 @@
 
 ## 附录1 准入认证系统加密算法逆向
 
-上文将准入系统的登录方式认定为“https.post.known_key”或“http.post.known_key”，本附录进行了进一步的解释。
+上文将准入系统的认证方式认定为“https.post.known_key”或“http.post.known_key”，本节附录进行了进一步的解释。
 
-通过阅读准入系统网页的 JavaScript 代码，我们可以发现，整个认证过程是一次 challenge-response，步骤如下：
+通过深入分析准入系统前端的 JavaScript 代码，本节发现整个认证过程是一次“挑战—应答”（challenge-response），步骤如下：
 
 1. 浏览器向服务器请求一个一次性的 token
 2. 浏览器将用户提供的凭据（包含明文密码）与一些辅助信息格式化为 `JSON`，使用上一步中的 token 作为密钥进行加密后，编码为 ASCII 字符，发送到服务器端
