@@ -47,6 +47,10 @@ hashcat -O -m 1800 -a 3 test.shadow "?a?a?a?a?a"
 
 本实验将上文提到的登录方式的安全性从高到低按如下顺序排列，并认为同一大类安全性相同：
 
+* id. 跳转到 HTTPS 的统一认证系统（https://id.tsinghua.edu.cn）进行认证
+   * before. POST 认证凭据前进行跳转，即用户在统一认证系统提供的表单内填写凭据
+   * after. POST 认证凭据到统一认证系统
+   * self. 该站点是统一认证系统本身
 * https. HTTPS 类
    * post. POST 类
       * plain. 明文 POST 密码
@@ -58,20 +62,23 @@ hashcat -O -m 1800 -a 3 test.shadow "?a?a?a?a?a"
       * hash. 明文 POST 密码的 MD5 或 SHA1 等散列值或消息认证码
       * known_key. POST 密码对称加密后的密文，但对称加密密钥明文传输
 
+注：由于站点接收到用户凭据后可能使用不安全的内部通信将该凭据转发至核心认证服务器，因此本节将 id 的安全性认定为比 https 高。
+
 ## 实验结果
 
-| 名称             | 子域名（.tsinghua.edu.cn）| 认证方式 | 是否使用统一凭据 | 是否跳转 | 备注                       |
-| ---------------- | -------------------------- | ---- | ---------------- | -------- | -------------------------- |
-| 校外网络访问认证 | net                        | http.post.hash | 是 | 否 ||
-| 准入认证         | auth, auth6         | https.post.known_key | 是      | 否 |这两个站点使用同样认证方式|
-| 准入认证（IPv4） | auth4 | http.post.known_key | 是 | 否 ||
-| 信息门户 | info | https.post.plain | 是 | 否 |HTTP嵌入HTTPS表单|
-| 教学门户 | academic | https.post.plain | 是 | 否 |HTTP嵌入HTTPS表单|
-| 网络学堂 | learn | https.post.plain | 是 | 否 |HTTP嵌入HTTPS表单|
-| 网络学堂（2015） | learn.cic | https.post.plain | 是 | 是 |HTTP嵌入HTTPS表单|
-| 网络学堂（2018） | learn2018 | https.post.plain | 是 | 是 |HTTP嵌入HTTPS表单|
-| 云盘 | cloud | https.post.plain | 是 | 是 ||
-| Git | git | https.post.plain | 是 | 是 ||
+| 名称             | 子域名（.tsinghua.edu.cn）| 认证方式 | 是否使用统一凭据 | 备注                       |
+| ---------------- | -------------------------- | ---- | ---------------- | -------------------------- |
+| 统一认证系统 | id | id.self | 是 |  |
+| 校外网络访问认证 | net                        | http.post.hash | 是 |  |
+| 准入认证         | auth, auth6         | https.post.known_key | 是      |这两个站点使用同样认证方式|
+| 准入认证（IPv4） | auth4 | http.post.known_key | 是 |  |
+| 信息门户 | info | https.post.plain | 是 |HTTP嵌入HTTPS表单|
+| 教学门户 | academic | https.post.plain | 是 |HTTP嵌入HTTPS表单|
+| 网络学堂 | learn | https.post.plain | 是 |HTTP嵌入HTTPS表单|
+| 网络学堂（2015） | learn.cic | id.after | 是 |HTTP嵌入HTTPS表单|
+| 网络学堂（2018） | learn2018 | id.after | 是 |HTTP嵌入HTTPS表单|
+| 云盘 | cloud | id.before | 是 |  |
+| Git | git | id.before | 是 |  |
 
 ## 结束语
 
